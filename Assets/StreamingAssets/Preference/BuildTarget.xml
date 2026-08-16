@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+ IsResources: 	True: 	In Resources folder.
+ 				False:	In Assetbundle folder.
+ ResourceType: 0. Prefabs
+               1. Scene
+               2. Music (Copy source file to target directory.)
+               3. Texture
+               4. UIAtlas
+               5. JPG
+ BuildType: 0. One prefab build one assetbundle.
+            1. All prefabs build one assetbundle.
+ -->
+<BuildTarget PrefabDirectory="Resource" TextureDirectory="Resource" UIAtlasDirectory="Resource" SceneDirectory="Scene" AudioDirectory="" OutputDirectory="iOS">
+	<BuildDirectory LoadResourceType="common" ResourceType="0" ResourceDirectory="Common" BuildType="0" IsResources="true" PoolManagerReuse="true"/>
+	<BuildDirectory LoadResourceType="hero" ResourceType="0" ResourceDirectory="Heroes" BuildType="0" PoolManagerReuse="false"/>
+	<BuildDirectory LoadResourceType="newhero" ResourceType="0" ResourceDirectory="NewHeroes" BuildType="0" PoolManagerReuse="false"/>
+	<BuildDirectory LoadResourceType="skill" ResourceType="0" ResourceDirectory="Skills" BuildType="0" IsResources="true" PoolManagerReuse="false"/>
+	<BuildDirectory LoadResourceType="buff" ResourceType="0" ResourceDirectory="Buffs" BuildType="0" IsResources="true" PoolManagerReuse="false"/>
+	<BuildDirectory LoadResourceType="npcem" ResourceType="0" ResourceDirectory="Npc_em" BuildType="0" IsResources="true" PoolManagerReuse="false"/>
+	<BuildDirectory LoadResourceType="battle" ResourceType="0" ResourceDirectory="Battle" BuildType="1"/>
+	<BuildDirectory LoadResourceType="battle_bg" ResourceType="0" ResourceDirectory="Scene" BuildType="0"/>
+	<BuildDirectory LoadResourceType="ui" ResourceType="0" ResourceDirectory="UI" BuildType="0" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uicommon" ResourceType="0" ResourceDirectory="UI/Common" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uibattle" ResourceType="0" ResourceDirectory="UI/Battle" BuildType="1" LanguageVersion="chinese" IsResources="true" PoolManagerReuse="true"/>
+	<BuildDirectory LoadResourceType="uiarrayeditor" ResourceType="0" ResourceDirectory="UI/ArrayEditor" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiheroeditor" ResourceType="0" ResourceDirectory="UI/HeroEditor" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uimainscene" ResourceType="0" ResourceDirectory="UI/MainScene" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="atlas" ResourceType="4" ResourceDirectory="Atlas" BuildType="0" IsResources="true" LanguageVersion="chinese"/>
+	<BuildDirectory LoadResourceType="cardimages" ResourceType="5" ResourceDirectory="Texture/CardImagesMid" BuildType="0" TextureImportSettings="RGB24" Width="340" Height="510"/>
+	<BuildDirectory LoadResourceType="cardimagesbig" ResourceType="5" ResourceDirectory="Texture/CardImagesBig" BuildType="0" TextureImportSettings="RGB24" Width="640" Height="960"/>
+	<BuildDirectory LoadResourceType="icon_equipments" ResourceType="3" ResourceDirectory="Texture/IconEquipments" BuildType="0" TextureImportSettings="RGB24" Width="128" Height="128" IsResources="true"/>
+	<BuildDirectory LoadResourceType="icon_chapter" ResourceType="3" ResourceDirectory="Texture/IconChapter" BuildType="0" TextureImportSettings="RGB24" Width="128" Height="128" IsResources="true"/>
+	<BuildDirectory LoadResourceType="activity" ResourceType="3" ResourceDirectory="Texture/ActivityHeader" BuildType="0" TextureImportSettings="RGB24" Width="128" Height="128" IsResources="true"/>
+	<BuildDirectory LoadResourceType="charge_texture" ResourceType="3" ResourceDirectory="Texture/ChargeTexture" BuildType="0" TextureImportSettings="RGB24" Width="156" Height="169" IsResources="true"/>
+	<BuildDirectory LoadResourceType="icon_heroes" ResourceType="3" ResourceDirectory="Texture/IconHeroes" BuildType="0" TextureImportSettings="RGB24" Width="128" Height="128" IsResources="false"/>
+	<BuildDirectory LoadResourceType="icon_items" ResourceType="3" ResourceDirectory="Texture/IconItems" BuildType="0" TextureImportSettings="RGB24" Width="128" Height="128" IsResources="true"/>
+	<BuildDirectory LoadResourceType="icon_skills" ResourceType="3" ResourceDirectory="Texture/IconSkills" BuildType="0" TextureImportSettings="RGB24" Width="128" Height="128" IsResources="true"/>
+	<BuildDirectory LoadResourceType="icon_guildskills" ResourceType="3" ResourceDirectory="Texture/IconGuildSkills" BuildType="0" TextureImportSettings="RGB24" Width="128" Height="128" IsResources="true"/>
+	<BuildDirectory LoadResourceType="icon_task_achievements" ResourceType="3" ResourceDirectory="Texture/IconTaskAchievements" BuildType="0" IsResources="true"/>
+	<BuildDirectory LoadResourceType="card_images_dialog" ResourceType="3" ResourceDirectory="Texture/CardImagesDialog" BuildType="0" IsResources="false"/>
+	<BuildDirectory LoadResourceType="dl_icon_equipments" ResourceType="3" ResourceDirectory="Texture/IconEquipments" BuildType="0" TextureImportSettings="RGB24" Width="128" Height="128"/>
+	<BuildDirectory LoadResourceType="dl_icon_heroes" ResourceType="3" ResourceDirectory="Texture/IconHeroes" BuildType="0" TextureImportSettings="RGB24" Width="128" Height="128"/>
+	<BuildDirectory LoadResourceType="dl_icon_items" ResourceType="3" ResourceDirectory="Texture/IconItems" BuildType="0" TextureImportSettings="RGB24" Width="128" Height="128"/>
+	<BuildDirectory LoadResourceType="dl_icon_skills" ResourceType="3" ResourceDirectory="Texture/IconSkills" BuildType="0" TextureImportSettings="RGB24" Width="128" Height="128"/>
+	<BuildDirectory LoadResourceType="chapter_view" ResourceType="3" ResourceDirectory="Texture/ChapterThumbView" BuildType="0"/>
+	<!-- Hot loaded NGUI resources -->
+	<BuildDirectory LoadResourceType="uiopactivityroot" ResourceType="0" ResourceDirectory="UI/OpActivity" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiopactivityimage" ResourceType="0" ResourceDirectory="UI/OpActivityImage" BuildType="1"/>
+	<BuildDirectory LoadResourceType="uiopactivity1" ResourceType="0" ResourceDirectory="UI/OpActivity1" BuildType="1"/>
+	<BuildDirectory LoadResourceType="uiopactivity2" ResourceType="0" ResourceDirectory="UI/OpActivity2" BuildType="1"/>
+	<BuildDirectory LoadResourceType="uiopactivity3" ResourceType="0" ResourceDirectory="UI/OpActivity3" BuildType="1"/>
+	<BuildDirectory LoadResourceType="uiopactivity4" ResourceType="0" ResourceDirectory="UI/OpActivity4" BuildType="1"/>
+	<BuildDirectory LoadResourceType="uiopactivity5" ResourceType="0" ResourceDirectory="UI/OpActivity5" BuildType="1"/>
+	<BuildDirectory LoadResourceType="uiopactivity6" ResourceType="0" ResourceDirectory="UI/OpActivity6" BuildType="1"/>
+	<BuildDirectory LoadResourceType="uiopactivity7" ResourceType="0" ResourceDirectory="UI/OpActivity7" BuildType="1"/>
+	<BuildDirectory LoadResourceType="uiopactivity8" ResourceType="0" ResourceDirectory="UI/OpActivity8" BuildType="1"/>
+	<BuildDirectory LoadResourceType="uiopactivity9" ResourceType="0" ResourceDirectory="UI/OpActivity9" BuildType="1"/>
+	<BuildDirectory LoadResourceType="uiopactivity10" ResourceType="0" ResourceDirectory="UI/OpActivity10" BuildType="1"/>
+	<BuildDirectory LoadResourceType="uiopactivity11" ResourceType="0" ResourceDirectory="UI/OpActivity11" BuildType="1"/>
+	<BuildDirectory LoadResourceType="uiopactivity12" ResourceType="0" ResourceDirectory="UI/OpActivity12" BuildType="1"/>
+	<BuildDirectory LoadResourceType="uiopactivity13" ResourceType="0" ResourceDirectory="UI/OpActivity13" BuildType="1"/>
+	<!-- Test build target. Seperate NGUI componnets -->
+	<!--<BuildDirectory LoadResourceType="uiarena" ResourceType="0" ResourceDirectory="Arena" BuildType="0" LanguageVersion="chinese" />-->
+	<BuildDirectory LoadResourceType="uiloading" ResourceType="0" ResourceDirectory="UI/Loading" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uilogin" ResourceType="0" ResourceDirectory="UI/Login" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiarena" ResourceType="0" ResourceDirectory="UI/Arena" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiopenserver" ResourceType="0" ResourceDirectory="UI/OpenCelebrate" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uismeltjournery" ResourceType="0" ResourceDirectory="UI/SmeltJournery" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uicardeditor" ResourceType="0" ResourceDirectory="UI/CardEditor" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiluggage" ResourceType="0" ResourceDirectory="UI/Luggage" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uieffects" ResourceType="0" ResourceDirectory="UI/Effects" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uipve" ResourceType="0" ResourceDirectory="UI/PVE" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uifriend" ResourceType="0" ResourceDirectory="UI/Friend" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uishop" ResourceType="0" ResourceDirectory="UI/Shop" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uidrawcard" ResourceType="0" ResourceDirectory="UI/DrawCard" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uimail" ResourceType="0" ResourceDirectory="UI/Mail" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uichat" ResourceType="0" ResourceDirectory="UI/Chat" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiactivity" ResourceType="0" ResourceDirectory="UI/Activity" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uitask" ResourceType="0" ResourceDirectory="UI/TaskAchive" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uicharge" ResourceType="0" ResourceDirectory="UI/Charge" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiitemdrop" ResourceType="0" ResourceDirectory="UI/ItemDropFrom" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uifragmentrob" ResourceType="0" ResourceDirectory="UI/FragmentRob" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uisweepmenu" ResourceType="0" ResourceDirectory="UI/FloatingBoard" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uirecordreplay" ResourceType="0" ResourceDirectory="UI/UIRecordReplay" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uipveroot" ResourceType="0" ResourceDirectory="UI/PVEBase" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uipveeventgroup" ResourceType="0" ResourceDirectory="UI/PVEEventGroup" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uipveevent" ResourceType="0" ResourceDirectory="UI/PVEEvent" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uipvechapter" ResourceType="0" ResourceDirectory="UI/PVEChapter" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uipveduplicationslot" ResourceType="0" ResourceDirectory="UI/PVEDuplication" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uipvechapterguide" ResourceType="0" ResourceDirectory="UI/PVEChapterGuide" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uipveeliteopen" ResourceType="0" ResourceDirectory="UI/PVEEliteOpen" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uipvebounspopup" ResourceType="0" ResourceDirectory="UI/PVEBounsPopup" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uipvechapterreportitem" ResourceType="0" ResourceDirectory="UI/PVEChapterReportItem" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uicooprativeArrayEditor" ResourceType="0" ResourceDirectory="UI/CooprativeArrayEditor" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="itemdetailpopup" ResourceType="0" ResourceDirectory="UI/ItemDetailPopup" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="popup0btn" ResourceType="0" ResourceDirectory="UI/Popup0btn" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="luggagestrengthenensure" ResourceType="0" ResourceDirectory="UI/LuggageStrengthen" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uicarditemgroup" ResourceType="0" ResourceDirectory="UI/CardItemGroup" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uicardstrengthen" ResourceType="0" ResourceDirectory="UI/CardStrengthen" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uicardfragmentgroup" ResourceType="0" ResourceDirectory="UI/CardBagFragment" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uicardmaterialgroup" ResourceType="0" ResourceDirectory="UI/CardMaterial" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uicardnurtureitem" ResourceType="0" ResourceDirectory="UI/CardNurture" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uipopupitem" ResourceType="0" ResourceDirectory="UI/PopupItem" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uisimplecrystalpaidmenu" ResourceType="0" ResourceDirectory="UI/SimpleCrystalPaid" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiaddenergymenu" ResourceType="0" ResourceDirectory="UI/AddEnergyMenu" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uicardmaxstatus" ResourceType="0" ResourceDirectory="UI/CardMaxStatus" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uisellmenu" ResourceType="0" ResourceDirectory="UI/SellMenu" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uipopup2btnmenu" ResourceType="0" ResourceDirectory="UI/UIPopup2btn" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uipopupbagfull" ResourceType="0" ResourceDirectory="UI/PopupBagFull" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uipopupaddcardbagslot" ResourceType="0" ResourceDirectory="UI/PopupAddCardBagSlot" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uigearcombinepopup" ResourceType="0" ResourceDirectory="UI/GearCombinePopup" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uigearstoneexchange" ResourceType="0" ResourceDirectory="UI/GearStoneExchange" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uigeardownlevel" ResourceType="0" ResourceDirectory="UI/GearDownLevel" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiskillupgradepopup" ResourceType="0" ResourceDirectory="UI/SkillUpgradeSuccess" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiskillitemgroup" ResourceType="0" ResourceDirectory="UI/SkillItemGroup" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiitemitemgroup" ResourceType="0" ResourceDirectory="UI/ItemItemGroup" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uigearitemgroup" ResourceType="0" ResourceDirectory="UI/GearItemGroup" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uigearfraggroup" ResourceType="0" ResourceDirectory="UI/GearFragGroup" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uicardbag" ResourceType="0" ResourceDirectory="UI/CardBag" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiskillbag" ResourceType="0" ResourceDirectory="UI/SkillBag" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiillustdict" ResourceType="0" ResourceDirectory="UI/IllustDict" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uibulletinmessage" ResourceType="0" ResourceDirectory="UI/BulletinMessage" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiitembag" ResourceType="0" ResourceDirectory="UI/ItemBag" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uigearbag" ResourceType="0" ResourceDirectory="UI/GearBag" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uigearstrengthen" ResourceType="0" ResourceDirectory="UI/GearStrengthen" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uisweepresult" ResourceType="0" ResourceDirectory="UI/SweepResult" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiitemmultiselector" ResourceType="0" ResourceDirectory="UI/ItemMultiSelector" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uipvedroptips" ResourceType="0" ResourceDirectory="UI/PVEDropTips" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiconvoystage" ResourceType="0" ResourceDirectory="UI/ConvoyStage" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiconvoymenu" ResourceType="0" ResourceDirectory="UI/ConvoyMenu" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiconvoyinterceptinfo" ResourceType="0" ResourceDirectory="UI/ConvoyInterceptInfo" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiconvoyinterceptresult" ResourceType="0" ResourceDirectory="UI/ConvoyInterceptResult" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiconvoyreport" ResourceType="0" ResourceDirectory="UI/ConvoyReport" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiconvoyreportitem" ResourceType="0" ResourceDirectory="UI/ConvoyReportItem" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiconvoyrule" ResourceType="0" ResourceDirectory="UI/ConvoyRule" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiconvoyfriendcolumnselector" ResourceType="0" ResourceDirectory="UI/ConvoyFriendColumnSelector" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiconvoyfriendtroopsselector" ResourceType="0" ResourceDirectory="UI/ConvoyFriendTroopsSelector" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiconvoyresult" ResourceType="0" ResourceDirectory="UI/ConvoyResult" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiconvoyselfinfo" ResourceType="0" ResourceDirectory="UI/ConvoySelfInfo" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiconvoyship0" ResourceType="0" ResourceDirectory="UI/ConvoyShip0" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiconvoyship1" ResourceType="0" ResourceDirectory="UI/ConvoyShip1" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiconvoyship2" ResourceType="0" ResourceDirectory="UI/ConvoyShip2" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiconvoyship3" ResourceType="0" ResourceDirectory="UI/ConvoyShip3" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiconvoyship4" ResourceType="0" ResourceDirectory="UI/ConvoyShip4" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiconvoyarrayeditor" ResourceType="0" ResourceDirectory="UI/ConvoyArrayEditor" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiconvoywrestsuccess" ResourceType="0" ResourceDirectory="UI/ConvoyWrestSuccess" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiconvoywrestfailure" ResourceType="0" ResourceDirectory="UI/ConvoyWrestFailure" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uilianhua" ResourceType="0" ResourceDirectory="UI/LianHua" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uicollection" ResourceType="0" ResourceDirectory="UI/Collection" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uieffect" ResourceType="0" ResourceDirectory="UI/UIEffect" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uipackageshop" ResourceType="0" ResourceDirectory="UI/PackageShop" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uicounterpanel" ResourceType="0" ResourceDirectory="UI/UICounterPanel" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uiguild" ResourceType="0" ResourceDirectory="UI/Guild" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uinameyou" ResourceType="0" ResourceDirectory="UI/NameYou" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uimakyou" ResourceType="0" ResourceDirectory="UI/Makyou" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<BuildDirectory LoadResourceType="uipopupcard" ResourceType="0" ResourceDirectory="UI/PopupCard" BuildType="1" LanguageVersion="chinese" IsResources="true"/>
+	<!--<BuildDirectory LoadResourceType="scene" ResourceType="1" ResourceDirectory="GameScene" BuildType="0"/>-->
+	<BuildDirectory LoadResourceType="bgm_no_stream" ResourceType="2" ResourceDirectory="Music/BGM" BuildType="0"/>
+	<BuildDirectory LoadResourceType="sound_stream" ResourceType="2" ResourceDirectory="Music/StreamSound" BuildType="0"/>
+	<BuildDirectory LoadResourceType="sound_nostream" ResourceType="2" ResourceDirectory="Music/NoStreamSound" BuildType="0"/>
+	<BuildDirectory LoadResourceType="fxheros" ResourceType="0" ResourceDirectory="FxHeros" BuildType="1"/>
+	<BuildDirectory LoadResourceType="effect" ResourceType="0" IsResources="true" ResourceDirectory="Effects" BuildType="1"/>
+	<BuildDirectory LoadResourceType="effect_fs" ResourceType="0" ResourceDirectory="Effects/fs" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_gd" ResourceType="0" ResourceDirectory="Effects/gd" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_qj" ResourceType="0" ResourceDirectory="Effects/qj" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_zj" ResourceType="0" ResourceDirectory="Effects/zj" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_com" ResourceType="0" ResourceDirectory="Effects/com" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_cutin" ResourceType="0" ResourceDirectory="Effects/cutin" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_sppoison" ResourceType="0" ResourceDirectory="Effects/sppoison" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_spfrozen" ResourceType="0" ResourceDirectory="Effects/spfrozen" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_spflash" ResourceType="0" ResourceDirectory="Effects/spflash" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_spfire" ResourceType="0" ResourceDirectory="Effects/spfire" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_duel" ResourceType="0" ResourceDirectory="Effects/duel" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_133011" ResourceType="0" ResourceDirectory="Effects/133011" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_133021" ResourceType="0" ResourceDirectory="Effects/133021" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_133031" ResourceType="0" ResourceDirectory="Effects/133031" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_133041" ResourceType="0" ResourceDirectory="Effects/133041" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_133051" ResourceType="0" ResourceDirectory="Effects/133051" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_133061" ResourceType="0" ResourceDirectory="Effects/133061" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_143071" ResourceType="0" ResourceDirectory="Effects/143071" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_143081" ResourceType="0" ResourceDirectory="Effects/143081" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_143091" ResourceType="0" ResourceDirectory="Effects/143091" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_143101" ResourceType="0" ResourceDirectory="Effects/143101" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_143111" ResourceType="0" ResourceDirectory="Effects/143111" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_143121" ResourceType="0" ResourceDirectory="Effects/143121" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_143131" ResourceType="0" ResourceDirectory="Effects/143131" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_143141" ResourceType="0" ResourceDirectory="Effects/143141" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_143361" ResourceType="0" ResourceDirectory="Effects/143361" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_143371" ResourceType="0" ResourceDirectory="Effects/143371" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_153151" ResourceType="0" ResourceDirectory="Effects/153151" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_153161" ResourceType="0" ResourceDirectory="Effects/153161" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_153171" ResourceType="0" ResourceDirectory="Effects/153171" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_233181" ResourceType="0" ResourceDirectory="Effects/233181" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_233191" ResourceType="0" ResourceDirectory="Effects/233191" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_233201" ResourceType="0" ResourceDirectory="Effects/233201" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_233211" ResourceType="0" ResourceDirectory="Effects/233211" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_233221" ResourceType="0" ResourceDirectory="Effects/233221" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_233231" ResourceType="0" ResourceDirectory="Effects/233231" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_233241" ResourceType="0" ResourceDirectory="Effects/233241" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_233251" ResourceType="0" ResourceDirectory="Effects/233251" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_233261" ResourceType="0" ResourceDirectory="Effects/233261" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_243301" ResourceType="0" ResourceDirectory="Effects/243301" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_233271" ResourceType="0" ResourceDirectory="Effects/233271" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_233281" ResourceType="0" ResourceDirectory="Effects/233281" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_243321" ResourceType="0" ResourceDirectory="Effects/243321" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_233291" ResourceType="0" ResourceDirectory="Effects/233291" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_243311" ResourceType="0" ResourceDirectory="Effects/243311" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_243331" ResourceType="0" ResourceDirectory="Effects/243331" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_253341" ResourceType="0" ResourceDirectory="Effects/253341" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_253351" ResourceType="0" ResourceDirectory="Effects/253351" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_310781" ResourceType="0" ResourceDirectory="Effects/310781" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_310791" ResourceType="0" ResourceDirectory="Effects/310791" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_310801" ResourceType="0" ResourceDirectory="Effects/310801" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_310811" ResourceType="0" ResourceDirectory="Effects/310811" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_320821" ResourceType="0" ResourceDirectory="Effects/320821" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_320831" ResourceType="0" ResourceDirectory="Effects/320831" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_320841" ResourceType="0" ResourceDirectory="Effects/320841" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_320851" ResourceType="0" ResourceDirectory="Effects/320851" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_320871" ResourceType="0" ResourceDirectory="Effects/320871" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_320881" ResourceType="0" ResourceDirectory="Effects/320881" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_320901" ResourceType="0" ResourceDirectory="Effects/320901" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_320911" ResourceType="0" ResourceDirectory="Effects/320911" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_330931" ResourceType="0" ResourceDirectory="Effects/330931" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_330941" ResourceType="0" ResourceDirectory="Effects/330941" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_330951" ResourceType="0" ResourceDirectory="Effects/330951" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_330961" ResourceType="0" ResourceDirectory="Effects/330961" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_330981" ResourceType="0" ResourceDirectory="Effects/330981" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_331001" ResourceType="0" ResourceDirectory="Effects/331001" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_331011" ResourceType="0" ResourceDirectory="Effects/331011" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_331021" ResourceType="0" ResourceDirectory="Effects/331021" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_341041" ResourceType="0" ResourceDirectory="Effects/341041" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_341051" ResourceType="0" ResourceDirectory="Effects/341051" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_341061" ResourceType="0" ResourceDirectory="Effects/341061" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_341071" ResourceType="0" ResourceDirectory="Effects/341071" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_341081" ResourceType="0" ResourceDirectory="Effects/341081" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_341091" ResourceType="0" ResourceDirectory="Effects/341091" BuildType="1" IsResources="true"/>
+	<!--新技能七重圆环、人丁俱燥、战斗民族、元魂迸发、战斗感应-->
+	<BuildDirectory LoadResourceType="effect_353421" ResourceType="0" ResourceDirectory="Effects/353421" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_353431" ResourceType="0" ResourceDirectory="Effects/353431" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_353441" ResourceType="0" ResourceDirectory="Effects/353441" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_353451" ResourceType="0" ResourceDirectory="Effects/353451" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_353461" ResourceType="0" ResourceDirectory="Effects/353461" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_411101" ResourceType="0" ResourceDirectory="Effects/411101" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_411111" ResourceType="0" ResourceDirectory="Effects/411111" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_411121" ResourceType="0" ResourceDirectory="Effects/411121" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_411131" ResourceType="0" ResourceDirectory="Effects/411131" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_411141" ResourceType="0" ResourceDirectory="Effects/411141" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_411151" ResourceType="0" ResourceDirectory="Effects/411151" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_411161" ResourceType="0" ResourceDirectory="Effects/411161" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_411171" ResourceType="0" ResourceDirectory="Effects/411171" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_421181" ResourceType="0" ResourceDirectory="Effects/421181" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_421191" ResourceType="0" ResourceDirectory="Effects/421191" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_421201" ResourceType="0" ResourceDirectory="Effects/421201" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_421211" ResourceType="0" ResourceDirectory="Effects/421211" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_421221" ResourceType="0" ResourceDirectory="Effects/421221" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_421231" ResourceType="0" ResourceDirectory="Effects/421231" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_421241" ResourceType="0" ResourceDirectory="Effects/421241" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_421251" ResourceType="0" ResourceDirectory="Effects/421251" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_421261" ResourceType="0" ResourceDirectory="Effects/421261" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_421271" ResourceType="0" ResourceDirectory="Effects/421271" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_421291" ResourceType="0" ResourceDirectory="Effects/421291" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_431301" ResourceType="0" ResourceDirectory="Effects/431301" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_431311" ResourceType="0" ResourceDirectory="Effects/431311" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_431321" ResourceType="0" ResourceDirectory="Effects/431321" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_431331" ResourceType="0" ResourceDirectory="Effects/431331" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_431341" ResourceType="0" ResourceDirectory="Effects/431341" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_431351" ResourceType="0" ResourceDirectory="Effects/431351" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_431361" ResourceType="0" ResourceDirectory="Effects/431361" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_431371" ResourceType="0" ResourceDirectory="Effects/431371" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_431381" ResourceType="0" ResourceDirectory="Effects/431381" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_431391" ResourceType="0" ResourceDirectory="Effects/431391" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_431401" ResourceType="0" ResourceDirectory="Effects/431401" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_431411" ResourceType="0" ResourceDirectory="Effects/431411" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_441421" ResourceType="0" ResourceDirectory="Effects/441421" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_441431" ResourceType="0" ResourceDirectory="Effects/441431" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_441441" ResourceType="0" ResourceDirectory="Effects/441441" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_441451" ResourceType="0" ResourceDirectory="Effects/441451" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_441461" ResourceType="0" ResourceDirectory="Effects/441461" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_441471" ResourceType="0" ResourceDirectory="Effects/441471" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_441481" ResourceType="0" ResourceDirectory="Effects/441481" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_441491" ResourceType="0" ResourceDirectory="Effects/441491" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_451501" ResourceType="0" ResourceDirectory="Effects/451501" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_451511" ResourceType="0" ResourceDirectory="Effects/451511" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_451521" ResourceType="0" ResourceDirectory="Effects/451521" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_441541" ResourceType="0" ResourceDirectory="Effects/441541" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_441551" ResourceType="0" ResourceDirectory="Effects/441551" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_441561" ResourceType="0" ResourceDirectory="Effects/441561" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_441571" ResourceType="0" ResourceDirectory="Effects/441571" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_441581" ResourceType="0" ResourceDirectory="Effects/441581" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_441591" ResourceType="0" ResourceDirectory="Effects/441591" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_441601" ResourceType="0" ResourceDirectory="Effects/441601" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_441611" ResourceType="0" ResourceDirectory="Effects/441611" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_431621" ResourceType="0" ResourceDirectory="Effects/431621" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_431631" ResourceType="0" ResourceDirectory="Effects/431631" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_431641" ResourceType="0" ResourceDirectory="Effects/431641" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_431651" ResourceType="0" ResourceDirectory="Effects/431651" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_431661" ResourceType="0" ResourceDirectory="Effects/431661" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_451671" ResourceType="0" ResourceDirectory="Effects/451671" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_441681" ResourceType="0" ResourceDirectory="Effects/441681" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_431691" ResourceType="0" ResourceDirectory="Effects/431691" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_441701" ResourceType="0" ResourceDirectory="Effects/441701" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_451731" ResourceType="0" ResourceDirectory="Effects/451731" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_515151" ResourceType="0" ResourceDirectory="Effects/515151" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_515161" ResourceType="0" ResourceDirectory="Effects/515161" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_515171" ResourceType="0" ResourceDirectory="Effects/515171" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_515231" ResourceType="0" ResourceDirectory="Effects/515231" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_515241" ResourceType="0" ResourceDirectory="Effects/515241" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_515251" ResourceType="0" ResourceDirectory="Effects/515251" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_515261" ResourceType="0" ResourceDirectory="Effects/515261" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_515281" ResourceType="0" ResourceDirectory="Effects/515281" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_515291" ResourceType="0" ResourceDirectory="Effects/515291" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_515301" ResourceType="0" ResourceDirectory="Effects/515301" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_515311" ResourceType="0" ResourceDirectory="Effects/515311" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_515321" ResourceType="0" ResourceDirectory="Effects/515321" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_515331" ResourceType="0" ResourceDirectory="Effects/515331" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_515501" ResourceType="0" ResourceDirectory="Effects/515501" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_909011" ResourceType="0" ResourceDirectory="Effects/909011" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_909021" ResourceType="0" ResourceDirectory="Effects/909021" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_909031" ResourceType="0" ResourceDirectory="Effects/909031" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_909041" ResourceType="0" ResourceDirectory="Effects/909041" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_909051" ResourceType="0" ResourceDirectory="Effects/909051" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_909061" ResourceType="0" ResourceDirectory="Effects/909061" BuildType="1" IsResources="true"/>
+	<!-- 2025.3.18 begin add new skill -->
+	<BuildDirectory LoadResourceType="effect_156651" ResourceType="0" ResourceDirectory="Effects/156651" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_256661" ResourceType="0" ResourceDirectory="Effects/256661" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_256671" ResourceType="0" ResourceDirectory="Effects/256671" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_356681" ResourceType="0" ResourceDirectory="Effects/356681" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_256641" ResourceType="0" ResourceDirectory="Effects/256641" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="effect_516621" ResourceType="0" ResourceDirectory="Effects/516621" BuildType="1" IsResources="true"/>
+	<!--2025.3.18 end add new skill -->
+	<BuildDirectory LoadResourceType="fxhero_140374" ResourceType="0" ResourceDirectory="FxHeros/140374" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_140375" ResourceType="0" ResourceDirectory="FxHeros/140375" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_140383" ResourceType="0" ResourceDirectory="FxHeros/140383" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_140384" ResourceType="0" ResourceDirectory="FxHeros/140384" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_140385" ResourceType="0" ResourceDirectory="FxHeros/140385" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_140394" ResourceType="0" ResourceDirectory="FxHeros/140394" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_140395" ResourceType="0" ResourceDirectory="FxHeros/140395" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_140404" ResourceType="0" ResourceDirectory="FxHeros/140404" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_140405" ResourceType="0" ResourceDirectory="FxHeros/140405" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_140414" ResourceType="0" ResourceDirectory="FxHeros/140414" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_140415" ResourceType="0" ResourceDirectory="FxHeros/140415" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_140423" ResourceType="0" ResourceDirectory="FxHeros/140423" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_140424" ResourceType="0" ResourceDirectory="FxHeros/140424" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_140425" ResourceType="0" ResourceDirectory="FxHeros/140425" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_140433" ResourceType="0" ResourceDirectory="FxHeros/140433" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_140434" ResourceType="0" ResourceDirectory="FxHeros/140434" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_140435" ResourceType="0" ResourceDirectory="FxHeros/140435" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_140444" ResourceType="0" ResourceDirectory="FxHeros/140444" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_140445" ResourceType="0" ResourceDirectory="FxHeros/140445" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_140764" ResourceType="0" ResourceDirectory="FxHeros/140764" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_140765" ResourceType="0" ResourceDirectory="FxHeros/140765" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_140814" ResourceType="0" ResourceDirectory="FxHeros/140814" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_140815" ResourceType="0" ResourceDirectory="FxHeros/140815" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_140824" ResourceType="0" ResourceDirectory="FxHeros/140824" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_140825" ResourceType="0" ResourceDirectory="FxHeros/140825" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_141244" ResourceType="0" ResourceDirectory="FxHeros/141244" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_141245" ResourceType="0" ResourceDirectory="FxHeros/141245" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_150105" ResourceType="0" ResourceDirectory="FxHeros/150105" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_150106" ResourceType="0" ResourceDirectory="FxHeros/150106" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_150115" ResourceType="0" ResourceDirectory="FxHeros/150115" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_150116" ResourceType="0" ResourceDirectory="FxHeros/150116" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_150125" ResourceType="0" ResourceDirectory="FxHeros/150125" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_150126" ResourceType="0" ResourceDirectory="FxHeros/150126" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_151285" ResourceType="0" ResourceDirectory="FxHeros/151285" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_151287" ResourceType="0" ResourceDirectory="FxHeros/151287" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240294" ResourceType="0" ResourceDirectory="FxHeros/240294" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240295" ResourceType="0" ResourceDirectory="FxHeros/240295" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240304" ResourceType="0" ResourceDirectory="FxHeros/240304" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240305" ResourceType="0" ResourceDirectory="FxHeros/240305" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240314" ResourceType="0" ResourceDirectory="FxHeros/240314" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240315" ResourceType="0" ResourceDirectory="FxHeros/240315" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240323" ResourceType="0" ResourceDirectory="FxHeros/240323" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240324" ResourceType="0" ResourceDirectory="FxHeros/240324" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240325" ResourceType="0" ResourceDirectory="FxHeros/240325" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240334" ResourceType="0" ResourceDirectory="FxHeros/240334" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240335" ResourceType="0" ResourceDirectory="FxHeros/240335" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240344" ResourceType="0" ResourceDirectory="FxHeros/240344" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240345" ResourceType="0" ResourceDirectory="FxHeros/240345" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240354" ResourceType="0" ResourceDirectory="FxHeros/240354" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240355" ResourceType="0" ResourceDirectory="FxHeros/240355" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240364" ResourceType="0" ResourceDirectory="FxHeros/240364" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240365" ResourceType="0" ResourceDirectory="FxHeros/240365" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240654" ResourceType="0" ResourceDirectory="FxHeros/240654" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240655" ResourceType="0" ResourceDirectory="FxHeros/240655" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240714" ResourceType="0" ResourceDirectory="FxHeros/240714" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240715" ResourceType="0" ResourceDirectory="FxHeros/240715" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240724" ResourceType="0" ResourceDirectory="FxHeros/240724" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240725" ResourceType="0" ResourceDirectory="FxHeros/240725" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240744" ResourceType="0" ResourceDirectory="FxHeros/240744" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_240745" ResourceType="0" ResourceDirectory="FxHeros/240745" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_241233" ResourceType="0" ResourceDirectory="FxHeros/241233" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_241234" ResourceType="0" ResourceDirectory="FxHeros/241234" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_241235" ResourceType="0" ResourceDirectory="FxHeros/241235" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_250075" ResourceType="0" ResourceDirectory="FxHeros/250075" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_250076" ResourceType="0" ResourceDirectory="FxHeros/250076" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_250085" ResourceType="0" ResourceDirectory="FxHeros/250085" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_250086" ResourceType="0" ResourceDirectory="FxHeros/250086" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_250095" ResourceType="0" ResourceDirectory="FxHeros/250095" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_250096" ResourceType="0" ResourceDirectory="FxHeros/250096" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_251275" ResourceType="0" ResourceDirectory="FxHeros/251275" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_251277" ResourceType="0" ResourceDirectory="FxHeros/251277" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_340214" ResourceType="0" ResourceDirectory="FxHeros/340214" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_340215" ResourceType="0" ResourceDirectory="FxHeros/340215" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_340224" ResourceType="0" ResourceDirectory="FxHeros/340224" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_340225" ResourceType="0" ResourceDirectory="FxHeros/340225" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_340234" ResourceType="0" ResourceDirectory="FxHeros/340234" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_340235" ResourceType="0" ResourceDirectory="FxHeros/340235" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_340244" ResourceType="0" ResourceDirectory="FxHeros/340244" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_340245" ResourceType="0" ResourceDirectory="FxHeros/340245" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_340254" ResourceType="0" ResourceDirectory="FxHeros/340254" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_340255" ResourceType="0" ResourceDirectory="FxHeros/340255" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_340264" ResourceType="0" ResourceDirectory="FxHeros/340264" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_340265" ResourceType="0" ResourceDirectory="FxHeros/340265" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_340274" ResourceType="0" ResourceDirectory="FxHeros/340274" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_340275" ResourceType="0" ResourceDirectory="FxHeros/340275" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_340284" ResourceType="0" ResourceDirectory="FxHeros/340284" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_340285" ResourceType="0" ResourceDirectory="FxHeros/340285" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_340554" ResourceType="0" ResourceDirectory="FxHeros/340554" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_340555" ResourceType="0" ResourceDirectory="FxHeros/340555" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_340594" ResourceType="0" ResourceDirectory="FxHeros/340594" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_340595" ResourceType="0" ResourceDirectory="FxHeros/340595" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_340604" ResourceType="0" ResourceDirectory="FxHeros/340604" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_340605" ResourceType="0" ResourceDirectory="FxHeros/340605" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_340614" ResourceType="0" ResourceDirectory="FxHeros/340614" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_340615" ResourceType="0" ResourceDirectory="FxHeros/340615" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_341224" ResourceType="0" ResourceDirectory="FxHeros/341224" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_341225" ResourceType="0" ResourceDirectory="FxHeros/341225" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_350045" ResourceType="0" ResourceDirectory="FxHeros/350045" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_350046" ResourceType="0" ResourceDirectory="FxHeros/350046" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_350055" ResourceType="0" ResourceDirectory="FxHeros/350055" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_350056" ResourceType="0" ResourceDirectory="FxHeros/350056" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_350065" ResourceType="0" ResourceDirectory="FxHeros/350065" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_350066" ResourceType="0" ResourceDirectory="FxHeros/350066" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_351265" ResourceType="0" ResourceDirectory="FxHeros/351265" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_351267" ResourceType="0" ResourceDirectory="FxHeros/351267" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440134" ResourceType="0" ResourceDirectory="FxHeros/440134" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440135" ResourceType="0" ResourceDirectory="FxHeros/440135" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440144" ResourceType="0" ResourceDirectory="FxHeros/440144" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440145" ResourceType="0" ResourceDirectory="FxHeros/440145" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440154" ResourceType="0" ResourceDirectory="FxHeros/440154" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440155" ResourceType="0" ResourceDirectory="FxHeros/440155" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440164" ResourceType="0" ResourceDirectory="FxHeros/440164" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440165" ResourceType="0" ResourceDirectory="FxHeros/440165" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440173" ResourceType="0" ResourceDirectory="FxHeros/440173" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440174" ResourceType="0" ResourceDirectory="FxHeros/440174" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440175" ResourceType="0" ResourceDirectory="FxHeros/440175" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440184" ResourceType="0" ResourceDirectory="FxHeros/440184" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440185" ResourceType="0" ResourceDirectory="FxHeros/440185" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440194" ResourceType="0" ResourceDirectory="FxHeros/440194" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440195" ResourceType="0" ResourceDirectory="FxHeros/440195" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440204" ResourceType="0" ResourceDirectory="FxHeros/440204" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440205" ResourceType="0" ResourceDirectory="FxHeros/440205" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440464" ResourceType="0" ResourceDirectory="FxHeros/440464" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440465" ResourceType="0" ResourceDirectory="FxHeros/440465" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440474" ResourceType="0" ResourceDirectory="FxHeros/440474" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440475" ResourceType="0" ResourceDirectory="FxHeros/440475" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440524" ResourceType="0" ResourceDirectory="FxHeros/440524" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440525" ResourceType="0" ResourceDirectory="FxHeros/440525" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440544" ResourceType="0" ResourceDirectory="FxHeros/440544" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_440545" ResourceType="0" ResourceDirectory="FxHeros/440545" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_441213" ResourceType="0" ResourceDirectory="FxHeros/441213" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_441214" ResourceType="0" ResourceDirectory="FxHeros/441214" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_441215" ResourceType="0" ResourceDirectory="FxHeros/441215" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_450015" ResourceType="0" ResourceDirectory="FxHeros/450015" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_450016" ResourceType="0" ResourceDirectory="FxHeros/450016" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_450025" ResourceType="0" ResourceDirectory="FxHeros/450025" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_450026" ResourceType="0" ResourceDirectory="FxHeros/450026" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_450035" ResourceType="0" ResourceDirectory="FxHeros/450035" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_450036" ResourceType="0" ResourceDirectory="FxHeros/450036" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_451255" ResourceType="0" ResourceDirectory="FxHeros/451255" BuildType="1" IsResources="true"/>
+	<BuildDirectory LoadResourceType="fxhero_451257" ResourceType="0" ResourceDirectory="FxHeros/451257" BuildType="1" IsResources="true"/>
+	<!--热加载新使徒的配置-->
+	<!--<BuildDirectory LoadResourceType="configs" ResourceType="6" ResourceDirectory="GamgeConfig" BuildType="0" />-->
+</BuildTarget>

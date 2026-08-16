@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: DaheLV3SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: f040c089cd9855841b60ae6e54ca60c7, type: 3}
+  uiAnimation: {fileID: 4900000, guid: f615f1cae7db95b4c863d9c03abfa8b1, type: 3}
+  battleAnimation: {fileID: 4900000, guid: 912e57e3a82e75345b4d0220419ba397, type: 3}
+  atlasAsset: {fileID: 11400000, guid: 0c9baf3961b4cda4aa5c5714e06258e1, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 12
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

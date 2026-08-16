@@ -1,0 +1,12 @@
+public class _e7499fa1631962406d6400db40ca54ea
+{
+	private int _e7499fa1631962406d6400db40ca54eam2(int _e7499fa1631962406d6400db40ca54eaa)
+	{
+		return 0;
+	}
+
+	public int _e7499fa1631962406d6400db40ca54eam(int _e7499fa1631962406d6400db40ca54eaa, int _e7499fa1631962406d6400db40ca54ea64, int _e7499fa1631962406d6400db40ca54eac = 0)
+	{
+		return 0;
+	}
+}

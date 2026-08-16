@@ -1,0 +1,493 @@
+{
+"skeleton": { "hash": "C7MevmVRVPCymNSD4s7xH0a78mI", "spine": "3.8.99" },
+"bones": [
+	{ "name": "root", "scaleX": -1 },
+	{ "name": "texiao", "parent": "root" },
+	{ "name": "SkillProud", "parent": "texiao" },
+	{ "name": "H004_Special_SkillProud_guanghzu_Up_1", "parent": "SkillProud" },
+	{ "name": "H004_Special_SkillProud_shoujichuan_Up_1", "parent": "SkillProud" },
+	{ "name": "H004_Special_SkillProud_lanse_Up_1", "parent": "SkillProud" },
+	{ "name": "H004_Special_SkillOnstage_liuguang_Up_1", "parent": "SkillProud" },
+	{ "name": "H004_Special_SkillNormal_qiangkou_Up_3", "parent": "SkillProud" },
+	{ "name": "H004_Special_SkillNormal_jian_Up_1", "parent": "SkillProud" },
+	{ "name": "H004_Special_SkillOnstage_guangzhu_Down_001", "parent": "SkillProud" },
+	{ "name": "H004_Special_SkillOnstage_liuguang_Up_2", "parent": "SkillProud" },
+	{ "name": "SkillUltra_Master", "parent": "texiao" },
+	{ "name": "H004_Special_SkillProud_lanse_Up_2", "parent": "SkillProud" },
+	{ "name": "H004_Special_SkillOnstage_xuli_Up_5", "parent": "SkillUltra_Master" },
+	{ "name": "jian", "parent": "texiao", "length": 115.02, "x": -137.77, "y": -0.22 }
+],
+"slots": [
+	{ "name": "jian", "bone": "jian" },
+	{ "name": "jian2", "bone": "jian", "color": "86fdffff", "blend": "additive" },
+	{ "name": "H004_Special_SkillNormal_qiangkou_Up_3", "bone": "H004_Special_SkillNormal_qiangkou_Up_3", "blend": "additive" },
+	{ "name": "H004_Special_SkillProud_guanghzu_Up_1", "bone": "H004_Special_SkillProud_guanghzu_Up_1", "blend": "additive" },
+	{ "name": "H004_Special_SkillProud_shoujichuan_Up_1", "bone": "H004_Special_SkillProud_shoujichuan_Up_1", "blend": "additive" },
+	{ "name": "H004_Special_SkillProud_lanse_Up_1", "bone": "H004_Special_SkillProud_lanse_Up_1" },
+	{ "name": "H004_Special_SkillProud_lanse_Up_2", "bone": "H004_Special_SkillProud_lanse_Up_2", "blend": "additive" },
+	{ "name": "H004_Special_SkillOnstage_liuguang_Up_1", "bone": "H004_Special_SkillOnstage_liuguang_Up_1", "blend": "additive" },
+	{ "name": "H004_Special_SkillOnstage_liuguang_Up_2", "bone": "H004_Special_SkillOnstage_liuguang_Up_2", "blend": "additive" },
+	{ "name": "H004_Special_SkillOnstage_guangzhu_Down_001", "bone": "H004_Special_SkillOnstage_guangzhu_Down_001", "blend": "additive" },
+	{ "name": "H004_Special_SkillOnstage_xuli_Up_5", "bone": "H004_Special_SkillOnstage_xuli_Up_5", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"H004_Special_SkillNormal_qiangkou_Up_3": {
+				"H004_Special_SkillNormal_qiangkou_Up_001": { "x": 65.22, "width": 180, "height": 105 },
+				"H004_Special_SkillNormal_qiangkou_Up_002": { "x": 65.22, "width": 180, "height": 105 },
+				"H004_Special_SkillNormal_qiangkou_Up_003": { "x": 65.22, "width": 180, "height": 105 },
+				"H004_Special_SkillNormal_qiangkou_Up_004": { "x": 65.22, "width": 180, "height": 105 },
+				"H004_Special_SkillNormal_qiangkou_Up_005": { "x": 65.22, "width": 180, "height": 105 },
+				"H004_Special_SkillNormal_qiangkou_Up_006": { "x": 65.22, "width": 180, "height": 105 },
+				"H004_Special_SkillNormal_qiangkou_Up_007": { "x": 65.22, "width": 180, "height": 105 }
+			},
+			"H004_Special_SkillOnstage_guangzhu_Down_001": {
+				"H004_Special_SkillOnstage_guangzhu_Down_001": { "x": 0.5, "y": 0.5, "width": 131, "height": 109 }
+			},
+			"H004_Special_SkillOnstage_liuguang_Up_1": {
+				"H004_Special_SkillOnstage_liuguang_Up_001": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_002": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_003": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_004": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_005": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_006": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_007": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_008": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_009": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_010": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_011": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_012": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_013": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_014": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_015": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_016": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_017": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_018": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_019": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_020": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_021": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_022": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 }
+			},
+			"H004_Special_SkillOnstage_liuguang_Up_2": {
+				"H004_Special_SkillOnstage_liuguang_Up_001": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_002": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_003": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_004": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_005": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_006": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_007": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_008": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_009": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_010": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_011": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_012": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_013": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_014": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_015": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_016": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_017": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_018": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_019": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_020": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_021": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 },
+				"H004_Special_SkillOnstage_liuguang_Up_022": { "x": 0.5, "y": 0.5, "width": 31, "height": 49 }
+			},
+			"H004_Special_SkillOnstage_xuli_Up_5": {
+				"H004_Special_SkillOnstage_xuli_Up_001": { "x": 0.5, "width": 193, "height": 90 },
+				"H004_Special_SkillOnstage_xuli_Up_002": { "x": 0.5, "width": 193, "height": 90 },
+				"H004_Special_SkillOnstage_xuli_Up_003": { "x": 0.5, "width": 193, "height": 90 },
+				"H004_Special_SkillOnstage_xuli_Up_004": { "x": 0.5, "width": 193, "height": 90 },
+				"H004_Special_SkillOnstage_xuli_Up_005": { "x": 0.5, "width": 193, "height": 90 },
+				"H004_Special_SkillOnstage_xuli_Up_006": { "x": 0.5, "width": 193, "height": 90 },
+				"H004_Special_SkillOnstage_xuli_Up_007": { "x": 0.5, "width": 193, "height": 90 },
+				"H004_Special_SkillOnstage_xuli_Up_008": { "x": 0.5, "width": 193, "height": 90 },
+				"H004_Special_SkillOnstage_xuli_Up_009": { "x": 0.5, "width": 193, "height": 90 }
+			},
+			"H004_Special_SkillProud_guanghzu_Up_1": {
+				"H004_Special_SkillProud_guanghzu_Up_001": { "x": 77.1, "width": 234, "height": 120 },
+				"H004_Special_SkillProud_guanghzu_Up_002": { "x": 77.1, "width": 234, "height": 120 },
+				"H004_Special_SkillProud_guanghzu_Up_003": { "x": 77.1, "width": 234, "height": 120 },
+				"H004_Special_SkillProud_guanghzu_Up_004": { "x": 77.1, "width": 234, "height": 120 },
+				"H004_Special_SkillProud_guanghzu_Up_005": { "x": 77.1, "width": 234, "height": 120 },
+				"H004_Special_SkillProud_guanghzu_Up_006": { "x": 77.1, "width": 234, "height": 120 },
+				"H004_Special_SkillProud_guanghzu_Up_007": { "x": 77.1, "width": 234, "height": 120 },
+				"H004_Special_SkillProud_guanghzu_Up_008": { "x": 77.1, "width": 234, "height": 120 },
+				"H004_Special_SkillProud_guanghzu_Up_009": { "x": 77.1, "width": 234, "height": 120 },
+				"H004_Special_SkillProud_guanghzu_Up_010": { "x": 77.1, "width": 234, "height": 120 },
+				"H004_Special_SkillProud_guanghzu_Up_011": { "x": 77.1, "width": 234, "height": 120 },
+				"H004_Special_SkillProud_guanghzu_Up_012": { "x": 77.1, "width": 234, "height": 120 },
+				"H004_Special_SkillProud_guanghzu_Up_013": { "x": 77.1, "width": 234, "height": 120 },
+				"H004_Special_SkillProud_guanghzu_Up_014": { "x": 77.1, "width": 234, "height": 120 },
+				"H004_Special_SkillProud_guanghzu_Up_015": { "x": 77.1, "width": 234, "height": 120 },
+				"H004_Special_SkillProud_guanghzu_Up_016": { "x": 77.1, "width": 234, "height": 120 },
+				"H004_Special_SkillProud_guanghzu_Up_017": { "x": 77.1, "width": 234, "height": 120 },
+				"H004_Special_SkillProud_guanghzu_Up_018": { "x": 77.1, "width": 234, "height": 120 },
+				"H004_Special_SkillProud_guanghzu_Up_019": { "x": 77.1, "width": 234, "height": 120 },
+				"H004_Special_SkillProud_guanghzu_Up_020": { "x": 77.1, "width": 234, "height": 120 }
+			},
+			"H004_Special_SkillProud_lanse_Up_1": {
+				"H004_Special_SkillProud_lanse_Up_001": { "x": 108.62, "y": 0.5, "width": 330, "height": 108 },
+				"H004_Special_SkillProud_lanse_Up_002": { "x": 108.62, "y": 0.5, "width": 330, "height": 108 },
+				"H004_Special_SkillProud_lanse_Up_003": { "x": 108.62, "y": 0.5, "width": 330, "height": 108 },
+				"H004_Special_SkillProud_lanse_Up_004": { "x": 108.62, "y": 0.5, "width": 330, "height": 108 }
+			},
+			"H004_Special_SkillProud_lanse_Up_2": {
+				"H004_Special_SkillProud_lanse_Up_001": { "x": 73.06, "y": 0.5, "width": 330, "height": 108 },
+				"H004_Special_SkillProud_lanse_Up_002": { "x": 73.06, "y": 0.5, "width": 330, "height": 108 },
+				"H004_Special_SkillProud_lanse_Up_003": { "x": 73.06, "y": 0.5, "width": 330, "height": 108 },
+				"H004_Special_SkillProud_lanse_Up_004": { "x": 73.06, "y": 0.5, "width": 330, "height": 108 }
+			},
+			"H004_Special_SkillProud_shoujichuan_Up_1": {
+				"H004_Special_SkillProud_shoujichuan_Up_002": { "y": 0.5, "width": 212, "height": 51 },
+				"H004_Special_SkillProud_shoujichuan_Up_003": { "y": 0.5, "width": 212, "height": 51 },
+				"H004_Special_SkillProud_shoujichuan_Up_004": { "y": 0.5, "width": 212, "height": 51 },
+				"H004_Special_SkillProud_shoujichuan_Up_005": { "y": 0.5, "width": 212, "height": 51 },
+				"H004_Special_SkillProud_shoujichuan_Up_006": { "y": 0.5, "width": 212, "height": 51 },
+				"H004_Special_SkillProud_shoujichuan_Up_007": { "y": 0.5, "width": 212, "height": 51 },
+				"H004_Special_SkillProud_shoujichuan_Up_008": { "y": 0.5, "width": 212, "height": 51 },
+				"H004_Special_SkillProud_shoujichuan_Up_009": { "y": 0.5, "width": 212, "height": 51 },
+				"H004_Special_SkillProud_shoujichuan_Up_010": { "y": 0.5, "width": 212, "height": 51 },
+				"H004_Special_SkillProud_shoujichuan_Up_011": { "y": 0.5, "width": 212, "height": 51 },
+				"H004_Special_SkillProud_shoujichuan_Up_012": { "y": 0.5, "width": 212, "height": 51 },
+				"H004_Special_SkillProud_shoujichuan_Up_013": { "y": 0.5, "width": 212, "height": 51 }
+			},
+			"jian": {
+				"jian": { "x": 137.77, "y": 0.22, "width": 473, "height": 106 }
+			},
+			"jian2": {
+				"jian": { "x": 137.77, "y": 0.22, "width": 473, "height": 106 }
+			}
+		}
+	}
+],
+"animations": {
+	"1": {
+		"slots": {
+			"H004_Special_SkillOnstage_xuli_Up_5": {
+				"attachment": [
+					{ "time": 0.2, "name": "H004_Special_SkillOnstage_xuli_Up_001" },
+					{ "time": 0.2667, "name": "H004_Special_SkillOnstage_xuli_Up_002" },
+					{ "time": 0.3333, "name": "H004_Special_SkillOnstage_xuli_Up_003" },
+					{ "time": 0.4, "name": "H004_Special_SkillOnstage_xuli_Up_004" },
+					{ "time": 0.4667, "name": "H004_Special_SkillOnstage_xuli_Up_005" },
+					{ "time": 0.5333, "name": "H004_Special_SkillOnstage_xuli_Up_006" },
+					{ "time": 0.5667, "name": "H004_Special_SkillOnstage_xuli_Up_007" },
+					{ "time": 0.6333, "name": "H004_Special_SkillOnstage_xuli_Up_008" },
+					{ "time": 0.6667, "name": "H004_Special_SkillOnstage_xuli_Up_009" },
+					{ "time": 0.7333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"H004_Special_SkillOnstage_xuli_Up_5": {
+				"rotate": [
+					{ "time": 0.2, "angle": 0.85 }
+				],
+				"translate": [
+					{ "time": 0.2, "x": -23.4, "y": 72.97 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 2.829, "y": 2.829 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "x": 68.48 }
+				]
+			},
+			"SkillUltra_Master": {
+				"translate": [
+					{ "x": -70.64 }
+				]
+			}
+		}
+	},
+	"2": {
+		"slots": {
+			"H004_Special_SkillNormal_qiangkou_Up_3": {
+				"attachment": [
+					{ "time": 0.5333, "name": "H004_Special_SkillNormal_qiangkou_Up_001" },
+					{ "time": 0.5833, "name": "H004_Special_SkillNormal_qiangkou_Up_002" },
+					{ "time": 0.6333, "name": "H004_Special_SkillNormal_qiangkou_Up_003" },
+					{ "time": 0.6833, "name": "H004_Special_SkillNormal_qiangkou_Up_004" },
+					{ "time": 0.7333, "name": "H004_Special_SkillNormal_qiangkou_Up_005" },
+					{ "time": 0.7833, "name": "H004_Special_SkillNormal_qiangkou_Up_006" },
+					{ "time": 0.8167, "name": "H004_Special_SkillNormal_qiangkou_Up_007" },
+					{ "time": 0.85, "name": null }
+				]
+			},
+			"H004_Special_SkillOnstage_guangzhu_Down_001": {
+				"color": [
+					{ "time": 0.6667, "color": "ffffffff", "curve": 0.062, "c2": 0.11, "c3": 0.431, "c4": 0.98 },
+					{ "time": 0.8333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.3167, "name": "H004_Special_SkillOnstage_guangzhu_Down_001" }
+				]
+			},
+			"H004_Special_SkillOnstage_liuguang_Up_1": {
+				"color": [
+					{ "time": 0.3167, "color": "ffffffb8", "curve": "stepped" },
+					{ "time": 0.6333, "color": "ffffffb8", "curve": 0.025, "c2": 0.09, "c3": 0.46 },
+					{ "time": 0.9667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.3167, "name": "H004_Special_SkillOnstage_liuguang_Up_001" },
+					{ "time": 0.35, "name": "H004_Special_SkillOnstage_liuguang_Up_002" },
+					{ "time": 0.4, "name": "H004_Special_SkillOnstage_liuguang_Up_003" },
+					{ "time": 0.4333, "name": "H004_Special_SkillOnstage_liuguang_Up_004" },
+					{ "time": 0.4667, "name": "H004_Special_SkillOnstage_liuguang_Up_005" },
+					{ "time": 0.5, "name": "H004_Special_SkillOnstage_liuguang_Up_006" },
+					{ "time": 0.5333, "name": "H004_Special_SkillOnstage_liuguang_Up_007" },
+					{ "time": 0.5667, "name": "H004_Special_SkillOnstage_liuguang_Up_008" },
+					{ "time": 0.6, "name": "H004_Special_SkillOnstage_liuguang_Up_009" },
+					{ "time": 0.6333, "name": "H004_Special_SkillOnstage_liuguang_Up_010" },
+					{ "time": 0.6667, "name": "H004_Special_SkillOnstage_liuguang_Up_011" },
+					{ "time": 0.7, "name": "H004_Special_SkillOnstage_liuguang_Up_012" },
+					{ "time": 0.7333, "name": "H004_Special_SkillOnstage_liuguang_Up_013" },
+					{ "time": 0.7667, "name": "H004_Special_SkillOnstage_liuguang_Up_014" },
+					{ "time": 0.8, "name": "H004_Special_SkillOnstage_liuguang_Up_015" },
+					{ "time": 0.8333, "name": "H004_Special_SkillOnstage_liuguang_Up_016" },
+					{ "time": 0.8667, "name": "H004_Special_SkillOnstage_liuguang_Up_017" },
+					{ "time": 0.9, "name": "H004_Special_SkillOnstage_liuguang_Up_018" },
+					{ "time": 0.9333, "name": "H004_Special_SkillOnstage_liuguang_Up_019" },
+					{ "time": 0.9667, "name": "H004_Special_SkillOnstage_liuguang_Up_020" },
+					{ "time": 1, "name": "H004_Special_SkillOnstage_liuguang_Up_021" },
+					{ "time": 1.0333, "name": "H004_Special_SkillOnstage_liuguang_Up_022" },
+					{ "time": 1.0667, "name": null }
+				]
+			},
+			"H004_Special_SkillOnstage_liuguang_Up_2": {
+				"color": [
+					{ "time": 0.3167, "color": "ffffffb8", "curve": "stepped" },
+					{ "time": 0.6333, "color": "ffffffb8", "curve": 0.025, "c2": 0.09, "c3": 0.46 },
+					{ "time": 0.9667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.3167, "name": "H004_Special_SkillOnstage_liuguang_Up_001" },
+					{ "time": 0.35, "name": "H004_Special_SkillOnstage_liuguang_Up_002" },
+					{ "time": 0.4, "name": "H004_Special_SkillOnstage_liuguang_Up_003" },
+					{ "time": 0.4333, "name": "H004_Special_SkillOnstage_liuguang_Up_004" },
+					{ "time": 0.4667, "name": "H004_Special_SkillOnstage_liuguang_Up_005" },
+					{ "time": 0.5, "name": "H004_Special_SkillOnstage_liuguang_Up_006" },
+					{ "time": 0.5333, "name": "H004_Special_SkillOnstage_liuguang_Up_007" },
+					{ "time": 0.5667, "name": "H004_Special_SkillOnstage_liuguang_Up_008" },
+					{ "time": 0.6, "name": "H004_Special_SkillOnstage_liuguang_Up_009" },
+					{ "time": 0.6333, "name": "H004_Special_SkillOnstage_liuguang_Up_010" },
+					{ "time": 0.6667, "name": "H004_Special_SkillOnstage_liuguang_Up_011" },
+					{ "time": 0.7, "name": "H004_Special_SkillOnstage_liuguang_Up_012" },
+					{ "time": 0.7333, "name": "H004_Special_SkillOnstage_liuguang_Up_013" },
+					{ "time": 0.7667, "name": "H004_Special_SkillOnstage_liuguang_Up_014" },
+					{ "time": 0.8, "name": "H004_Special_SkillOnstage_liuguang_Up_015" },
+					{ "time": 0.8333, "name": "H004_Special_SkillOnstage_liuguang_Up_016" },
+					{ "time": 0.8667, "name": "H004_Special_SkillOnstage_liuguang_Up_017" },
+					{ "time": 0.9, "name": "H004_Special_SkillOnstage_liuguang_Up_018" },
+					{ "time": 0.9333, "name": "H004_Special_SkillOnstage_liuguang_Up_019" },
+					{ "time": 0.9667, "name": "H004_Special_SkillOnstage_liuguang_Up_020" },
+					{ "time": 1, "name": "H004_Special_SkillOnstage_liuguang_Up_021" },
+					{ "time": 1.0333, "name": "H004_Special_SkillOnstage_liuguang_Up_022" },
+					{ "time": 1.0667, "name": null }
+				]
+			},
+			"H004_Special_SkillProud_guanghzu_Up_1": {
+				"attachment": [
+					{ "time": 0.5333, "name": "H004_Special_SkillProud_guanghzu_Up_001" },
+					{ "time": 0.5667, "name": "H004_Special_SkillProud_guanghzu_Up_002" },
+					{ "time": 0.6, "name": "H004_Special_SkillProud_guanghzu_Up_003" },
+					{ "time": 0.6333, "name": "H004_Special_SkillProud_guanghzu_Up_004" },
+					{ "time": 0.6667, "name": "H004_Special_SkillProud_guanghzu_Up_005" },
+					{ "time": 0.7, "name": "H004_Special_SkillProud_guanghzu_Up_006" },
+					{ "time": 0.7333, "name": "H004_Special_SkillProud_guanghzu_Up_007" },
+					{ "time": 0.7667, "name": "H004_Special_SkillProud_guanghzu_Up_008" },
+					{ "time": 0.8, "name": "H004_Special_SkillProud_guanghzu_Up_009" },
+					{ "time": 0.8333, "name": "H004_Special_SkillProud_guanghzu_Up_010" },
+					{ "time": 0.8667, "name": "H004_Special_SkillProud_guanghzu_Up_011" },
+					{ "time": 0.9, "name": "H004_Special_SkillProud_guanghzu_Up_012" },
+					{ "time": 0.9333, "name": "H004_Special_SkillProud_guanghzu_Up_013" },
+					{ "time": 0.95, "name": "H004_Special_SkillProud_guanghzu_Up_014" },
+					{ "time": 0.9667, "name": "H004_Special_SkillProud_guanghzu_Up_015" },
+					{ "time": 0.9833, "name": "H004_Special_SkillProud_guanghzu_Up_016" },
+					{ "time": 1, "name": "H004_Special_SkillProud_guanghzu_Up_017" },
+					{ "time": 1.0167, "name": "H004_Special_SkillProud_guanghzu_Up_018" },
+					{ "time": 1.0333, "name": "H004_Special_SkillProud_guanghzu_Up_019" },
+					{ "time": 1.05, "name": "H004_Special_SkillProud_guanghzu_Up_020" },
+					{ "time": 1.0667, "name": null }
+				]
+			},
+			"H004_Special_SkillProud_lanse_Up_1": {
+				"attachment": [
+					{ "time": 0.55, "name": "H004_Special_SkillProud_lanse_Up_001" },
+					{ "time": 0.5833, "name": "H004_Special_SkillProud_lanse_Up_002" },
+					{ "time": 0.6167, "name": "H004_Special_SkillProud_lanse_Up_003" },
+					{ "time": 0.65, "name": "H004_Special_SkillProud_lanse_Up_004" },
+					{ "time": 0.6833, "name": null }
+				]
+			},
+			"H004_Special_SkillProud_lanse_Up_2": {
+				"attachment": [
+					{ "time": 0.6833, "name": "H004_Special_SkillProud_lanse_Up_001" },
+					{ "time": 0.7167, "name": "H004_Special_SkillProud_lanse_Up_002" },
+					{ "time": 0.75, "name": "H004_Special_SkillProud_lanse_Up_003" },
+					{ "time": 0.7833, "name": "H004_Special_SkillProud_lanse_Up_004" },
+					{ "time": 0.8167, "name": null }
+				]
+			},
+			"H004_Special_SkillProud_shoujichuan_Up_1": {
+				"attachment": [
+					{ "time": 0.5833, "name": "H004_Special_SkillProud_shoujichuan_Up_002" },
+					{ "time": 0.6333, "name": "H004_Special_SkillProud_shoujichuan_Up_003" },
+					{ "time": 0.6833, "name": "H004_Special_SkillProud_shoujichuan_Up_004" },
+					{ "time": 0.7333, "name": "H004_Special_SkillProud_shoujichuan_Up_005" },
+					{ "time": 0.7833, "name": "H004_Special_SkillProud_shoujichuan_Up_006" },
+					{ "time": 0.8167, "name": "H004_Special_SkillProud_shoujichuan_Up_007" },
+					{ "time": 0.85, "name": "H004_Special_SkillProud_shoujichuan_Up_008" },
+					{ "time": 0.9, "name": "H004_Special_SkillProud_shoujichuan_Up_009" },
+					{ "time": 0.95, "name": "H004_Special_SkillProud_shoujichuan_Up_010" },
+					{ "time": 1, "name": "H004_Special_SkillProud_shoujichuan_Up_011" },
+					{ "time": 1.0333, "name": "H004_Special_SkillProud_shoujichuan_Up_012" },
+					{ "time": 1.0667, "name": "H004_Special_SkillProud_shoujichuan_Up_013" },
+					{ "time": 1.1, "name": null }
+				]
+			},
+			"jian": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.3333, "name": "jian" }
+				]
+			},
+			"jian2": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.4, "color": "005fffff" },
+					{ "time": 0.6667, "color": "003dff00" }
+				],
+				"attachment": [
+					{ "time": 0.3333, "name": "jian" }
+				]
+			}
+		},
+		"bones": {
+			"H004_Special_SkillNormal_qiangkou_Up_3": {
+				"translate": [
+					{ "time": 0.5333, "x": 172.64, "y": 96.06 }
+				],
+				"scale": [
+					{ "time": 0.5333, "x": 3.747, "y": 3.015 }
+				]
+			},
+			"H004_Special_SkillOnstage_guangzhu_Down_001": {
+				"translate": [
+					{ "time": 0.3167, "x": 540.61, "y": 93.5 }
+				],
+				"scale": [
+					{ "time": 0.3167, "x": 7.963, "y": 0.803 },
+					{ "time": 0.55, "x": 7.963, "y": 1.269, "curve": 0.033, "c2": 0.07, "c3": 0.402 },
+					{ "time": 0.8333, "x": 7.963, "y": 1.545 }
+				]
+			},
+			"H004_Special_SkillOnstage_liuguang_Up_1": {
+				"rotate": [
+					{ "time": 0.3167, "angle": -90 }
+				],
+				"translate": [
+					{ "time": 0.3167, "x": 518.64, "y": 125.43 },
+					{ "time": 0.75, "x": 518.64, "y": 146.93, "curve": 0.025, "c2": 0.09, "c3": 0.46 },
+					{ "time": 0.9667, "x": 518.64, "y": 155.53 }
+				],
+				"scale": [
+					{ "time": 0.3167, "y": 22.716 }
+				]
+			},
+			"H004_Special_SkillOnstage_liuguang_Up_2": {
+				"rotate": [
+					{ "time": 0.3167, "angle": -90 }
+				],
+				"translate": [
+					{ "time": 0.3167, "x": 518.64, "y": 64.7 },
+					{ "time": 0.75, "x": 518.64, "y": 37.13, "curve": 0.025, "c2": 0.09, "c3": 0.46 },
+					{ "time": 0.9667, "x": 518.64, "y": 26.51 }
+				],
+				"scale": [
+					{ "time": 0.3167, "y": 22.716 }
+				]
+			},
+			"H004_Special_SkillProud_guanghzu_Up_1": {
+				"translate": [
+					{ "time": 0.5333, "x": 179.61, "y": 92.2 }
+				],
+				"scale": [
+					{ "time": 0.5333, "x": 4.223, "y": 1.447 }
+				]
+			},
+			"H004_Special_SkillProud_lanse_Up_1": {
+				"translate": [
+					{ "time": 0.55, "x": 219.7, "y": 88.81, "curve": "stepped" },
+					{ "time": 0.5833, "x": 225.82, "y": 81.75, "curve": "stepped" },
+					{ "time": 0.6167, "x": 225.82, "y": 86.22 },
+					{ "time": 0.65, "x": 249.3, "y": 83.99 }
+				],
+				"scale": [
+					{ "time": 0.55, "x": 1.87, "y": 1.736, "curve": "stepped" },
+					{ "time": 0.5833, "x": 1.938, "y": 1.603 }
+				]
+			},
+			"H004_Special_SkillProud_lanse_Up_2": {
+				"rotate": [
+					{ "time": 0.6833, "curve": "stepped" },
+					{ "time": 0.7167, "angle": -1.17 }
+				],
+				"translate": [
+					{ "time": 0.6833, "x": 248.11, "y": 91.84, "curve": "stepped" },
+					{ "time": 0.7167, "x": 233.81, "y": 92.06, "curve": "stepped" },
+					{ "time": 0.75, "x": 195.05, "y": 101.75, "curve": "stepped" },
+					{ "time": 0.7833, "x": 183.74, "y": 101.75 }
+				],
+				"scale": [
+					{ "time": 0.6833, "x": 1.695, "y": 1.1, "curve": "stepped" },
+					{ "time": 0.7167, "x": 2.263, "y": 1.964, "curve": "stepped" },
+					{ "time": 0.7833, "x": 1.681, "y": 1.58 }
+				]
+			},
+			"H004_Special_SkillProud_shoujichuan_Up_1": {
+				"translate": [
+					{ "time": 0.5833, "x": 612.85, "y": 95.86 },
+					{ "time": 0.9, "x": 685.86, "y": 95.86 }
+				],
+				"scale": [
+					{ "time": 0.5833, "x": 3.623, "y": 2.396 }
+				]
+			},
+			"H004_Special_SkillNormal_jian_Up_1": {
+				"translate": [
+					{ "time": 0.5333, "x": 242.78, "y": 89.96 },
+					{ "time": 0.55, "x": 319.94, "y": 90.43 },
+					{ "time": 0.5667, "x": 343.15, "y": 90.9 },
+					{ "time": 0.6, "x": 536.37, "y": 91.84 }
+				],
+				"scale": [
+					{ "time": 0.5333, "x": 1.928, "y": 1.32 },
+					{ "time": 0.55, "x": 1.86, "y": 2.418 },
+					{ "time": 0.5667, "x": 2.958, "y": 1.624 },
+					{ "time": 0.6, "x": 5.155, "y": 2.533 }
+				]
+			},
+			"jian": {
+				"translate": [
+					{ "x": 272.22, "y": 90.24 },
+					{ "time": 0.3, "x": -62.84, "y": 90.24 },
+					{ "time": 0.3333, "x": 175.46, "y": 90.24 },
+					{ "time": 0.4, "x": 114.98, "y": 90.24 },
+					{ "time": 0.6667, "x": 1158.26, "y": 90.24 }
+				]
+			}
+		}
+	}
+}
+}

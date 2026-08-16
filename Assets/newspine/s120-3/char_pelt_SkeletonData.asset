@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45a7985cea308a29c4f86c12b87a76d4, type: 3}
+  m_Name: char_pelt_SkeletonData
+  m_EditorClassIdentifier:
+  atlasAssets:
+  - {fileID: 11400000, guid: 7e874a9e8f709ca4c9d48cccf9e53140, type: 2}
+  scale: 0.3
+  skeletonJSON: {fileID: 4900000, guid: 9a3b499c586b8b2429f190130919ebd3, type: 3}
+  fromAnimation: []
+  toAnimation: []
+  duration: []
+  defaultMix: 0.2
+  controller: {fileID: 0}

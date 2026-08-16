@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: leviLV5SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: 42f53b0dcfdb6be468890a8e3e380470, type: 3}
+  uiAnimation: {fileID: 4900000, guid: 0b101bf5fb016f843be72589a27a4254, type: 3}
+  battleAnimation: {fileID: 4900000, guid: 23a8872ac4f62b04fadc08c11e34b452, type: 3}
+  atlasAsset: {fileID: 11400000, guid: 401ae151f8263eb4eb125ff837c0a0c7, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 21
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

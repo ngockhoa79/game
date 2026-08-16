@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: kaxiLV1SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: 57fd61f7c6fdcdd4794d67690b6c6486, type: 3}
+  uiAnimation: {fileID: 4900000, guid: 4c161bf542b722d4c8ca2960c505a0bb, type: 3}
+  battleAnimation: {fileID: 4900000, guid: 98a9adf1f3b70204bb907e12b62e1181, type: 3}
+  atlasAsset: {fileID: 11400000, guid: 6c2a6f5b4298cfd4d977158a8eacee6a, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 11
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: tianmeinaLV3SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: b32e333f294b69148ae9dc29f5f275ac, type: 3}
+  uiAnimation: {fileID: 4900000, guid: 7bea93f39927b13438502eb4cc5cea73, type: 3}
+  battleAnimation: {fileID: 4900000, guid: d97b7d14ace37be409f6b9cfbb0ae460, type: 3}
+  atlasAsset: {fileID: 11400000, guid: 3e00aad63b5178c4c8334978eea050a8, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 32
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

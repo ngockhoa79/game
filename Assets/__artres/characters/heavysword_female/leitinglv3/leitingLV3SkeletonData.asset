@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: leitingLV3SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: b84fe6bc65eb712408749b1ab73b7c13, type: 3}
+  uiAnimation: {fileID: 4900000, guid: 72b8f03c119618f46ad54c2d6abe550e, type: 3}
+  battleAnimation: {fileID: 4900000, guid: 8db76c0ffd50970418245c486994253d, type: 3}
+  atlasAsset: {fileID: 11400000, guid: d995ddc5480333e41a97586941986598, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 12
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

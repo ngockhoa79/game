@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: xianaLV4SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: d8c189a88ad3417409674095481e0089, type: 3}
+  uiAnimation: {fileID: 4900000, guid: 7bcfcca92bbd8cb4cbac5b95171cd867, type: 3}
+  battleAnimation: {fileID: 4900000, guid: a66619f4db8fcb546a8f7e6ceefcac77, type: 3}
+  atlasAsset: {fileID: 11400000, guid: 5cccdf2d8fd196944a4bda016f396347, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 22
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

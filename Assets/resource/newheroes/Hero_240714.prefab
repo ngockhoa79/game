@@ -1,0 +1,3907 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4703437598541787}
+  - component: {fileID: 114884547391421755}
+  - component: {fileID: 114099118695303065}
+  m_Layer: 0
+  m_Name: Hero_240714
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1730242686860875
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4243736805655561}
+  m_Layer: 0
+  m_Name: shadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1724804207875695
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4061268324235159}
+  - component: {fileID: 33587765826080250}
+  - component: {fileID: 23709867586078768}
+  - component: {fileID: 114044625135789424}
+  m_Layer: 0
+  m_Name: sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1618682377417806
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4589667821646929}
+  - component: {fileID: 33372920208702427}
+  - component: {fileID: 23025901758691103}
+  - component: {fileID: 114985305603660343}
+  m_Layer: 0
+  m_Name: ShizenikeLV2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4703437598541787
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4243736805655561}
+  - {fileID: 4589667821646929}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114884547391421755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aff16f220e796d4485b127cb3cc3e5e7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  FighterId: -1
+  HeroId: -1
+  fightType: 0
+--- !u!114 &114099118695303065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: daca89c25bd1813ceecbbbb8555342a7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  fsm:
+    dataVersion: 0
+    usedInTemplate: {fileID: 0}
+    name: CharacterFsm
+    startState: Initialize
+    states:
+    - name: IdleState
+      description:
+      colorIndex: 1
+      position:
+        serializedVersion: 2
+        x: 505.4375
+        y: 339.4297
+        width: 161
+        height: 352
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToNormalAttack1State
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: NormalAttack1State
+        linkStyle: 2
+        linkConstraint: 2
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToWalkState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: WalkState
+        linkStyle: 2
+        linkConstraint: 2
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToRunState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: RunState
+        linkStyle: 2
+        linkConstraint: 2
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToNormalAttack2State
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: NormalAttack2State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToUnderAttackState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: UnderAttackState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToBegin1State
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Begin1State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillHoldState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillHoldState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToHeavyAttackState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HeavyAttackState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToWinState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: WinState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillShootLoopState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillShootLoopState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToJumpState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: JumpState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillShootState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillShootState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToDieState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: DieState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToThrowAttackState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: ThrowAttackState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToCrowdAttackState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: CrowdAttackState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillCastState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillCastState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToBegin2State
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Begin2State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToHurtLightState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HurtLightState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToHurtNormalState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HurtNormalState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToHurtHeavyState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HurtHeavyState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToDodgeState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: DodgeState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        - SpineAnimationName
+        customNames:
+        - 
+        - 
+        actionEnabled: 0100
+        actionIsOpen: 0101
+        actionStartIndex: 0000000003000000
+        actionHashCodes: ff0dfd72ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: idle_a
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: idle_b
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 01000100
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000010000000200000004000000
+        paramByteDataSize: 000000000200000000000000000000000200000000000000
+    - name: NormalAttack1State
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 61.25
+        y: 356.04688
+        width: 161
+        height: 128
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToJumpState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: JumpState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToNormalAttack2State
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: NormalAttack2State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillCastState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillCastState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillHoldState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillHoldState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToHeavyAttackState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HeavyAttackState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillShootLoopState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillShootLoopState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: attack_normal_a
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: NormalAttack2State
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 55.679688
+        y: 525.77344
+        width: 161
+        height: 128
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToJumpState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: JumpState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToHeavyAttackState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HeavyAttackState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillCastState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillCastState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillHoldState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillHoldState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToNormalAttack1State
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: NormalAttack1State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillShootLoopState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillShootLoopState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: attack_normal_b
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: WalkState
+      description:
+      colorIndex: 1
+      position:
+        serializedVersion: 2
+        x: 549.1953
+        y: 714.3047
+        width: 161
+        height: 128
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 2
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToRunState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: RunState
+        linkStyle: 2
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToUnderAttackState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: UnderAttackState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToWinState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: WinState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillHoldState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillHoldState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillShootLoopState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillShootLoopState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToDieState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: DieState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: walk
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0100
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: RunState
+      description:
+      colorIndex: 1
+      position:
+        serializedVersion: 2
+        x: 636.625
+        y: 952.53125
+        width: 160
+        height: 160
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToNormalAttack1State
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: NormalAttack1State
+        linkStyle: 2
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToWalkState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: WalkState
+        linkStyle: 2
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 2
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToNormalAttack2State
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: NormalAttack2State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToBegin1State
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Begin1State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToHeavyAttackState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HeavyAttackState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillHoldState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillHoldState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToThrowAttackState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: ThrowAttackState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToCrowdAttackState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: CrowdAttackState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: run
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0100
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: HurtLightState
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 1230.1953
+        y: 400.27344
+        width: 144
+        height: 96
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToUnderAttackState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: UnderAttackState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToDieState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: DieState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToHurtHeavyState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HurtHeavyState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToHurtNormalState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HurtNormalState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: hit_light
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: HurtNormalState
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 1236.875
+        y: 545.09375
+        width: 144
+        height: 112
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToUnderAttackState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: UnderAttackState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToDieState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: DieState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToHurtNormalState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HurtNormalState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToHurtLightState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HurtLightState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToHurtHeavyState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HurtHeavyState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: hit_normal
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: DodgeState
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 1009.60156
+        y: 727.875
+        width: 112
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToHurtFlyState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HurtFlyState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: dodge
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: UnderAttackState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 766.8125
+        y: 430.14844
+        width: 139
+        height: 144
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToHurtLightState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HurtLightState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToHurtNormalState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HurtNormalState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToHurtHeavyState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HurtHeavyState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToDodgeState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: DodgeState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToBlockState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: BlockState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToDieState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: DieState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToHurtFlyState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HurtFlyState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled:
+        actionIsOpen:
+        actionStartIndex:
+        actionHashCodes:
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData:
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType:
+        paramName: []
+        paramDataPos:
+        paramByteDataSize:
+    - name: HurtHeavyState
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 1215.8828
+        y: 715.6094
+        width: 164
+        height: 80
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToDownBackwardState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: DownBackwardState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToHurtCollideWallState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HurtCollideWallState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToHurtFlyState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HurtFlyState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: hit_heavy
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: Begin1State
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 310.28906
+        y: 220.35156
+        width: 100
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: begin_a
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: WinState
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 814.1719
+        y: 976.1875
+        width: 100
+        height: 64
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToWalkState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: WalkState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToRunState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: RunState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: win
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: Initialize
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 778.1172
+        y: 344.0078
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled:
+        actionIsOpen:
+        actionStartIndex:
+        actionHashCodes:
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData:
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType:
+        paramName: []
+        paramDataPos:
+        paramByteDataSize:
+    - name: SkillHoldState
+      description:
+      colorIndex: 1
+      position:
+        serializedVersion: 2
+        x: 252.35156
+        y: 913.6953
+        width: 161
+        height: 160
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToNormalAttack1State
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: NormalAttack1State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToNormalAttack2State
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: NormalAttack2State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToHeavyAttackState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HeavyAttackState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillShootLoopState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillShootLoopState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToCrowdAttackState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: CrowdAttackState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillShootState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillShootState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToJumpState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: JumpState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillCastState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillCastState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: skill_hold
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0100
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: BlockState
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 1031.3125
+        y: 835.46094
+        width: 112
+        height: 64
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToHurtFlyState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HurtFlyState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToDieState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: DieState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: block
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 000046494e4953484544
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000008000000
+    - name: HeavyAttackState
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 65.46094
+        y: 716.5781
+        width: 160
+        height: 64
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToNormalAttack1State
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: NormalAttack1State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToNormalAttack2State
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: NormalAttack2State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: attack_heavy
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: SkillShootLoopState
+      description:
+      colorIndex: 1
+      position:
+        serializedVersion: 2
+        x: 459.9297
+        y: 908.8203
+        width: 160
+        height: 128
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToWalkState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: WalkState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToRunState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: RunState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToHurtHeavyState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HurtHeavyState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillHoldState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillHoldState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToNormalAttack1State
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: NormalAttack1State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToNormalAttack2State
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: NormalAttack2State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: skill_shoot_loop
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0100
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: DieState
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 1024.0703
+        y: 949.1172
+        width: 161
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToStandBackwardState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: StandBackwardState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: death
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: JumpState
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 280.29688
+        y: 498.09375
+        width: 161
+        height: 176
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillHoldState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillHoldState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillShootState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillShootState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkyAttackState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkyAttackState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToJumpDownState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: JumpDownState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillShootLoopState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillShootLoopState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToNormalAttack1State
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: NormalAttack1State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToNormalAttack2State
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: NormalAttack2State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToBegin1State
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Begin1State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToHeavyAttackState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HeavyAttackState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: jump_b
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: SkillShootState
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 68.83594
+        y: 856.58594
+        width: 114
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: skill_shoot
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: HurtFlyState
+      description:
+      colorIndex: 1
+      position:
+        serializedVersion: 2
+        x: 971.3125
+        y: 359.46875
+        width: 164
+        height: 64
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToHurtCollideWallState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HurtCollideWallState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToDownBackwardState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: DownBackwardState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: hit_roll
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0100
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: StandForwardState
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 789.39844
+        y: 775.85156
+        width: 144
+        height: 64
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToWalkState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: WalkState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToUnderAttackState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: UnderAttackState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: stand_forward
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: StandBackwardState
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 787.90625
+        y: 868.52344
+        width: 145
+        height: 64
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToWalkState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: WalkState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToUnderAttackState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: UnderAttackState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: stand_backward
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: HurtCollideWallState
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 990.03906
+        y: 584.89844
+        width: 153
+        height: 64
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToDownForwardState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: DownForwardState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToHurtFlyState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HurtFlyState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: hit_collide
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: DownForwardState
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 779.5625
+        y: 621.83594
+        width: 161
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToStandBackwardState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: StandBackwardState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: hit_down_b
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: DownBackwardState
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 776.39844
+        y: 691.9375
+        width: 152
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToStandForwardState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: StandForwardState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: hit_down_a
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: SkyAttackState
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 565.1953
+        y: 110.74219
+        width: 113
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: attack_sky
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: ThrowAttackState
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 701.1719
+        y: 110.078125
+        width: 130
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: attack_throw
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: JumpDownState
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 280.39844
+        y: 726.1953
+        width: 161
+        height: 144
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillHoldState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillHoldState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillCastState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillCastState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillShootState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillShootState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillShootLoopState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillShootLoopState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToJumpState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: JumpState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToHeavyAttackState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HeavyAttackState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToNormalAttack1State
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: NormalAttack1State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: jump_down
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: CrowdAttackState
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 297.25
+        y: 388.7422
+        width: 131
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToJumpState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: JumpState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: attack_crowd
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: SkillCastState
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 53.820312
+        y: 928.97656
+        width: 123
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToSkillHoldState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SkillHoldState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: skill_cast
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: DieLightState
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 992.9531
+        y: 1079.1797
+        width: 152
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToStandForwardState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: StandForwardState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: death_light
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    - name: Begin2State
+      description:
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 536.0469
+        y: 215.59375
+        width: 100
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToIdleState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineAnimationName
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: ff0dfd72
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: begin_b
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000001100000017000000
+        paramName:
+        - animationName
+        - loop
+        - onComplete
+        paramDataPos: 000000000000000002000000
+        paramByteDataSize: 000000000200000000000000
+    events:
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: ToBegin1State
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToBegin2State
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToBlockState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToCrowdAttackState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToDieLightState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToDieState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToDodgeState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToDownBackwardState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToDownForwardState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToHeavyAttackState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToHurtCollideWallState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToHurtFlyState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToHurtHeavyState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToHurtLightState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToHurtNormalState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToIdleState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToJumpDownState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToJumpState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToNormalAttack1State
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToNormalAttack2State
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToRunState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToSkillCastState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToSkillHoldState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToSkillShootLoopState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToSkillShootState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToSkyAttackState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToStandBackwardState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToStandForwardState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToThrowAttackState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToUnderAttackState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToWalkState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToWinState
+      isSystemEvent: 0
+      isGlobal: 0
+    globalTransitions: []
+    variables:
+      floatVariables: []
+      intVariables: []
+      boolVariables: []
+      stringVariables: []
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables: []
+      objectVariables: []
+      materialVariables: []
+      textureVariables: []
+      arrayVariables: []
+      enumVariables: []
+      categories:
+      - 
+      variableCategoryIDs:
+    description:
+    docUrl:
+    showStateLabel: 1
+    maxLoopCount: 0
+    watermark: Camera.png
+    password:
+    locked: 0
+    manualUpdate: 0
+    outVariableIndices:
+    keepDelayedEventsOnStateExit: 0
+    preprocessed: 0
+    ExposedEvents: []
+    OutputEvents: []
+    RestartOnEnable: 1
+    ResetVariablesOnEnable: 0
+    EnableDebugFlow: 0
+    EnableBreakpoints: 1
+    editorFlags: 225
+    activeStateName: Initialize
+    mouseEvents: 0
+    handleLevelLoaded: 0
+    handleTriggerEnter2D: 0
+    handleTriggerExit2D: 0
+    handleTriggerStay2D: 0
+    handleCollisionEnter2D: 0
+    handleCollisionExit2D: 0
+    handleCollisionStay2D: 0
+    handleTriggerEnter: 0
+    handleTriggerExit: 0
+    handleTriggerStay: 0
+    handleCollisionEnter: 0
+    handleCollisionExit: 0
+    handleCollisionStay: 0
+    handleParticleCollision: 0
+    handleControllerColliderHit: 0
+    handleJointBreak: 0
+    handleJointBreak2D: 0
+    handleOnGUI: 0
+    handleFixedUpdate: 0
+    handleLateUpdate: 0
+    handleApplicationEvents: 0
+    handleUiEvents: 0
+    handleLegacyNetworking: 0
+    handleAnimatorMove: 0
+    handleAnimatorIK: 0
+  fsmTemplate: {fileID: 11400000, guid: 959ecf8aed1ff0844b7c8c2ffe288aeb, type: 2}
+  eventHandlerComponentsAdded: 0
+--- !u!4 &4243736805655561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730242686860875}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4061268324235159}
+  m_Father: {fileID: 4703437598541787}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &4061268324235159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724804207875695}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 51}
+  m_LocalScale: {x: 85, y: 20, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4243736805655561}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!33 &33587765826080250
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724804207875695}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &23709867586078768
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724804207875695}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bbb94ea0fcab4234fa877110e221499e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &114044625135789424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724804207875695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c49c7a9d2797560688d763330eba598, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!4 &4589667821646929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618682377417806}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4703437598541787}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33372920208702427
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618682377417806}
+  m_Mesh: {fileID: 0}
+--- !u!23 &23025901758691103
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618682377417806}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d049562a4369102488a3e474dfb67f0a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &114985305603660343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618682377417806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706558c1c87ad7c73bb8376ef9229299, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  skeletonDataAsset: {fileID: 11400000, guid: af726c708d4aa7a4bb7134946f94d32f, type: 2}
+  initialSkinName: default
+  initialFlipX: 0
+  initialFlipY: 0
+  separatorSlotNames: []
+  zSpacing: 0
+  useClipping: 1
+  immutableTriangles: 0
+  pmaVertexColors: 1
+  clearStateOnDisable: 0
+  tintBlack: 0
+  singleSubmesh: 0
+  addNormals: 0
+  calculateTangents: 0
+  logErrors: 0
+  disableRenderingOnOverride: 1
+  _animationName: battle_idle
+  loop: 1
+  timeScale: 1

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: LeimuLV4SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: ba08097c9ea98b944a3e155aba72f303, type: 3}
+  uiAnimation: {fileID: 4900000, guid: 759812ac6944315438b4e8cb30832ed3, type: 3}
+  battleAnimation: {fileID: 4900000, guid: 553770f8dbfdb3642afd9e21b29c7f85, type: 3}
+  atlasAsset: {fileID: 11400000, guid: 5aaa68a9db6c31d438599beb90e8d4ea, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 42
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

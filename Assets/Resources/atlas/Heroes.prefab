@@ -1,0 +1,780 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: Heroes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 08695fa40b51ece4f9c7f3f764953187, type: 2}
+  mSprites:
+  - name: 1_frame_white
+    x: 390
+    y: 394
+    width: 39
+    height: 118
+    borderLeft: 18
+    borderRight: 18
+    borderTop: 18
+    borderBottom: 18
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 2_frame_green
+    x: 430
+    y: 394
+    width: 39
+    height: 118
+    borderLeft: 18
+    borderRight: 18
+    borderTop: 18
+    borderBottom: 18
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 3_frame_blue
+    x: 470
+    y: 394
+    width: 39
+    height: 118
+    borderLeft: 18
+    borderRight: 18
+    borderTop: 18
+    borderBottom: 18
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 4_frame_puple
+    x: 118
+    y: 275
+    width: 39
+    height: 118
+    borderLeft: 18
+    borderRight: 18
+    borderTop: 18
+    borderBottom: 18
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 5_frame_org
+    x: 118
+    y: 156
+    width: 39
+    height: 118
+    borderLeft: 18
+    borderRight: 18
+    borderTop: 18
+    borderBottom: 18
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 6_frame_red
+    x: 118
+    y: 37
+    width: 39
+    height: 118
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 7_frame_black
+    x: 318
+    y: 275
+    width: 39
+    height: 118
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: baqiIcon
+    x: 0
+    y: 159
+    width: 107
+    height: 111
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: baqiIcon1
+    x: 398
+    y: 329
+    width: 40
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: base_a_blue
+    x: 113
+    y: 380
+    width: 4
+    height: 4
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: base_a_green
+    x: 113
+    y: 375
+    width: 4
+    height: 4
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: base_a_orange
+    x: 113
+    y: 370
+    width: 4
+    height: 4
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: base_a_purple
+    x: 113
+    y: 365
+    width: 4
+    height: 4
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: base_a_white
+    x: 113
+    y: 360
+    width: 4
+    height: 4
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: base_na_blue
+    x: 113
+    y: 355
+    width: 4
+    height: 4
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: base_na_green
+    x: 113
+    y: 350
+    width: 4
+    height: 4
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: base_na_orange
+    x: 113
+    y: 345
+    width: 4
+    height: 4
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: base_na_purple
+    x: 113
+    y: 340
+    width: 4
+    height: 4
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: base_na_white
+    x: 113
+    y: 335
+    width: 4
+    height: 4
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Fighter
+    x: 87
+    y: 127
+    width: 29
+    height: 31
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 3
+    paddingTop: 3
+    paddingBottom: 2
+  - name: FighterBig
+    x: 320
+    y: 439
+    width: 69
+    height: 73
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 17
+    paddingRight: 0
+    paddingTop: 13
+    paddingBottom: 0
+  - name: FighterNoFrame
+    x: 85
+    y: 36
+    width: 31
+    height: 35
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 4
+    paddingTop: 1
+    paddingBottom: 2
+  - name: filedBg
+    x: 198
+    y: 241
+    width: 131
+    height: 33
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: filedTxt
+    x: 237
+    y: 406
+    width: 72
+    height: 23
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FrameBigRed
+    x: 439
+    y: 293
+    width: 20
+    height: 100
+    borderLeft: 10
+    borderRight: 10
+    borderTop: 10
+    borderBottom: 10
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FrameBlack
+    x: 238
+    y: 275
+    width: 39
+    height: 118
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FrameBlue
+    x: 278
+    y: 275
+    width: 39
+    height: 118
+    borderLeft: 16
+    borderRight: 16
+    borderTop: 16
+    borderBottom: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FrameBoss
+    x: 0
+    y: 385
+    width: 117
+    height: 127
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 62
+    borderBottom: 56
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FrameGolden
+    x: 358
+    y: 275
+    width: 39
+    height: 118
+    borderLeft: 16
+    borderRight: 16
+    borderTop: 16
+    borderBottom: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FrameGreen
+    x: 158
+    y: 275
+    width: 39
+    height: 118
+    borderLeft: 16
+    borderRight: 16
+    borderTop: 16
+    borderBottom: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FramePurple
+    x: 158
+    y: 156
+    width: 39
+    height: 118
+    borderLeft: 16
+    borderRight: 16
+    borderTop: 16
+    borderBottom: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FrameRed
+    x: 158
+    y: 37
+    width: 39
+    height: 118
+    borderLeft: 16
+    borderRight: 16
+    borderTop: 16
+    borderBottom: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FrameWhite
+    x: 198
+    y: 275
+    width: 39
+    height: 118
+    borderLeft: 16
+    borderRight: 16
+    borderTop: 16
+    borderBottom: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: HeadFrame_0
+    x: 0
+    y: 271
+    width: 112
+    height: 113
+    borderLeft: 32
+    borderRight: 32
+    borderTop: 55
+    borderBottom: 55
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: HeadFrame_1
+    x: 118
+    y: 394
+    width: 118
+    height: 118
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  - name: HeavySwordsman
+    x: 118
+    y: 0
+    width: 36
+    height: 36
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: HeavySwordsmanBig
+    x: 0
+    y: 72
+    width: 86
+    height: 86
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: HeavySwordsmanNoFrame
+    x: 398
+    y: 290
+    width: 38
+    height: 38
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Leader
+    x: 366
+    y: 250
+    width: 33
+    height: 24
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: LightSwordsman
+    x: 330
+    y: 244
+    width: 35
+    height: 30
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 3
+    paddingBottom: 3
+  - name: LightSwordsmanBig
+    x: 0
+    y: 0
+    width: 84
+    height: 71
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 0
+    paddingTop: 15
+    paddingBottom: 0
+  - name: LightSwordsmanNoFrame
+    x: 158
+    y: 3
+    width: 38
+    height: 33
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 3
+  - name: line_blue
+    x: 237
+    y: 403
+    width: 39
+    height: 2
+    borderLeft: 15
+    borderRight: 15
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: line_green
+    x: 237
+    y: 400
+    width: 39
+    height: 2
+    borderLeft: 15
+    borderRight: 15
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: line_orange
+    x: 237
+    y: 397
+    width: 39
+    height: 2
+    borderLeft: 15
+    borderRight: 15
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: line_purple
+    x: 237
+    y: 394
+    width: 39
+    height: 2
+    borderLeft: 15
+    borderRight: 15
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: line_white
+    x: 277
+    y: 403
+    width: 39
+    height: 2
+    borderLeft: 15
+    borderRight: 15
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 1
+  - name: Mage
+    x: 460
+    y: 319
+    width: 35
+    height: 35
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: MageBig
+    x: 237
+    y: 430
+    width: 82
+    height: 82
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 0
+    paddingTop: 4
+    paddingBottom: 0
+  - name: MageNoFrame
+    x: 460
+    y: 355
+    width: 38
+    height: 38
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SkillTypeSpecAssistant
+    x: 198
+    y: 134
+    width: 34
+    height: 34
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SkillTypeSpecInitiative
+    x: 460
+    y: 283
+    width: 35
+    height: 35
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SkillTypeSpecLeader
+    x: 198
+    y: 205
+    width: 35
+    height: 35
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SkillTypeSpecPassive
+    x: 198
+    y: 169
+    width: 35
+    height: 35
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Star
+    x: 87
+    y: 105
+    width: 22
+    height: 21
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: star_big
+    x: 320
+    y: 399
+    width: 40
+    height: 39
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

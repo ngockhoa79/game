@@ -1,0 +1,12 @@
+public class _6bfc38b42802a494137060a927d46cdb
+{
+	private int _6bfc38b42802a494137060a927d46cdbm2(int _6bfc38b42802a494137060a927d46cdba)
+	{
+		return 0;
+	}
+
+	public int _6bfc38b42802a494137060a927d46cdbm(int _6bfc38b42802a494137060a927d46cdba, int _6bfc38b42802a494137060a927d46cdb22, int _6bfc38b42802a494137060a927d46cdbc = 0)
+	{
+		return 0;
+	}
+}

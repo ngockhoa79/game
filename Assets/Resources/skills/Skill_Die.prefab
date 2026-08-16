@@ -1,0 +1,1095 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4724804207875695}
+  - component: {fileID: 114618682377417806}
+  m_Layer: 0
+  m_Name: Skill_Die
+  m_TagString: Skill
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1730242686860875
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4703437598541787}
+  - component: {fileID: 114884547391421755}
+  m_Layer: 0
+  m_Name: Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4724804207875695
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4703437598541787}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0e6082f2e2eca738e1678cda525ce2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  SkillId: 1
+  SourceFighterId: 1
+  MainTargetId: 0
+  TargetFighters:
+--- !u!4 &4703437598541787
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730242686860875}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4724804207875695}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114884547391421755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730242686860875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: daca89c25bd1813ceecbbbb8555342a7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  fsm:
+    dataVersion: 1
+    usedInTemplate: {fileID: 0}
+    name: SkillMain
+    startState: Wait For Initialize
+    states:
+    - name: Wait For Initialize
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 59.96875
+        y: 113
+        width: 129
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToInitializeState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Initialize
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled:
+        actionIsOpen:
+        actionStartIndex:
+        actionHashCodes:
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData:
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType:
+        paramName: []
+        paramDataPos:
+        paramByteDataSize:
+    - name: Start
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 81
+        y: 284
+        width: 102
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToNormalDie
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: SetHeroIdle
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToBlinkState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: PlayDie
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HeroDieStateCheck
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 72141e03
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 546f426c696e6b5374617465546f4e6f726d616c446965
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 130000001700000017000000
+        paramName:
+        - hero
+        - toBlink
+        - toNormalDie
+        paramDataPos: 00000000000000000c000000
+        paramByteDataSize: 000000000c0000000b000000
+    - name: Initialize
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 75.97656
+        y: 191
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Start
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled:
+        actionIsOpen:
+        actionStartIndex:
+        actionHashCodes:
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData:
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType:
+        paramName: []
+        paramDataPos:
+        paramByteDataSize:
+    - name: OverState
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 436
+        y: 565.02344
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - SendMsgToSkillCtrller
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: d9ab9a01
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 020000000000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 07000000140000000f000000
+        paramName:
+        - msgType
+        - gameObject
+        - delay
+        paramDataPos: 000000000000000004000000
+        paramByteDataSize: 040000000000000005000000
+    - name: PlayDie
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 430
+        y: 458.0078
+        width: 100
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: OverState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Break
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: OverState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HeroHSVAAnimation
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 1015d202
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams:
+        - curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: -0.0037623532
+              value: 0.99685544
+              inSlope: 0
+              outSlope: -82.473564
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.0076779705
+              value: 0.053331178
+              inSlope: -82.473564
+              outSlope: 0.026599998
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.035027485
+              value: 0.054058675
+              inSlope: 0.026599998
+              outSlope: 1903.2014
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.035524964
+              value: 1.0008614
+              inSlope: 1903.2014
+              outSlope: -0.0068963342
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.17265394
+              value: 0.9999157
+              inSlope: -0.0068963342
+              outSlope: -231.97978
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.17673588
+              value: 0.05298939
+              inSlope: -231.97978
+              outSlope: -0.019833926
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.20155421
+              value: 0.052497145
+              inSlope: -0.019833926
+              outSlope: 524.92896
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.20335403
+              value: 0.9972757
+              inSlope: 524.92896
+              outSlope: -0.10894674
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.33775982
+              value: 0.98263264
+              inSlope: -0.10894674
+              outSlope: -118.1357
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.34571466
+              value: 0.042882573
+              inSlope: -118.1357
+              outSlope: -0.013363499
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.3679206
+              value: 0.042585824
+              inSlope: -0.013363499
+              outSlope: 198.27985
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.37264898
+              value: 0.98012763
+              inSlope: 198.27985
+              outSlope: -0.09093708
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.49027854
+              value: 0.96943074
+              inSlope: -0.09093708
+              outSlope: -691.3858
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.49163574
+              value: 0.031083468
+              inSlope: -691.3858
+              outSlope: -0.018236782
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.50777906
+              value: 0.030789066
+              inSlope: -0.018236782
+              outSlope: 109.017845
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.51635534
+              value: 0.96575594
+              inSlope: 109.017845
+              outSlope: -0.22819893
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.588902
+              value: 0.94920087
+              inSlope: -0.22819893
+              outSlope: -53.527683
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.60613966
+              value: 0.02650867
+              inSlope: -53.527683
+              outSlope: 0.029020313
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.6236894
+              value: 0.02701797
+              inSlope: 0.029020313
+              outSlope: 194.69296
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.62840223
+              value: 0.94457084
+              inSlope: 194.69296
+              outSlope: -0.25571322
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.69896424
+              value: 0.9265272
+              inSlope: -0.25571322
+              outSlope: -51.782967
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.7162761
+              value: 0.030067176
+              inSlope: -51.782967
+              outSlope: -0.019510666
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.7365352
+              value: 0.029671907
+              inSlope: -0.019510666
+              outSlope: 224.5744
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.7404827
+              value: 0.9161785
+              inSlope: 224.5744
+              outSlope: -0.42109615
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.8038645
+              value: 0.8894887
+              inSlope: -0.42109615
+              outSlope: -83.57005
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.8142473
+              value: 0.02179493
+              inSlope: -83.57005
+              outSlope: -0.12655166
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.8246021
+              value: 0.02048451
+              inSlope: -0.12655166
+              outSlope: 29.53195
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.8529241
+              value: 0.8568879
+              inSlope: 29.53195
+              outSlope: -0.96526426
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.9057358
+              value: 0.80591065
+              inSlope: -0.96526426
+              outSlope: -44.714993
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.92337364
+              value: 0.01723434
+              inSlope: -44.714993
+              outSlope: -0.24141647
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.943725
+              value: 0.012321189
+              inSlope: -0.24141647
+              outSlope: 540.39307
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.9451045
+              value: 0.757788
+              inSlope: 540.39307
+              outSlope: -2.231199
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.9828466
+              value: 0.6735778
+              inSlope: -2.231199
+              outSlope: -39.19826
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.9999484
+              value: 0.0032183458
+              inSlope: -39.19826
+              outSlope: -14.2026825
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 030000000000803f00
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000070000000f00000016000000
+        paramName:
+        - hero
+        - type
+        - totalTime
+        - animCurve
+        paramDataPos: 00000000000000000400000000000000
+        paramByteDataSize: 00000000040000000500000000000000
+    - name: PlayAnimation
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 425
+        y: 349
+        width: 110
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: PlayDie
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Break
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: OverState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - AddAnimationEndListener
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 89f3a402
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: cdcc4c3d00
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000170000000f000000
+        paramName:
+        - characterObj
+        - endEvent
+        - delay
+        paramDataPos: 000000000000000000000000
+        paramByteDataSize: 000000000000000005000000
+    - name: SetHeroDieState
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 425
+        y: 251
+        width: 120
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: PlayAnimation
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - CharacterState
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 38b23200
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToDieState
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000120000000f000000
+        paramName:
+        - character
+        - stateName
+        - delay
+        paramDataPos: 000000000000000000000000
+        paramByteDataSize: 000000000000000005000000
+    - name: SetHeroIdle
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 437
+        y: 168
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: SetHeroDieState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - CharacterState
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 38b23200
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToIdleState
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000120000000f000000
+        paramName:
+        - character
+        - stateName
+        - delay
+        paramDataPos: 000000000000000000000000
+        paramByteDataSize: 000000000000000005000000
+    events:
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: Break
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToBlinkState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToInitializeState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToLightDie
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToNormalDie
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToOverState
+      isSystemEvent: 0
+      isGlobal: 0
+    globalTransitions: []
+    variables:
+      floatVariables: []
+      intVariables: []
+      boolVariables: []
+      stringVariables: []
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables:
+      - useVariable: 1
+        name: Main
+        tooltip: Main Character
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 0}
+      objectVariables: []
+      materialVariables: []
+      textureVariables: []
+      arrayVariables: []
+      enumVariables: []
+      categories:
+      - 
+      variableCategoryIDs:
+    description:
+    docUrl:
+    showStateLabel: 1
+    maxLoopCount: 0
+    watermark:
+    password:
+    locked: 0
+    manualUpdate: 0
+    outVariableIndices:
+    keepDelayedEventsOnStateExit: 0
+    preprocessed: 0
+    ExposedEvents: []
+    OutputEvents: []
+    RestartOnEnable: 1
+    ResetVariablesOnEnable: 0
+    EnableDebugFlow: 1
+    EnableBreakpoints: 1
+    editorFlags: 225
+    activeStateName:
+    mouseEvents: 0
+    handleLevelLoaded: 0
+    handleTriggerEnter2D: 0
+    handleTriggerExit2D: 0
+    handleTriggerStay2D: 0
+    handleCollisionEnter2D: 0
+    handleCollisionExit2D: 0
+    handleCollisionStay2D: 0
+    handleTriggerEnter: 0
+    handleTriggerExit: 0
+    handleTriggerStay: 0
+    handleCollisionEnter: 0
+    handleCollisionExit: 0
+    handleCollisionStay: 0
+    handleParticleCollision: 0
+    handleControllerColliderHit: 0
+    handleJointBreak: 0
+    handleJointBreak2D: 0
+    handleOnGUI: 0
+    handleFixedUpdate: 0
+    handleLateUpdate: 0
+    handleApplicationEvents: 0
+    handleUiEvents: 0
+    handleLegacyNetworking: 0
+    handleAnimatorMove: 0
+    handleAnimatorIK: 0
+  fsmTemplate: {fileID: 0}
+  eventHandlerComponentsAdded: 0

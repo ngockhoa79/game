@@ -1,0 +1,1650 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4618682377417806}
+  - component: {fileID: 114703437598541787}
+  m_Layer: 0
+  m_Name: Skill_233221
+  m_TagString: Skill
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1730242686860875
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4884547391421755}
+  - component: {fileID: 114099118695303065}
+  m_Layer: 0
+  m_Name: Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1724804207875695
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4243736805655561}
+  - component: {fileID: 114061268324235159}
+  m_Layer: 0
+  m_Name: Target1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4618682377417806
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4884547391421755}
+  - {fileID: 4243736805655561}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114703437598541787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0e6082f2e2eca738e1678cda525ce2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  SkillId: 1
+  SourceFighterId: 1
+  MainTargetId: 0
+  TargetFighters:
+--- !u!4 &4884547391421755
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730242686860875}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4618682377417806}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114099118695303065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730242686860875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: daca89c25bd1813ceecbbbb8555342a7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  fsm:
+    dataVersion: 1
+    usedInTemplate: {fileID: 0}
+    name: SkillMain
+    startState: Wait For Initialize
+    states:
+    - name: Wait For Initialize
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 58.96875
+        y: 131
+        width: 129
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToInitializeState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Initialize
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled:
+        actionIsOpen:
+        actionStartIndex:
+        actionHashCodes:
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData:
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType:
+        paramName: []
+        paramDataPos:
+        paramByteDataSize:
+    - name: Start
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 70
+        y: 323
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: JumpInState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - CharacterState
+        - HutongGames.PlayMaker.Actions.GetPosition
+        - HutongGames.PlayMaker.Actions.Wait
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 00000000030000000a000000
+        actionHashCodes: 38b232005552ad0548c01101
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Main
+            tooltip: Main Character
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToIdleState
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000000000000000000000000000000000014d61696e496e6974506f7300000000010000000001000000000100000000000000000001537570706f72744265666f72654a756d7054696d6500
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000120000000f000000140000001c0000000f0000000f0000000f00000007000000010000000f0000001700000001000000
+        paramName:
+        - character
+        - stateName
+        - delay
+        - gameObject
+        - vector
+        - x
+        - y
+        - z
+        - space
+        - everyFrame
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 00000000000000000000000000000000050000001d00000022000000270000002c00000030000000310000004b0000004b000000
+        paramByteDataSize: 000000000000000005000000000000001800000005000000050000000500000004000000010000001a0000000000000001000000
+    - name: Initialize
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 66.97656
+        y: 224
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Start
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - GetClientConfigData
+        - GetClientConfigData
+        - GetClientConfigData
+        - GetClientConfigData
+        - GetProfessionKeyTime
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 0101010101
+        actionIsOpen: 0101010101
+        actionStartIndex: 0000000002000000040000000600000008000000
+        actionHashCodes: 20e88a0220e88a0220e88a0220e88a0227c8dc00
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: HeroEnterJumpHeight
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: HeroEnterJumpTime
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: SupportBeforeJumpTime
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: NormalSkillNameDelay
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 00000000014a756d7048656967687400000000014a756d7054696d650000000001537570706f72744265666f72654a756d7054696d6500000000014e616d6544656c6179000000000148697454696d650c000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000000f000000120000000f000000120000000f000000120000000f000000130000000f00000007000000
+        paramName:
+        - name
+        - export
+        - name
+        - export
+        - name
+        - export
+        - name
+        - export
+        - hero
+        - keyTime
+        - keyName
+        paramDataPos: 0000000000000000010000000f000000020000001c0000000300000036000000000000004400000050000000
+        paramByteDataSize: 000000000f000000000000000d000000000000001a000000000000000e000000000000000c00000004000000
+    - name: Over State
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 342
+        y: 521.10156
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - SendMsgToSkillCtrller
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: d9ab9a01
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 020000000000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 07000000140000000f000000
+        paramName:
+        - msgType
+        - gameObject
+        - delay
+        paramDataPos: 000000000000000004000000
+        paramByteDataSize: 040000000000000005000000
+    - name: CastState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 332
+        y: 192
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: AddBuffState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - CharacterState
+        - PlayEffect
+        - HutongGames.PlayMaker.Actions.Wait
+        - CosDestroyObject
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 00000000030000000b0000000e000000
+        actionHashCodes: 38b23200b2c1ee0548c011018d4bb503
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: HoldEffectObject
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToSkillCastState
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: fx_233221_cast
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 00000000000000000000000000000020c100cdcc4c3e00000000000000000000000000000000000000000148697454696d6500
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000120000000f0000001300000013000000120000001c0000000f000000130000001c000000110000000f000000170000000100000014000000
+        paramName:
+        - character
+        - stateName
+        - delay
+        - mainHero
+        - attachHero
+        - effectName
+        - offset
+        - delay
+        - export
+        - exportOffset
+        - bind
+        - time
+        - finishEvent
+        - realTime
+        - gameObject
+        paramDataPos: 000000000000000000000000010000000200000001000000050000001200000003000000170000002400000026000000320000003200000000000000
+        paramByteDataSize: 0000000000000000050000000000000000000000000000000d00000005000000000000000d000000020000000c000000000000000100000000000000
+    - name: JumpInState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 72
+        y: 419
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: HoldState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HeroJump
+        - CharacterState
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000006000000
+        actionHashCodes: 05c48c0238b23200
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Target
+          tooltip: Sub Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToJumpState
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000000000000000000000000100000000014a756d7054696d65000020430000000000014a756d704865696768740000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000130000001c0000000f0000000f0000000f00000013000000120000000f000000
+        paramName:
+        - main
+        - target
+        - targetPos
+        - time
+        - distance
+        - height
+        - character
+        - stateName
+        - delay
+        paramDataPos: 0000000001000000000000000d0000001a0000001f00000002000000000000002e000000
+        paramByteDataSize: 00000000000000000d0000000d000000050000000f000000000000000000000005000000
+    - name: IdleState
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 341
+        y: 354
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: JumpOutState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - CharacterState
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 38b23200
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToIdleState
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000120000000f000000
+        paramName:
+        - character
+        - stateName
+        - delay
+        paramDataPos: 000000000000000000000000
+        paramByteDataSize: 000000000000000005000000
+    - name: JumpOutState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 335
+        y: 438
+        width: 107
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Over State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HeroJump
+        - CharacterState
+        - CosBgEffect
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000600000009000000
+        actionHashCodes: 05c48c0238b232005e717901
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToJumpState
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 000000000000000000000000014d61696e496e6974506f7300000000014a756d7054696d65000000000000000000014a756d704865696768740000000000010000000000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000130000001c0000000f0000000f0000000f00000013000000120000000f000000070000000f000000
+        paramName:
+        - main
+        - target
+        - targetPos
+        - time
+        - distance
+        - height
+        - character
+        - stateName
+        - delay
+        - effectType
+        - delay
+        paramDataPos: 00000000010000000000000018000000250000002a0000000200000000000000390000003e00000042000000
+        paramByteDataSize: 0000000000000000180000000d000000050000000f0000000000000000000000050000000400000005000000
+    - name: HoldState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 332
+        y: 109
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: CastState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - CosBgEffect
+        - HutongGames.PlayMaker.Actions.Wait
+        - CharacterState
+        - SendMsgToSkillCtrller
+        - SetSkillName
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 0100000101
+        actionIsOpen: 0101010101
+        actionStartIndex: 000000000200000005000000080000000b000000
+        actionHashCodes: 5e71790148c0110138b23200d9ab9a0120e88a02
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToSkillHoldState
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: fx_233221_name
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000000000000000000000803f000000000000000e00000000000000014e616d6544656c617900000000014e616d6544656c6179
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 070000000f0000000f000000170000000100000013000000120000000f00000007000000140000000f000000120000000f000000
+        paramName:
+        - effectType
+        - delay
+        - time
+        - finishEvent
+        - realTime
+        - character
+        - stateName
+        - delay
+        - msgType
+        - gameObject
+        - delay
+        - effectName
+        - delay
+        paramDataPos: 0000000004000000090000000e0000000e00000000000000000000000f0000001400000000000000180000000100000026000000
+        paramByteDataSize: 040000000500000005000000000000000100000000000000000000000500000004000000000000000e000000000000000e000000
+    - name: AddBuffState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 338
+        y: 276
+        width: 102
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - TargetsSendEvent
+        - HutongGames.PlayMaker.Actions.Wait
+        - SendMsgToSkillCtrller
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000300000006000000
+        actionHashCodes: 2b529d0348c01101d9ab9a01
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Main
+            tooltip: Main Character
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToAddBuffState
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000000000000000000000003f0000110000000000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000000f000000070000000f000000170000000100000007000000140000000f000000
+        paramName:
+        - eventName
+        - delay
+        - type
+        - time
+        - finishEvent
+        - realTime
+        - msgType
+        - gameObject
+        - delay
+        paramDataPos: 000000000000000005000000090000000e0000000e0000000f0000000000000013000000
+        paramByteDataSize: 000000000500000004000000050000000000000001000000040000000000000005000000
+    events:
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: ToInitializeState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToSkillFinishState
+      isSystemEvent: 0
+      isGlobal: 0
+    globalTransitions: []
+    variables:
+      floatVariables:
+      - useVariable: 1
+        name: HitTime
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: JumpHeight
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: JumpTime
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: NameDelay
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: SupportBeforeJumpTime
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      intVariables: []
+      boolVariables: []
+      stringVariables: []
+      vector2Variables: []
+      vector3Variables:
+      - useVariable: 1
+        name: MainInitPos
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value: {x: 0, y: 0, z: 0}
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables:
+      - useVariable: 1
+        name: HoldEffectObject
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
+      - useVariable: 1
+        name: Main
+        tooltip: Main Character
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 0}
+      - useVariable: 1
+        name: Target
+        tooltip: Sub Character
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 0}
+      objectVariables: []
+      materialVariables: []
+      textureVariables: []
+      arrayVariables: []
+      enumVariables: []
+      categories:
+      - 
+      variableCategoryIDs:
+    description:
+    docUrl:
+    showStateLabel: 1
+    maxLoopCount: 0
+    watermark:
+    password:
+    locked: 0
+    manualUpdate: 0
+    outVariableIndices:
+    keepDelayedEventsOnStateExit: 0
+    preprocessed: 0
+    ExposedEvents: []
+    OutputEvents: []
+    RestartOnEnable: 1
+    ResetVariablesOnEnable: 0
+    EnableDebugFlow: 1
+    EnableBreakpoints: 1
+    editorFlags: 225
+    activeStateName:
+    mouseEvents: 0
+    handleLevelLoaded: 0
+    handleTriggerEnter2D: 0
+    handleTriggerExit2D: 0
+    handleTriggerStay2D: 0
+    handleCollisionEnter2D: 0
+    handleCollisionExit2D: 0
+    handleCollisionStay2D: 0
+    handleTriggerEnter: 0
+    handleTriggerExit: 0
+    handleTriggerStay: 0
+    handleCollisionEnter: 0
+    handleCollisionExit: 0
+    handleCollisionStay: 0
+    handleParticleCollision: 0
+    handleControllerColliderHit: 0
+    handleJointBreak: 0
+    handleJointBreak2D: 0
+    handleOnGUI: 0
+    handleFixedUpdate: 0
+    handleLateUpdate: 0
+    handleApplicationEvents: 0
+    handleUiEvents: 0
+    handleLegacyNetworking: 0
+    handleAnimatorMove: 0
+    handleAnimatorIK: 0
+  fsmTemplate: {fileID: 0}
+  eventHandlerComponentsAdded: 0
+--- !u!4 &4243736805655561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724804207875695}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4618682377417806}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114061268324235159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724804207875695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: daca89c25bd1813ceecbbbb8555342a7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  fsm:
+    dataVersion: 1
+    usedInTemplate: {fileID: 0}
+    name: SkillTarget
+    startState: Wait For Initialize
+    states:
+    - name: Initialize
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 78
+        y: 182
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: StartState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled:
+        actionIsOpen:
+        actionStartIndex:
+        actionHashCodes:
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData:
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType:
+        paramName: []
+        paramDataPos:
+        paramByteDataSize:
+    - name: AddBuffState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 79
+        y: 348
+        width: 102
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Over State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SendMsgToSkillCtrller
+        - PlaySoundCos
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000003000000
+        actionHashCodes: d9ab9a0177fe8700
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Target
+            tooltip:
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: skill_grow_blind
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 000000000000000000000000000000000000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 07000000140000000f000000120000000f000000110000000f000000
+        paramName:
+        - msgType
+        - gameObject
+        - delay
+        - sound
+        - delay
+        - isStream
+        - playTime
+        paramDataPos: 00000000000000000400000000000000090000000e00000010000000
+        paramByteDataSize: 04000000000000000500000000000000050000000200000005000000
+    - name: StartState
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 68
+        y: 259
+        width: 118
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToAddBuffState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: AddBuffState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled:
+        actionIsOpen:
+        actionStartIndex:
+        actionHashCodes:
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData:
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType:
+        paramName: []
+        paramDataPos:
+        paramByteDataSize:
+    - name: Wait For Initialize
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 65.21875
+        y: 102.5
+        width: 129
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToInitializeState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Initialize
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled:
+        actionIsOpen:
+        actionStartIndex:
+        actionHashCodes:
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData:
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType:
+        paramName: []
+        paramDataPos:
+        paramByteDataSize:
+    - name: Over State
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 81
+        y: 443
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - SendMsgToSkillCtrller
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: d9ab9a01
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 020000000000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 07000000140000000f000000
+        paramName:
+        - msgType
+        - gameObject
+        - delay
+        paramDataPos: 000000000000000004000000
+        paramByteDataSize: 040000000000000005000000
+    events:
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: ToAddBuffState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToInitializeState
+      isSystemEvent: 0
+      isGlobal: 0
+    globalTransitions: []
+    variables:
+      floatVariables: []
+      intVariables: []
+      boolVariables: []
+      stringVariables: []
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables:
+      - useVariable: 1
+        name: Main
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 0}
+      - useVariable: 1
+        name: Target
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 0}
+      objectVariables: []
+      materialVariables: []
+      textureVariables: []
+      arrayVariables: []
+      enumVariables: []
+      categories:
+      - 
+      variableCategoryIDs:
+    description:
+    docUrl:
+    showStateLabel: 0
+    maxLoopCount: 0
+    watermark:
+    password:
+    locked: 0
+    manualUpdate: 0
+    outVariableIndices:
+    keepDelayedEventsOnStateExit: 0
+    preprocessed: 0
+    ExposedEvents: []
+    OutputEvents: []
+    RestartOnEnable: 0
+    ResetVariablesOnEnable: 0
+    EnableDebugFlow: 1
+    EnableBreakpoints: 1
+    editorFlags: 225
+    activeStateName:
+    mouseEvents: 0
+    handleLevelLoaded: 0
+    handleTriggerEnter2D: 0
+    handleTriggerExit2D: 0
+    handleTriggerStay2D: 0
+    handleCollisionEnter2D: 0
+    handleCollisionExit2D: 0
+    handleCollisionStay2D: 0
+    handleTriggerEnter: 0
+    handleTriggerExit: 0
+    handleTriggerStay: 0
+    handleCollisionEnter: 0
+    handleCollisionExit: 0
+    handleCollisionStay: 0
+    handleParticleCollision: 0
+    handleControllerColliderHit: 0
+    handleJointBreak: 0
+    handleJointBreak2D: 0
+    handleOnGUI: 0
+    handleFixedUpdate: 0
+    handleLateUpdate: 0
+    handleApplicationEvents: 0
+    handleUiEvents: 0
+    handleLegacyNetworking: 0
+    handleAnimatorMove: 0
+    handleAnimatorIK: 0
+  fsmTemplate: {fileID: 0}
+  eventHandlerComponentsAdded: 0

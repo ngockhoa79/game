@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: gesiLV4SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: f298c3d1bfef76a40b30c0fab9790cfc, type: 3}
+  uiAnimation: {fileID: 4900000, guid: e02e3e15f4c36f74fb0be405c3409ff6, type: 3}
+  battleAnimation: {fileID: 4900000, guid: c8441f8224c6ee14288c1d8018f7f520, type: 3}
+  atlasAsset: {fileID: 11400000, guid: 28234d9625f0feb4ebff9ea1f9d08017, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 11
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

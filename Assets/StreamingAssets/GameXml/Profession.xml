@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Gender: 0:Unknown  1:Male   2:Female
+  Profession: 1:Heavy Sword  2:Light Sword   3:Fighter  4:Mage
+  -->
+<ProfessionRoot>
+	<KeyTimes>
+		<KeyTime Name="hit_attack_normal_a">
+			<Profession Index="11" Value="0.5" />
+			<Profession Index="12" Value="0.5" />
+			<Profession Index="21" Value="0.2" />
+			<Profession Index="22" Value="0.1" />
+			<Profession Index="31" Value="0.2" />
+			<Profession Index="32" Value="0.5" />
+			<Profession Index="41" Value="0.2" />
+			<Profession Index="42" Value="0.2" />
+		</KeyTime>
+		<KeyTime Name="hit_attack_normal_b">
+			<Profession Index="11" Value="0.6" />
+			<Profession Index="12" Value="0.6" />
+			<Profession Index="21" Value="0.15" />
+			<Profession Index="22" Value="0.2" />
+			<Profession Index="31" Value="0.3" />
+			<Profession Index="32" Value="0.5" />
+			<Profession Index="41" Value="0.3" />
+			<Profession Index="42" Value="0.3" />
+		</KeyTime>
+		<KeyTime Name="hit_attack_heavy">
+			<Profession Index="11" Value="0.75" />
+			<Profession Index="12" Value="0.75" />
+			<Profession Index="21" Value="0.7" />
+			<Profession Index="22" Value="0.8" />
+			<Profession Index="31" Value="0.45" />
+			<Profession Index="32" Value="0.4" />
+			<Profession Index="41" Value="0.6" />
+			<Profession Index="42" Value="0.65" />
+		</KeyTime>
+		<KeyTime Name="effect_start_attack_normal_a">
+			<Profession Index="11" Value="0.45" />
+			<Profession Index="12" Value="0.5" />
+			<Profession Index="21" Value="0.05" />
+			<Profession Index="22" Value="0.05" />
+			<Profession Index="31" Value="0.25" />
+			<Profession Index="32" Value="0.4" />
+			<Profession Index="41" Value="0.12" />
+			<Profession Index="42" Value="0.12" />
+		</KeyTime>
+		<KeyTime Name="effect_start_attack_normal_b">
+			<Profession Index="11" Value="0.4" />
+			<Profession Index="12" Value="0.4" />
+			<Profession Index="21" Value="0.005" />
+			<Profession Index="22" Value="0.05" />
+			<Profession Index="31" Value="0.3" />
+			<Profession Index="32" Value="0.45" />
+			<Profession Index="41" Value="0.15" />
+			<Profession Index="42" Value="0.15" />
+		</KeyTime>
+		<KeyTime Name="effect_start_attack_heavy">
+			<Profession Index="11" Value="0.35" />
+			<Profession Index="12" Value="0.35" />
+			<Profession Index="21" Value="0.001" />
+			<Profession Index="22" Value="0.8" />
+			<Profession Index="31" Value="0.35" />
+			<Profession Index="32" Value="0.35" />
+			<Profession Index="41" Value="0.5" />
+			<Profession Index="42" Value="0.5" />
+		</KeyTime>
+		<KeyTime Name="hit_attack_crowd">
+			<Profession Index="11" Value="0.3" />
+			<Profession Index="12" Value="0.5" />
+			<Profession Index="21" Value="0.3" />
+			<Profession Index="22" Value="0.15" />
+			<Profession Index="31" Value="0.5" />
+			<Profession Index="32" Value="0.6" />
+			<Profession Index="41" Value="0.4" />
+			<Profession Index="42" Value="0.3" />
+		</KeyTime>
+		<KeyTime Name="effect_start_attack_crowd">
+			<!--旋风斩（群攻特效基准时间）-->
+			<Profession Index="11" Value="0.25" />
+			<Profession Index="12" Value="0.5" />
+			<Profession Index="21" Value="0.25" />
+			<Profession Index="22" Value="0.01" />
+			<Profession Index="31" Value="0.5" />
+			<Profession Index="32" Value="0.5" />
+			<Profession Index="41" Value="0.3" />
+			<Profession Index="42" Value="0.3" />
+		</KeyTime>
+		<KeyTime Name="effect_start_441491">
+			<!--天崩地裂-->
+			<Profession Index="11" Value="0.2" />
+			<Profession Index="12" Value="0.3" />
+			<Profession Index="21" Value="0.1" />
+			<Profession Index="22" Value="0.25" />
+			<Profession Index="31" Value="0.01" />
+			<Profession Index="32" Value="0.01" />
+			<Profession Index="41" Value="0.1" />
+			<Profession Index="42" Value="0" />
+		</KeyTime>
+		<KeyTime Name="effect_start_431401">
+			<!--冥道残破斩-->
+			<Profession Index="11" Value="0.4" />
+			<Profession Index="12" Value="0.35" />
+			<Profession Index="21" Value="0.05" />
+			<Profession Index="22" Value="0.1" />
+			<Profession Index="31" Value="0.1" />
+			<Profession Index="32" Value="0.2" />
+			<Profession Index="41" Value="0.1" />
+			<Profession Index="42" Value="0.1" />
+		</KeyTime>
+		<KeyTime Name="effect_start_431381">
+			<!--风之伤-->
+			<Profession Index="11" Value="0.45" />
+			<Profession Index="12" Value="0.45" />
+			<Profession Index="21" Value="0.3" />
+			<Profession Index="22" Value="0.45" />
+			<Profession Index="31" Value="0.3" />
+			<Profession Index="32" Value="0.25" />
+			<Profession Index="41" Value="0.3" />
+			<Profession Index="42" Value="0.25" />
+		</KeyTime>
+		<KeyTime Name="sky_wait_441431">
+			<!--空中爆破-->
+			<Profession Index="11" Value="1" />
+			<Profession Index="12" Value="1.3" />
+			<Profession Index="21" Value="1.5" />
+			<Profession Index="22" Value="1.3" />
+			<Profession Index="31" Value="1.3" />
+			<Profession Index="32" Value="1.3" />
+			<Profession Index="41" Value="1.2" />
+			<Profession Index="42" Value="1.35" />
+		</KeyTime>
+		<KeyTime Name="hit_skill_cast">
+			<!--空中攻击动作-->
+			<Profession Index="11" Value="0.6" />
+			<Profession Index="12" Value="0.45" />
+			<Profession Index="21" Value="0.3" />
+			<Profession Index="22" Value="0.3" />
+			<Profession Index="31" Value="0.4" />
+			<Profession Index="32" Value="0.55" />
+			<Profession Index="41" Value="0.3" />
+			<Profession Index="42" Value="0.4" />
+		</KeyTime>
+	</KeyTimes>
+	<SkillDistances>
+		<Profession Index="11" Profession="1" Gender="1">
+			<!-- Zhongjian Nan -->
+			<Distance Name="melee_normal1" Value="240" />
+			<Distance Name="melee_normal2" Value="200" />
+			<Distance Name="melee_heavy" Value="230" />
+		</Profession>
+		<Profession Index="12" Profession="1" Gender="2">
+			<!-- Zhongjian Nv -->
+			<Distance Name="melee_normal1" Value="290" />
+			<Distance Name="melee_normal2" Value="200" />
+			<Distance Name="melee_heavy" Value="230" />
+		</Profession>
+		<Profession Index="21" Profession="2" Gender="1">
+			<!-- Qingjian Nan -->
+			<Distance Name="melee_normal1" Value="105" />
+			<Distance Name="melee_normal2" Value="110" />
+			<Distance Name="melee_heavy" Value="110" />
+		</Profession>
+		<Profession Index="22" Profession="2" Gender="2">
+			<!-- Qingjian Nv -->
+			<Distance Name="melee_normal1" Value="105" />
+			<Distance Name="melee_normal2" Value="110" />
+			<Distance Name="melee_heavy" Value="110" />
+		</Profession>
+		<Profession Index="31" Profession="3" Gender="1">
+			<!-- Gedou Nan -->
+			<Distance Name="melee_normal1" Value="105" />
+			<Distance Name="melee_normal2" Value="105" />
+			<Distance Name="melee_heavy" Value="105" />
+		</Profession>
+		<Profession Index="32" Profession="3" Gender="2">
+			<!-- Gedou Nv -->
+			<Distance Name="melee_normal1" Value="105" />
+			<Distance Name="melee_normal2" Value="100" />
+			<Distance Name="melee_heavy" Value="100" />
+		</Profession>
+		<Profession Index="41" Profession="4" Gender="1">
+			<!-- Fashi Nan -->
+			<Distance Name="melee_normal1" Value="300" />
+			<Distance Name="melee_normal2" Value="300" />
+			<Distance Name="melee_heavy" Value="240" />
+		</Profession>
+		<Profession Index="42" Profession="4" Gender="2">
+			<!-- Fashi Nv -->
+			<Distance Name="melee_normal1" Value="300" />
+			<Distance Name="melee_normal2" Value="300" />
+			<Distance Name="melee_heavy" Value="240" />
+		</Profession>
+	</SkillDistances>
+	<Positions>
+		<Profession Index="11" Profession="1" Gender="1">
+			<!-- Zhongjian Nan -->
+			<Position Name="duel_cast_effect" X="180" Y="45" Z="-20" />
+		</Profession>
+		<Profession Index="12" Profession="1" Gender="2">
+			<!-- Zhongjian Nv -->
+			<Position Name="duel_cast_effect" X="180" Y="45" Z="-20" />
+		</Profession>
+		<Profession Index="21" Profession="2" Gender="1">
+			<!-- Qingjian Nan -->
+			<Position Name="duel_cast_effect" X="110" Y="55" Z="-20" />
+		</Profession>
+		<Profession Index="22" Profession="2" Gender="2">
+			<!-- Qingjian Nv -->
+			<Position Name="duel_cast_effect" X="110" Y="55" Z="-20" />
+		</Profession>
+		<Profession Index="31" Profession="3" Gender="1">
+			<!-- Gedou Nan -->
+			<Position Name="duel_cast_effect" X="80" Y="40" Z="-20" />
+		</Profession>
+		<Profession Index="32" Profession="3" Gender="2">
+			<!-- Gedou Nv -->
+			<Position Name="duel_cast_effect" X="80" Y="40" Z="-20" />
+		</Profession>
+		<Profession Index="41" Profession="4" Gender="1">
+			<!-- Fashi Nan -->
+			<Position Name="duel_cast_effect" X="80" Y="55" Z="-20" />
+		</Profession>
+		<Profession Index="42" Profession="4" Gender="2">
+			<!-- Fashi Nv -->
+			<Position Name="duel_cast_effect" X="80" Y="55" Z="-20" />
+		</Profession>
+	</Positions>
+</ProfessionRoot>

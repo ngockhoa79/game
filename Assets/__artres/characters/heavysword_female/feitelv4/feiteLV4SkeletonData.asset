@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: feiteLV4SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: 44180e4a28985394a8e04ae637942085, type: 3}
+  uiAnimation: {fileID: 4900000, guid: f6d0772ad44fe9b42800c753fdb68f7f, type: 3}
+  battleAnimation: {fileID: 4900000, guid: fb51726cdcfcfad42acb4f52970ebab6, type: 3}
+  atlasAsset: {fileID: 11400000, guid: 6d9e78844a7c6924ca499d72f7e4c745, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 12
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

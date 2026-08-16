@@ -1,0 +1,12 @@
+public class _bec5121b7e8d3cf4545e166525a19432
+{
+	private int _bec5121b7e8d3cf4545e166525a19432m2(int _bec5121b7e8d3cf4545e166525a19432a)
+	{
+		return 0;
+	}
+
+	public int _bec5121b7e8d3cf4545e166525a19432m(int _bec5121b7e8d3cf4545e166525a19432a, int _bec5121b7e8d3cf4545e166525a1943281, int _bec5121b7e8d3cf4545e166525a19432c = 0)
+	{
+		return 0;
+	}
+}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: bolilingmengLV3SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: ff4f93a5b176b214bbbc5e6da0f4790d, type: 3}
+  uiAnimation: {fileID: 4900000, guid: a7cf1abe63cac1f43b4d49ff7e605c84, type: 3}
+  battleAnimation: {fileID: 4900000, guid: 959792518872b1c4193a5d7dd7552c57, type: 3}
+  atlasAsset: {fileID: 11400000, guid: f4a2a967af3f8b846aad2a668c07c678, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 42
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

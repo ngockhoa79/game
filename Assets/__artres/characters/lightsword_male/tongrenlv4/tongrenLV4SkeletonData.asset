@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: tongrenLV4SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: 72d273a4c77797442a59b6081ce66fd1, type: 3}
+  uiAnimation: {fileID: 4900000, guid: 138807db09d45514286b2dccd4f580b2, type: 3}
+  battleAnimation: {fileID: 4900000, guid: 60718b507d97efb4c8d22f81f9fa21af, type: 3}
+  atlasAsset: {fileID: 11400000, guid: e598b2578359dcd4c900733e84435114, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 21
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

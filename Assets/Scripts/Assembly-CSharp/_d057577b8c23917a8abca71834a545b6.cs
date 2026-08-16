@@ -1,0 +1,12 @@
+public class _d057577b8c23917a8abca71834a545b6
+{
+	private int _d057577b8c23917a8abca71834a545b6m2(int _d057577b8c23917a8abca71834a545b6a)
+	{
+		return 0;
+	}
+
+	public int _d057577b8c23917a8abca71834a545b6m(int _d057577b8c23917a8abca71834a545b6a, int _d057577b8c23917a8abca71834a545b672, int _d057577b8c23917a8abca71834a545b6c = 0)
+	{
+		return 0;
+	}
+}

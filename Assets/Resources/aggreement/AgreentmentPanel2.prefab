@@ -1,0 +1,1141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4044625135789424}
+  - component: {fileID: 114589667821646929}
+  - component: {fileID: 114372920208702427}
+  m_Layer: 8
+  m_Name: AgreentmentPanel2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1730242686860875
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4025901758691103}
+  - component: {fileID: 114985305603660343}
+  - component: {fileID: 65705390221481576}
+  - component: {fileID: 114977153420339851}
+  m_Layer: 8
+  m_Name: btnCancel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1724804207875695
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4336590748365959}
+  - component: {fileID: 114256069497284392}
+  m_Layer: 8
+  m_Name: Label
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1618682377417806
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4161607090078389}
+  - component: {fileID: 114002669891404536}
+  - component: {fileID: 65470112387431263}
+  - component: {fileID: 114313026266067498}
+  m_Layer: 8
+  m_Name: BtnConfirm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1703437598541787
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4621510681728303}
+  - component: {fileID: 114632457200066912}
+  m_Layer: 8
+  m_Name: Label
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1884547391421755
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4634108722742392}
+  - component: {fileID: 114302127217294661}
+  m_Layer: 8
+  m_Name: bg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1099118695303065
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4969106005120503}
+  - component: {fileID: 114642988549198181}
+  - component: {fileID: 114946936116752871}
+  m_Layer: 8
+  m_Name: ScrollView
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1243736805655561
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4711914853252429}
+  - component: {fileID: 114918264173551851}
+  - component: {fileID: 65587397909062814}
+  - component: {fileID: 114875609422105747}
+  m_Layer: 8
+  m_Name: ContentDebug
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1061268324235159
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4371939378208658}
+  - component: {fileID: 114694121525821480}
+  m_Layer: 8
+  m_Name: Grid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1587765826080250
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4320256170494724}
+  - component: {fileID: 114017697238300914}
+  - component: {fileID: 65733206282342372}
+  - component: {fileID: 114217368724061974}
+  m_Layer: 8
+  m_Name: Content
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1709867586078768
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4089843903986396}
+  - component: {fileID: 114672306508523268}
+  - component: {fileID: 65808113985169905}
+  - component: {fileID: 114060945828524476}
+  m_Layer: 8
+  m_Name: Content (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4044625135789424
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0015999, y: 1.0015999, z: 1.0015999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4025901758691103}
+  - {fileID: 4161607090078389}
+  - {fileID: 4634108722742392}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114589667821646929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7c3bff608434c7f74859fbc7af5fe1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  updateAnchors: 1
+  showInPanelTool: 1
+  generateNormals: 0
+  widgetsAreStatic: 0
+  cullWhileDragging: 0
+  alwaysOnScreen: 0
+  anchorOffset: 0
+  softBorderPadding: 1
+  renderQueue: 0
+  startingRenderQueue: 3012
+  mClipTexture: {fileID: 0}
+  mAlpha: 1
+  mClipping: 0
+  mClipRange: {x: 0, y: 0, z: 0, w: 0}
+  mClipSoftness: {x: 40, y: 40}
+  mDepth: 25
+  mSortingOrder: 0
+  mSortingLayerName:
+  mClipOffset: {x: 0, y: 0}
+--- !u!114 &114372920208702427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 095e847e59f1486a6b846d114dace054, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  btnClose: {fileID: 114977153420339851}
+--- !u!4 &4025901758691103
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730242686860875}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 145.5, y: -234, z: 0}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4336590748365959}
+  m_Father: {fileID: 4044625135789424}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114985305603660343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730242686860875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  updateAnchors: 1
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mWidth: 188
+  mHeight: 74
+  mDepth: 6
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 2.5405405
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+  mFlip: 0
+  centerType: 1
+  leftType: 1
+  rightType: 1
+  bottomType: 1
+  topType: 1
+  mAtlasName:
+  mAtlas: {fileID: 114724804207875695, guid: 04aa03b36390ba549aa7407efb8c8a10, type: 2}
+  mSpriteName: b-07
+  mFillCenter: 1
+--- !u!65 &65705390221481576
+BoxCollider:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730242686860875}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Size: {x: 155.9, y: 60, z: 60}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114977153420339851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730242686860875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f1bc44d721873d8c7e8da0ffcb40704, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!4 &4336590748365959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724804207875695}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4025901758691103}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114256069497284392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724804207875695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  updateAnchors: 1
+  mColor: {r: 0.25, g: 0.25, b: 0.25, a: 1}
+  mPivot: 4
+  mWidth: 151
+  mHeight: 49
+  mDepth: 7
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 3.0816326
+  keepCrispWhenShrunk: 1
+  mTrueTypeFont: {fileID: 12800000, guid: 83d26eff09c947348b7ef29d0c31628c, type: 3}
+  mFont: {fileID: 0}
+  mText: 拒绝
+  mFontSize: 30
+  mFontStyle: 0
+  mAlignment: 0
+  mEncoding: 1
+  mMaxLineCount: 0
+  mEffectStyle: 2
+  mEffectColor: {r: 0.97794116, g: 0.97794116, b: 0.97794116, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mOverflow: 0
+  mMaterial: {fileID: 0}
+  mApplyGradient: 0
+  mGradientTop: {r: 1, g: 1, b: 1, a: 1}
+  mGradientBottom: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  mSpacingX: 0
+  mSpacingY: 0
+  mUseFloatSpacing: 0
+  mFloatSpacingX: 0
+  mFloatSpacingY: 0
+  mShrinkToFit: 0
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mLineWidth: 0
+  mMultiline: 1
+  mFontName:
+--- !u!4 &4161607090078389
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618682377417806}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -144.8, y: -234.19998, z: 0}
+  m_LocalScale: {x: 0.70079994, y: 0.70079994, z: 1.0015999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4621510681728303}
+  m_Father: {fileID: 4044625135789424}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114002669891404536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618682377417806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  updateAnchors: 1
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mWidth: 188
+  mHeight: 74
+  mDepth: 6
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 2.5405405
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+  mFlip: 0
+  centerType: 1
+  leftType: 1
+  rightType: 1
+  bottomType: 1
+  topType: 1
+  mAtlasName:
+  mAtlas: {fileID: 114724804207875695, guid: 04aa03b36390ba549aa7407efb8c8a10, type: 2}
+  mSpriteName: b-07
+  mFillCenter: 1
+--- !u!65 &65470112387431263
+BoxCollider:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618682377417806}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Size: {x: 155.9, y: 60, z: 60}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114313026266067498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618682377417806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f1bc44d721873d8c7e8da0ffcb40704, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!4 &4621510681728303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703437598541787}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4161607090078389}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114632457200066912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703437598541787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  updateAnchors: 1
+  mColor: {r: 0.25, g: 0.25, b: 0.25, a: 1}
+  mPivot: 4
+  mWidth: 151
+  mHeight: 49
+  mDepth: 7
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 3.0816326
+  keepCrispWhenShrunk: 1
+  mTrueTypeFont: {fileID: 12800000, guid: 83d26eff09c947348b7ef29d0c31628c, type: 3}
+  mFont: {fileID: 0}
+  mText: 同意
+  mFontSize: 30
+  mFontStyle: 0
+  mAlignment: 0
+  mEncoding: 1
+  mMaxLineCount: 0
+  mEffectStyle: 2
+  mEffectColor: {r: 0.97794116, g: 0.97794116, b: 0.97794116, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mOverflow: 0
+  mMaterial: {fileID: 0}
+  mApplyGradient: 0
+  mGradientTop: {r: 1, g: 1, b: 1, a: 1}
+  mGradientBottom: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  mSpacingX: 0
+  mSpacingY: 0
+  mUseFloatSpacing: 0
+  mFloatSpacingX: 0
+  mFloatSpacingY: 0
+  mShrinkToFit: 0
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mLineWidth: 0
+  mMultiline: 1
+  mFontName:
+--- !u!4 &4634108722742392
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884547391421755}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4969106005120503}
+  m_Father: {fileID: 4044625135789424}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114302127217294661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884547391421755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  updateAnchors: 1
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mWidth: 893
+  mHeight: 585
+  mDepth: 0
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 1.5264957
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+  mFlip: 0
+  centerType: 1
+  leftType: 1
+  rightType: 1
+  bottomType: 1
+  topType: 1
+  mAtlasName:
+  mAtlas: {fileID: 114724804207875695, guid: 04aa03b36390ba549aa7407efb8c8a10, type: 2}
+  mSpriteName: a-02
+  mFillCenter: 1
+--- !u!4 &4969106005120503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099118695303065}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4711914853252429}
+  - {fileID: 4371939378208658}
+  m_Father: {fileID: 4634108722742392}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114642988549198181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099118695303065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7c3bff608434c7f74859fbc7af5fe1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  updateAnchors: 1
+  showInPanelTool: 1
+  generateNormals: 0
+  widgetsAreStatic: 0
+  cullWhileDragging: 0
+  alwaysOnScreen: 0
+  anchorOffset: 0
+  softBorderPadding: 1
+  renderQueue: 0
+  startingRenderQueue: 3014
+  mClipTexture: {fileID: 0}
+  mAlpha: 1
+  mClipping: 3
+  mClipRange: {x: 0, y: 0, z: 839.6, w: 420.27}
+  mClipSoftness: {x: 1, y: 12}
+  mDepth: 100002
+  mSortingOrder: 0
+  mSortingLayerName:
+  mClipOffset: {x: 0, y: 0}
+--- !u!114 &114946936116752871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099118695303065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 141259954a6143d42fcbe0b240fe34b2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  movement: 1
+  dragEffect: 2
+  restrictWithinPanel: 1
+  disableDragIfFits: 0
+  smoothDragStart: 1
+  iOSDragEmulation: 1
+  scrollWheelFactor: 0.25
+  momentumAmount: 35
+  horizontalScrollBar: {fileID: 0}
+  verticalScrollBar: {fileID: 0}
+  showScrollBars: 1
+  customMovement: {x: 1, y: 0}
+  contentPivot: 1
+  sensitive: 1
+  scale: {x: 0, y: 0, z: 0}
+  relativePositionOnReset: {x: 0, y: 0}
+  centerOnChild: {fileID: 0}
+--- !u!4 &4711914853252429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243736805655561}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4969106005120503}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114918264173551851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243736805655561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  updateAnchors: 1
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mWidth: 560
+  mHeight: 600
+  mDepth: 21
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 0.93333334
+  mType: 2
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+  mFlip: 0
+  centerType: 1
+  leftType: 1
+  rightType: 1
+  bottomType: 1
+  topType: 1
+  mAtlasName:
+  mAtlas: {fileID: 114724804207875695, guid: 988a673d2dcbc6646a22b118807cf0b1, type: 2}
+  mSpriteName: Convoy4_text_rule
+  mFillCenter: 1
+--- !u!65 &65587397909062814
+BoxCollider:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243736805655561}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Size: {x: 560, y: 600, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114875609422105747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243736805655561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc65df5b24e5821c40f7df5bd607c0b5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  scrollView: {fileID: 114946936116752871}
+  draggablePanel: {fileID: 0}
+--- !u!4 &4371939378208658
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061268324235159}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.92, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4320256170494724}
+  - {fileID: 4089843903986396}
+  m_Father: {fileID: 4969106005120503}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114694121525821480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061268324235159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f170ccedc2dee46552adc31ccdaae8fa, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  arrangement: 1
+  sorting: 0
+  pivot: 0
+  maxPerLine: 1
+  cellWidth: 810
+  cellHeight: 810
+  animateSmoothly: 0
+  hideInactive: 0
+  keepWithinPanel: 0
+  sorted: 0
+--- !u!4 &4320256170494724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587765826080250}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4371939378208658}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114017697238300914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587765826080250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  updateAnchors: 1
+  mColor: {r: 0, g: 0, b: 0, a: 1}
+  mPivot: 4
+  mWidth: 810
+  mHeight: 9216
+  mDepth: 21
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 0.087890625
+  keepCrispWhenShrunk: 1
+  mTrueTypeFont: {fileID: 12800000, guid: 83d26eff09c947348b7ef29d0c31628c, type: 3}
+  mFont: {fileID: 0}
+  mText: "CHÍNH SÁCH BẢO MẬT \r\n\r\nKhi bạn sử dụng phần mềm hoặc dịch vụ game của chúng tôi, chúng tôi có thể thu thập và sử dụng thông tin liên quan của bạn. Chúng tôi cam kết bảo vệ nghiêm ngặt quyền riêng tư của bạn. Chính sách này nhằm giải thích cách chúng tôi thu thập và sử dụng các thông tin đó. \r\n\r\nChính sách này liên quan chặt chẽ đến phần mềm game và dịch vụ bạn sử dụng. Vui lòng đọc kỹ. Chúng tôi sẽ định kỳ sửa đổi chính sách này và thông báo qua trang web hoặc email. Việc tiếp tục sử dụng dịch vụ đồng nghĩa với việc bạn đồng ý cho phép chúng tôi thu thập và sử dụng thông tin theo chính sách này. \r\n\r\n1. Thông tin chúng tôi có thể thu thập \r\n\r\nKhi cung cấp dịch vụ, chúng tôi có thể thu thập, lưu trữ và sử dụng các thông tin liên quan đến bạn. Nếu bạn không cung cấp thông tin cần thiết, bạn có thể không thể đăng ký tài khoản hoặc sử dụng một số dịch vụ. \r\n1.1 Thông tin bạn cung cấp \r\n\r\n1.1.1 Thông tin cá nhân bạn cung cấp khi đăng ký tài khoản hoặc sử dụng dịch vụ, ví dụ số điện thoại, địa chỉ email, v.v. \r\n\r\n1.1.2 Thông tin chia sẻ bạn cung cấp cho bên khác qua dịch vụ của chúng tôi, và thông tin được lưu trữ khi bạn sử dụng dịch vụ. \r\n\r\n1.2 Thông tin được chia sẻ bởi bên khác \r\n\r\nThông tin về bạn được cung cấp bởi người khác khi họ sử dụng dịch vụ của chúng tôi. \r\n1.3 Thông tin chúng tôi thu thập \r\n\r\nKhi khởi động ứng dụng, trước khi người dùng đồng ý chính sách bảo mật, ứng dụng và SDK sẽ không thu thập trước các thông tin như IMEI, OAID, IMSI, MAC, danh sách ứng dụng, v.v. \r\n\r\nKhi bạn sử dụng dịch vụ, chúng tôi có thể thu thập: \r\n\r\n1.3.1 Thông tin nhật ký: hệ thống có thể tự động thu thập khi bạn sử dụng dịch vụ, bao gồm thông tin cấu hình thiết bị, địa chỉ IP, mã nhận dạng thiết bị, thông tin ứng dụng đã dùng và nội dung được chia sẻ qua dịch vụ. \r\n\r\n1.3.2 Thông tin vị trí: khi bạn bật tính năng định vị và sử dụng dịch vụ dựa trên vị trí, chúng tôi thu thập thông tin vị trí qua GPS hoặc WiFi. Bạn có thể tắt tính năng định vị để dừng thu thập. \r\n\r\n2. Cách chúng tôi thu thập thông tin \r\n\r\n2.1 Chúng tôi hoặc đối tác bên thứ ba có thể thu thập và sử dụng thông tin của bạn qua nhiều phương tiện, ghi lại hành vi chơi game và lưu trữ dưới dạng nhật ký. \r\n\r\n2.2 Chúng tôi sử dụng thông tin thu thập để cung cấp trải nghiệm và dịch vụ tốt hơn, bao gồm: \r\n\r\n2.2.1 Ghi nhớ danh tính của bạn. \r\n\r\n2.2.2 Phân tích cách bạn sử dụng dịch vụ. \r\n2.2.3 Tối ưu hóa quảng cáo. \r\n\r\n2.3 Chúng tôi có thể cung cấp thông tin phi cá nhân đã được thống kê cho nhà quảng cáo hoặc đối tác để phục vụ phân tích và quảng cáo. \r\n\r\n3. Cách chúng tôi sử dụng thông tin \r\n\r\n3.1 Thông tin thu thập có thể được sử dụng cho: \r\n3.1.1 Cung cấp dịch vụ cho bạn. \r\n\r\n3.1.2 Xác minh danh tính, hỗ trợ khách hàng, bảo mật, phát hiện gian lận, lưu trữ và sao lưu. \r\n3.1.3 Thiết kế dịch vụ mới và cải thiện dịch vụ hiện có. \r\n\r\n3.1.4 Đánh giá và cải thiện hiệu quả quảng cáo và các hoạt động khuyến mãi. \r\n\r\n3.1.5 Xác thực phần mềm hoặc quản lý cập nhật. \r\n\r\n3.1.6 Mời bạn tham gia khảo sát về sản phẩm và dịch vụ. \r\n\r\n3.2 Để bảo vệ tài khoản và giao dịch của bạn, chúng tôi có thể thu thập và xử lý: mã định danh thiết bị cố định, mã định danh thiết bị thay đổi được (Android ID, địa chỉ IP, OAID), thông tin thiết bị cơ bản, thông tin phần cứng (IMSI, IMEI, địa chỉ MAC), thông tin hệ điều hành, trạng thái thiết bị, mạng, IDFA, UUID. \r\n\r\n4. Thông tin chúng tôi có thể chia sẻ \r\n\r\nNgoài các trường hợp dưới đây, chúng tôi và công ty liên kết sẽ không chia sẻ thông tin cá nhân của bạn với bên thứ ba khi chưa có sự đồng ý của bạn. \r\n\r\n4.1 Chúng tôi có thể chia sẻ thông tin cá nhân của bạn với các công ty liên kết, đối tác và nhà cung cấp dịch vụ bên thứ ba cho các mục đích: \r\n\r\n4.1.1 Cung cấp dịch vụ cho bạn. \r\n\r\n4.1.2 Thực hiện các mục đích nêu trong mục Cach chung toi su dung thong tin. \r\n\r\n4.1.3 Thực hiện nghĩa vụ và thực thi quyền của chúng tôi theo Thỏa thuận dịch vụ hoặc Chính sách này. \r\n\r\n4.1.4 Hiểu, duy trì và cải thiện dịch vụ của chúng tôi. \r\n\r\n4.2 Chúng tôi sẽ đảm bảo các bên thứ ba tuân thủ chính sách bảo mật và các biện pháp bảo mật phù hợp. \r\n\r\n4.3 Trong trường hợp sáp nhập, mua lại hoặc chuyển nhượng tài sản, thông tin cá nhân của bạn có thể được chuyển giao. Chúng tôi sẽ thông báo cho bạn trước khi chuyển giao. \r\n\r\n4.4 Chúng tôi hoặc công ty liên kết cũng có thể lưu giữ hoặc tiết lộ thông tin cá nhân của bạn khi cần thiết để: \r\n4.4.1 Tuân thủ pháp luật và quy định hiện hành. \r\n\r\n4.4.2 Tuân thủ lệnh tòa án hoặc các thủ tục pháp lý khác. \r\n4.4.3 Tuân thủ yêu cầu của cơ quan chính phủ liên quan. \r\n\r\n4.4.4 Bảo vệ lợi ích hợp pháp của chúng tôi, khách hàng, người dùng hoặc nhân viên. \r\n4.4.5 Các trường hợp cần thiết khác. \r\n\r\n5. Quyền của bạn đối với thông tin cá nhân \r\n\r\nChúng tôi sẽ áp dụng mọi biện pháp kỹ thuật phù hợp để đảm bảo bạn có thể truy cập, cập nhật và chỉnh sửa thông tin cá nhân. Theo GDPR của EU, nếu bạn là người dùng tại Khu vực Kinh tế Châu Âu (EEA), bạn có các quyền: truy cập, chỉnh sửa, xóa, hạn chế, di chuyển dữ liệu và phản đối. \r\n5.1 Quyền truy cập \r\n\r\nBạn có quyền truy cập, tra cứu nguồn gốc, thời gian lưu trữ và sao chép thông tin cá nhân. \r\n5.2 Quyền chỉnh sửa \r\n\r\nChúng tôi sẽ đảm bảo thông tin cá nhân của bạn đầy đủ và chính xác. Nếu thông tin không chính xác, bạn có thể tự chỉnh sửa hoặc thông báo cho chúng tôi. \r\n5.3 Quyền xóa \r\n\r\nChúng tôi chỉ thu thập thông tin cần thiết. Nếu bạn cho rằng thông tin không còn cần thiết, bạn có thể tự xóa hoặc yêu cầu chúng tôi xóa. Lưu ý rằng xóa một số thông tin có thể ảnh hưởng đến khả năng sử dụng dịch vụ. \r\n5.4 Quyền hạn chế \r\n\r\nBạn có thể yêu cầu chúng tôi tạm dừng xử lý thông tin nếu bạn cho rằng việc thu thập là vi phạm pháp luật hoặc có lý do hợp lý khác. \r\n5.5 Quyền di chuyển dữ liệu \r\n\r\nBạn có quyền di chuyển thông tin cá nhân sang bên thứ ba khác. Bạn có thể liên hệ với chúng tôi để được hỗ trợ. \r\n5.6 Quyền phản đối \r\n\r\nBạn có quyền yêu cầu chúng tôi dừng thu thập và phân tích thông tin cá nhân. \r\n\r\n6. Bảo mật thông tin \r\n\r\n6.1 Chúng tôi chỉ lưu giữ thông tin cá nhân trong thời gian cần thiết theo mục đích của chính sách này và theo quy định pháp luật. \r\n\r\n6.2 Chúng tôi sử dụng nhiều công nghệ và quy trình bảo mật để ngăn ngừa mất mát, sử dụng sai mục đích hoặc truy cập trái phép. Tuy nhiên, không thể đảm bảo an toàn thông tin tuyệt đối 100% trong môi trường internet. \r\n\r\n7. Dịch vụ \r\n\r\n7.1 Chúng tôi có thể sử dụng thông tin của bạn để gửi thông tin tiếp thị và quảng bá các hàng hóa, dịch vụ sau: \r\n\r\n7.1.1 Hàng hóa hoặc dịch vụ của chúng tôi và các công ty liên kết, đối tác, bao gồm nhắn tin tức thì, truyền thông trực tuyến, giải trí tương tác, mạng xã hội, thanh toán, tìm kiếm internet, bản đồ, ứng dụng phần mềm, v.v. \r\n\r\n7.1.2 Hàng hóa hoặc dịch vụ của nhà cung cấp bên thứ ba liên quan đến: thực phẩm, thể thao, âm nhạc, phim ảnh, truyền hình, biểu diễn nghệ thuật, sách, tạp chí, quần áo, trang sức, mỹ phẩm, sức khỏe, điện tử, đồ sưu tập, nội thất, thú cưng, ô tô, khách sạn, du lịch, ngân hàng, bảo hiểm, tài chính, v.v. \r\n\r\n8. Email và thông tin chúng tôi có thể gửi cho bạn \r\n\r\n8.1 Thông báo đẩy và email \r\n\r\nKhi sử dụng dịch vụ, chúng tôi có thể gửi email, tin tức hoặc thông báo đẩy đến thiết bị của bạn. Nếu không muốn nhận, bạn có thể hủy đăng ký theo hướng dẫn. \r\n\r\n8.2 Thông báo liên quan đến dịch vụ \r\n\r\nChúng tôi có thể gửi thông báo liên quan đến dịch vụ khi cần thiết. Bạn có thể không thể hủy các thông báo này vì chúng không phải là quảng cáo. \r\n\r\n9. Phạm vi áp dụng của Chính sách Bảo mật \r\n\r\n9.1 Tất cả dịch vụ của chúng tôi đều áp dụng chính sách này, ngoại trừ một số dịch vụ cụ thể có chính sách riêng. \r\n\r\n9.2 Các điều khoản không được quy định trong chính sách này sẽ được điều chỉnh theo Thỏa thuận Cấp phép và Dịch vụ Game. \r\n\r\n9.3 Chính sách này không áp dụng cho: \r\n\r\n9.3.1 Thông tin thu thập bởi dịch vụ bên thứ ba được truy cập qua dịch vụ của chúng tôi. \r\n9.3.2 Thông tin thu thập bởi các công ty khác cung cấp dịch vụ quảng cáo trong dịch vụ của chúng tôi. \r\n\r\n10. Ngoại lệ áp dụng Chính sách Bảo mật \r\n\r\n10.1 Dịch vụ của chúng tôi có thể bao gồm hoặc liên kết đến mạng xã hội hoặc dịch vụ bên thứ ba. Ví dụ: \r\n\r\n10.1.1 Bạn sử dụng nút Chia se để chia sẻ nội dung, hoặc đăng nhập bằng dịch vụ kết nối bên thứ ba. \r\n\r\n10.1.2 Chúng tôi cung cấp liên kết đến dịch vụ hoặc trang web của bên thứ ba qua quảng cáo. \r\n\r\n10.2 Việc sử dụng các dịch vụ bên thứ ba sẽ bị ràng buộc bởi điều khoản và chính sách bảo mật của bên thứ ba đó. Chúng tôi không chịu trách nhiệm về cách bên thứ ba sử dụng thông tin bạn cung cấp. \r\n\r\n11. Trẻ vị thành niên sử dụng dịch vụ \r\n\r\n11.1 Chúng tôi khuyến khích phụ huynh hoặc người giám hộ hướng dẫn người chưa đủ 18 tuổi sử dụng dịch vụ của chúng tôi theo quy định pháp luật địa phương. \r\n\r\n11.2 Chúng tôi sẽ không cố ý thu thập thông tin cá nhân của trẻ vị thành niên. Trẻ vị thành niên cần được sự đồng ý của phụ huynh trước khi cung cấp thông tin cá nhân. \r\n\r\n12. Luật áp dụng và thẩm quyền \r\n\r\n12.1 Chính sách này áp dụng theo pháp luật Việt Nam. \r\n\r\n12.2 Bất kỳ tranh chấp nào phát sinh từ chính sách này sẽ được giải quyết bằng thương lượng; nếu không đạt được thỏa thuận, các bên có thể đưa ra tòa án có thẩm quyền để giải quyết. \r\n\r\n13. Liên hệ chúng tôi \r\n\r\nBạn có thể liên hệ với chuyên viên chính sách bảo mật của chúng tôi qua: \r\nEmail: 2285953853@qq.com\r\nHoặc liên hệ bộ phận hỗ trợ khách hàng (QQ: 2285953853)\r\n14. Khác\r\n14.1 Chúng tôi có quyền thay đổi các điều khoản thỏa thuận này khi cần thiết. Bạn có thể xem phiên bản mới nhất trên trang liên quan trong game. Nếu bạn tiếp tục sử dụng dịch vụ sau khi điều khoản thay đổi, đồng nghĩa bạn đã chấp nhận các điều khoản mới.\r\n14.2 Theo khuyến cáo về game lành mạnh: Tẩy chay game xấu, từ chối game lậu. Chú ý tự bảo vệ bản thân, cảnh giác bị lừa đảo. Chơi game điều độ tốt cho trí não, nghiện game hại sức khỏe.\r\nThỏa thuận này có hiệu lực kể từ ngày phát hành\r\n\r\nNgày phát hành: 16 tháng 02 năm 2023\r\n\r\nNgày cập nhật gần nhất: 01 tháng 03 năm 2023 " \r\n\r\nChính sách này liên quan chặt chẽ đến phần mềm game và dịch vụ bạn sử dụng. Vui lòng đọc kỹ. Chúng tôi sẽ định kỳ sửa đổi chính sách này và thông báo qua trang web hoặc email. Việc tiếp tục sử dụng dịch vụ đồng nghĩa với việc bạn đồng ý cho phép chúng tôi thu thập và sử dụng thông tin theo chính sách này. \r\n\r\n1. Thông tin chúng tôi có thể thu thập \r\n\r\nKhi cung cấp dịch vụ, chúng tôi có thể thu thập, lưu trữ và sử dụng các thông tin liên quan đến bạn. Nếu bạn không cung cấp thông tin cần thiết, bạn có thể không thể đăng ký tài khoản hoặc sử dụng một số dịch vụ. \r\n1.1 Thông tin bạn cung cấp \r\n\r\n1.1.1 Thông tin cá nhân bạn cung cấp khi đăng ký tài khoản hoặc sử dụng dịch vụ, ví dụ số điện thoại, địa chỉ email, v.v. \r\n\r\n1.1.2 Thông tin chia sẻ bạn cung cấp cho bên khác qua dịch vụ của chúng tôi, và thông tin được lưu trữ khi bạn sử dụng dịch vụ. \r\n\r\n1.2 Thông tin được chia sẻ bởi bên khác \r\n\r\nThông tin về bạn được cung cấp bởi người khác khi họ sử dụng dịch vụ của chúng tôi. \r\n1.3 Thông tin chúng tôi thu thập \r\n\r\nKhi khởi động ứng dụng, trước khi người dùng đồng ý chính sách bảo mật, ứng dụng và SDK sẽ không thu thập trước các thông tin như IMEI, OAID, IMSI, MAC, danh sách ứng dụng, v.v. \r\n\r\nKhi bạn sử dụng dịch vụ, chúng tôi có thể thu thập: \r\n\r\n1.3.1 Thông tin nhật ký: hệ thống có thể tự động thu thập khi bạn sử dụng dịch vụ, bao gồm thông tin cấu hình thiết bị, địa chỉ IP, mã nhận dạng thiết bị, thông tin ứng dụng đã dùng và nội dung được chia sẻ qua dịch vụ. \r\n\r\n1.3.2 Thông tin vị trí: khi bạn bật tính năng định vị và sử dụng dịch vụ dựa trên vị trí, chúng tôi thu thập thông tin vị trí qua GPS hoặc WiFi. Bạn có thể tắt tính năng định vị để dừng thu thập. \r\n\r\n2. Cách chúng tôi thu thập thông tin \r\n\r\n2.1 Chúng tôi hoặc đối tác bên thứ ba có thể thu thập và sử dụng thông tin của bạn qua nhiều phương tiện, ghi lại hành vi chơi game và lưu trữ dưới dạng nhật ký. \r\n\r\n2.2 Chúng tôi sử dụng thông tin thu thập để cung cấp trải nghiệm và dịch vụ tốt hơn, bao gồm: \r\n\r\n2.2.1 Ghi nhớ danh tính của bạn. \r\n\r\n2.2.2 Phân tích cách bạn sử dụng dịch vụ. \r\n2.2.3 Tối ưu hóa quảng cáo. \r\n\r\n2.3 Chúng tôi có thể cung cấp thông tin phi cá nhân đã được thống kê cho nhà quảng cáo hoặc đối tác để phục vụ phân tích và quảng cáo. \r\n\r\n3. Cách chúng tôi sử dụng thông tin \r\n\r\n3.1 Thông tin thu thập có thể được sử dụng cho: \r\n3.1.1 Cung cấp dịch vụ cho bạn. \r\n\r\n3.1.2 Xác minh danh tính, hỗ trợ khách hàng, bảo mật, phát hiện gian lận, lưu trữ và sao lưu. \r\n3.1.3 Thiết kế dịch vụ mới và cải thiện dịch vụ hiện có. \r\n\r\n3.1.4 Đánh giá và cải thiện hiệu quả quảng cáo và các hoạt động khuyến mãi. \r\n\r\n3.1.5 Xác thực phần mềm hoặc quản lý cập nhật. \r\n\r\n3.1.6 Mời bạn tham gia khảo sát về sản phẩm và dịch vụ. \r\n\r\n3.2 Để bảo vệ tài khoản và giao dịch của bạn, chúng tôi có thể thu thập và xử lý: mã định danh thiết bị cố định, mã định danh thiết bị thay đổi được (Android ID, địa chỉ IP, OAID), thông tin thiết bị cơ bản, thông tin phần cứng (IMSI, IMEI, địa chỉ MAC), thông tin hệ điều hành, trạng thái thiết bị, mạng, IDFA, UUID. \r\n\r\n4. Thông tin chúng tôi có thể chia sẻ \r\n\r\nNgoài các trường hợp dưới đây, chúng tôi và công ty liên kết sẽ không chia sẻ thông tin cá nhân của bạn với bên thứ ba khi chưa có sự đồng ý của bạn. \r\n\r\n4.1 Chúng tôi có thể chia sẻ thông tin cá nhân của bạn với các công ty liên kết, đối tác và nhà cung cấp dịch vụ bên thứ ba cho các mục đích: \r\n\r\n4.1.1 Cung cấp dịch vụ cho bạn. \r\n\r\n4.1.2 Thực hiện các mục đích nêu trong mục \"Cách chúng tôi sử dụng thông tin\". \r\n\r\n4.1.3 Thực hiện nghĩa vụ và thực thi quyền của chúng tôi theo Thỏa thuận dịch vụ hoặc Chính sách này. \r\n\r\n4.1.4 Hiểu, duy trì và cải thiện dịch vụ của chúng tôi. \r\n\r\n4.2 Chúng tôi sẽ đảm bảo các bên thứ ba tuân thủ chính sách bảo mật và các biện pháp bảo mật phù hợp. \r\n\r\n4.3 Trong trường hợp sáp nhập, mua lại hoặc chuyển nhượng tài sản, thông tin cá nhân của bạn có thể được chuyển giao. Chúng tôi sẽ thông báo cho bạn trước khi chuyển giao. \r\n\r\n4.4 Chúng tôi hoặc công ty liên kết cũng có thể lưu giữ hoặc tiết lộ thông tin cá nhân của bạn khi cần thiết để: \r\n4.4.1 Tuân thủ pháp luật và quy định hiện hành. \r\n\r\n4.4.2 Tuân thủ lệnh tòa án hoặc các thủ tục pháp lý khác. \r\n4.4.3 Tuân thủ yêu cầu của cơ quan chính phủ liên quan. \r\n\r\n4.4.4 Bảo vệ lợi ích hợp pháp của chúng tôi, khách hàng, người dùng hoặc nhân viên. \r\n4.4.5 Các trường hợp cần thiết khác. \r\n\r\n5. Quyền của bạn đối với thông tin cá nhân \r\n\r\nChúng tôi sẽ áp dụng mọi biện pháp kỹ thuật phù hợp để đảm bảo bạn có thể truy cập, cập nhật và chỉnh sửa thông tin cá nhân. Theo GDPR của EU, nếu bạn là người dùng tại Khu vực Kinh tế Châu Âu (EEA), bạn có các quyền: truy cập, chỉnh sửa, xóa, hạn chế, di chuyển dữ liệu và phản đối. \r\n5.1 Quyền truy cập \r\n\r\nBạn có quyền truy cập, tra cứu nguồn gốc, thời gian lưu trữ và sao chép thông tin cá nhân. \r\n5.2 Quyền chỉnh sửa \r\n\r\nChúng tôi sẽ đảm bảo thông tin cá nhân của bạn đầy đủ và chính xác. Nếu thông tin không chính xác, bạn có thể tự chỉnh sửa hoặc thông báo cho chúng tôi. \r\n5.3 Quyền xóa \r\n\r\nChúng tôi chỉ thu thập thông tin cần thiết. Nếu bạn cho rằng thông tin không còn cần thiết, bạn có thể tự xóa hoặc yêu cầu chúng tôi xóa. Lưu ý rằng xóa một số thông tin có thể ảnh hưởng đến khả năng sử dụng dịch vụ. \r\n5.4 Quyền hạn chế \r\n\r\nBạn có thể yêu cầu chúng tôi tạm dừng xử lý thông tin nếu bạn cho rằng việc thu thập là vi phạm pháp luật hoặc có lý do hợp lý khác. \r\n5.5 Quyền di chuyển dữ liệu \r\n\r\nBạn có quyền di chuyển thông tin cá nhân sang bên thứ ba khác. Bạn có thể liên hệ với chúng tôi để được hỗ trợ. \r\n5.6 Quyền phản đối \r\n\r\nBạn có quyền yêu cầu chúng tôi dừng thu thập và phân tích thông tin cá nhân. \r\n\r\n6. Bảo mật thông tin \r\n\r\n6.1 Chúng tôi chỉ lưu giữ thông tin cá nhân trong thời gian cần thiết theo mục đích của chính sách này và theo quy định pháp luật. \r\n\r\n6.2 Chúng tôi sử dụng nhiều công nghệ và quy trình bảo mật để ngăn ngừa mất mát, sử dụng sai mục đích hoặc truy cập trái phép. Tuy nhiên, không thể đảm bảo an toàn thông tin tuyệt đối 100% trong môi trường internet. \r\n\r\n7. Dịch vụ  \r\n\r\n7.1 Chúng tôi có thể sử dụng thông tin của bạn để gửi thông tin tiếp thị và quảng bá các hàng hóa, dịch vụ sau: \r\n\r\n7.1.1 Hàng hóa hoặc dịch vụ của chúng tôi và các công ty liên kết, đối tác, bao gồm nhắn tin tức thì, truyền thông trực tuyến, giải trí tương tác, mạng xã hội, thanh toán, tìm kiếm internet, bản đồ, ứng dụng phần mềm, v.v. \r\n\r\n7.1.2 Hàng hóa hoặc dịch vụ của nhà cung cấp bên thứ ba liên quan đến: thực phẩm, thể thao, âm nhạc, phim ảnh, truyền hình, biểu diễn nghệ thuật, sách, tạp chí, quần áo, trang sức, mỹ phẩm, sức khỏe, điện tử, đồ sưu tập, nội thất, thú cưng, ô tô, khách sạn, du lịch, ngân hàng, bảo hiểm, tài chính, v.v. \r\n\r\n8. Email và thông tin chúng tôi có thể gửi cho bạn \r\n\r\n8.1 Thông báo đẩy và email \r\n\r\nKhi sử dụng dịch vụ, chúng tôi có thể gửi email, tin tức hoặc thông báo đẩy đến thiết bị của bạn. Nếu không muốn nhận, bạn có thể hủy đăng ký theo hướng dẫn. \r\n\r\n8.2 Thông báo liên quan đến dịch vụ \r\n\r\nChúng tôi có thể gửi thông báo liên quan đến dịch vụ khi cần thiết. Bạn có thể không thể hủy các thông báo này vì chúng không phải là quảng cáo. \r\n\r\n9. Phạm vi áp dụng của Chính sách Bảo mật \r\n\r\n9.1 Tất cả dịch vụ của chúng tôi đều áp dụng chính sách này, ngoại trừ một số dịch vụ cụ thể có chính sách riêng. \r\n\r\n9.2 Các điều khoản không được quy định trong chính sách này sẽ được điều chỉnh theo Thỏa thuận Cấp phép và Dịch vụ Game. \r\n\r\n9.3 Chính sách này không áp dụng cho: \r\n\r\n9.3.1 Thông tin thu thập bởi dịch vụ bên thứ ba được truy cập qua dịch vụ của chúng tôi. \r\n9.3.2 Thông tin thu thập bởi các công ty khác cung cấp dịch vụ quảng cáo trong dịch vụ của chúng tôi. \r\n\r\n10. Ngoại lệ áp dụng Chính sách Bảo mật \r\n\r\n10.1 Dịch vụ của chúng tôi có thể bao gồm hoặc liên kết đến mạng xã hội hoặc dịch vụ bên thứ ba. Ví dụ: \r\n\r\n10.1.1 Bạn sử dụng nút \"Chia sẻ\" để chia sẻ nội dung, hoặc đăng nhập bằng dịch vụ kết nối bên thứ ba. \r\n\r\n10.1.2 Chúng tôi cung cấp liên kết đến dịch vụ hoặc trang web của bên thứ ba qua quảng cáo. \r\n\r\n10.2 Việc sử dụng các dịch vụ bên thứ ba sẽ bị ràng buộc bởi điều khoản và chính sách bảo mật của bên thứ ba đó. Chúng tôi không chịu trách nhiệm về cách bên thứ ba sử dụng thông tin bạn cung cấp. \r\n\r\n11. Trẻ vị thành niên sử dụng dịch vụ \r\n\r\n11.1 Chúng tôi khuyến khích phụ huynh hoặc người giám hộ hướng dẫn người chưa đủ 18 tuổi sử dụng dịch vụ của chúng tôi theo quy định pháp luật địa phương. \r\n\r\n11.2 Chúng tôi sẽ không cố ý thu thập thông tin cá nhân của trẻ vị thành niên. Trẻ vị thành niên cần được sự đồng ý của phụ huynh trước khi cung cấp thông tin cá nhân. \r\n\r\n12. Luật áp dụng và thẩm quyền \r\n\r\n12.1 Chính sách này áp dụng theo pháp luật Việt Nam. \r\n\r\n12.2 Bất kỳ tranh chấp nào phát sinh từ chính sách này sẽ được giải quyết bằng thương lượng; nếu không đạt được thỏa thuận, các bên có thể đưa ra tòa án có thẩm quyền để giải quyết. \r\n \r\n\r\n13. Liên hệ chúng tôi \r\n\r\nBạn có thể liên hệ với chuyên viên chính sách bảo mật của chúng tôi qua:       \r\nEmail: 2285953853@qq.com\r\nHoặc liên hệ bộ phận hỗ trợ khách hàng (QQ: 2285953853)\r\n14. Khác\r\n14.1 Chúng tôi có quyền thay đổi các điều khoản thỏa thuận này khi cần thiết. Bạn có thể xem phiên bản mới nhất trên trang liên quan trong game. Nếu bạn tiếp tục sử dụng dịch vụ sau khi điều khoản thay đổi, đồng nghĩa bạn đã chấp nhận các điều khoản mới.\r\n14.2 Theo khuyến cáo về game lành mạnh: Tẩy chay game xấu, từ chối game lậu. Chú ý tự bảo vệ bản thân, cảnh giác bị lừa đảo. Chơi game điều độ tốt cho trí não, nghiện game hại sức khỏe.\r\nThỏa thuận này có hiệu lực kể từ ngày phát hành\r\n\r\nNgày phát hành: 16 tháng 02 năm 2023\r\n\r\nNgày cập nhật gần nhất: 01 tháng 03 năm 2023 "我们承诺严格保护您的隐私。本政策旨在向您说明我们如何收集、使用前述信息。 \r\n\r\n本政策与您所使用的我们游戏软件或接受的我们游戏服务息息相关，希望您仔细阅读。我们将会不时地对本政策进行修订，并通过网页公布、电子邮件等形式进行通知。请您予以必要关注，确保对本政策的最新版本始终保持了解。您使用或继续使用我们的服务，即意味着同意我们按照本政策收集、使用您的相关信息。 \r\n\r\n1.我们可能收集的信息 \r\n\r\n我们提供服务时，可能会收集、储存和使用下列与您有关的信息。如果您不提供相关信息，可能无法注册成为我们的用户或无法享受我们提供的某些服务，或者无法达到相关服务拟达到的效果。 \r\n1.1 您提供的信息 \r\n\r\n1.1.1 您在注册账户或使用我们的服务时，向我们提供的相关个人信息，例如电话号码、电子邮件等； \r\n\r\n1.1.2 您通过我们的服务向其他方提供的共享信息，以及您使用我们的服务时所储存的信息。 \r\n\r\n1.2 他方分享的您的信息 \r\n\r\n他方使用我们的服务时所提供有关您的共享信息。 \r\n1.3 我们获取的您的信息 \r\n\r\nAPP启动时，在用户授权同意隐私政策前，APP及SDK不会提前收集和使用IMEI、OAID、IMSI、MAC、应用列表等信息；\r\n\r\n您使用服务时我们可能收集如下信息： \r\n\r\n1.3.1 日志信息，指您使用我们的服务时，系统可能自动采集信息，包括： \r\n设备或软件信息，例如您的移动设备、网页浏览器或用于接入我们服务的其他程序所提供的配置信息、您的IP地址和移动设备所用的版本和设备识别码；有关您曾使用的移动应用（APP）和其他软件的信息，以及您曾经使用该等移动应用和软件的信息；您通过我们的服务进行通讯的信息；您通过我们的服务分享的内容所包含的信息（元数据）。 \r\n\r\n1.3.2 位置信息，指您开启设备定位功能并使用我们基于位置提供的相关服务时，收集的有关您位置的信息，包括：您通过具有定位功能的移动设备使用我们的服务时，通过GPS或WiFi等方式收集的您的地理位置信息；您或其他用户提供的包含您所处地理位置的实时信息，例如您提供的账户信息中包含的您所在地区信息，您或其他人上传的显示您当前或曾经所处地理位置的共享信息；您可以通过关闭定位功能，停止对您的地理位置信息的收集。 \r\n\r\n2.我们可能如何收集信息 \r\n\r\n2.1 我们或我们的第三方合作伙伴，可能通过各种途径收集和使用您的信息，记录您的游戏行为，并将该等信息储存为日志信息。 \r\n\r\n2.2 我们使用收集您的信息，目的是为您提供好的用户体验和服务，并用于以下用途： \r\n\r\n2.2.1 记住您的身份； \r\n\r\n2.2.2 分析您使用我们服务的情况； \r\n2.2.3 广告优化。 \r\n\r\n2.3 我们为上述目的收集您的信息的同时，可能将收集的非个人身份信息经统计加工后提供给广告商或其他合作伙伴，用于分析用户如何使用我们的服务，并用于广告服务。 \r\n\r\n3.我们如何使用信息 \r\n\r\n3.1 我们可能将在向您提供服务的过程之中所收集的信息用作下列用途： \r\n3.1.1 向您提供服务； \r\n\r\n3.1.2 在我们提供服务时，用于身份验证、客户服务、安全防范、诈骗监测、存档和备份用途，确保我们向您提供的产品和服务的安全性； \r\n3.1.3 帮助我们设计新服务，改善我们现有服务； \r\n\r\n3.1.4 评估我们服务中的广告和其他促销及推广活动的效果，并加以改善； \r\n\r\n3.1.5 软件认证或管理软件升级； \r\n\r\n3.1.6 让您参与有关我们产品和服务的调查。 \r\n\r\n3.2 为保障您的账户及交易安全，我们会依法根据网络运行安全需要收集和处理您的 不可变设备标识（硬件序列号）、可变设备标识(Android ID，IP地址，OAID)、基本设备信息（设备型号、设备制造商、设备序列号、手机品牌）、基本硬件信息（IMSI, IMEI、 MAC地址）、操作系统及软件版本信息、设备状态、网络状态、悬浮窗、IDFA、UUID， 并将使用您的权限进行存储，我们也会将前述信息用于预防各类非法使用或侵害合法权益的行为。\r\n\r\n4.我们可能分享的信息 \r\n\r\n除以下情形外，未经您同意，我们以及我们的关联公司不会与任何第三方分享您的个人信息： \r\n\r\n4.1 我们以及我们的关联公司，可能将您的个人信息与我们的关联公司、合作伙伴及第三方服务供应商、承包商及代理（例如代表我们发出电子邮件或推送通知的通讯服务提供商、为我们提供位置数据的地图服务供应商）分享（他们可能并非位于您所在的法域），用作下列用途： \r\n\r\n4.1.1 向您提供我们的服务； \r\n\r\n4.1.2 实现“我们如何使用信息”部分所述目的； \r\n\r\n4.1.3 履行我们在《我们游戏使用许可及服务协议》或本政策中的义务和行使我们的权利； \r\n\r\n4.1.4 理解、维护和改善我们的服务。 \r\n\r\n4.2 如我们或我们的关联公司与任何上述第三方分享您的个人信息，我们将努力确保该等第三方在使用您的个人信息时遵守本政策及我们要求其遵守的其他适当的保密和安全措施。 \r\n\r\n4.3 随着我们业务的持续发展，我们以及我们的关联公司有可能进行合并、收购、资产转让或类似的交易，您的个人信息有可能作为此类交易的一部分而被转移。我们将在转移前通知您。 \r\n\r\n4.4 我们或我们的关联公司还可能为以下需要而保留、保存或披露您的个人信息： \r\n4.4.1 遵守适用的法律法规； \r\n\r\n4.4.2 遵守法院命令或其他法律程序的规定； \r\n4.4.3 遵守相关政府机关的要求； \r\n\r\n4.4.4 为遵守适用的法律法规、维护社会公共利益，或保护我们、我们的客户、其他用户或员工的人身和财产安全或合法权益所合理必需的用途； \r\n4.4.5 其他必要的情形。 \r\n\r\n5.您对个人信息的权利 \r\n\r\n我们将尽一切可能采取适当的技术手段，保证您可以访问、更新和更正自己的注册信息或使用我们的服务时提供的其他个人信息。在访问、更新、更正和删除前述信息时，我们可能会要求您进行身份验证，以保障账户安全。基于欧盟《通用数据保护条例》（GDPR）的有关规定，如您为欧洲经济区\r\n\r\n（EEA）的用户，您对提供给我们的个人信息享有访问权、改正权、删除权限制权、迁移权、反对权等权利。 \r\n5.1 访问权 \r\n\r\n您有权访问个人信息，有权查询信息的来源、存储情况、留存时间，有权复制个人信息。如您对于个人信息的请求超过合理范围，或可能妨碍其他用户的合法权益，我们有权向您收取一定的费用或拒绝您的请求。 \r\n5.2 改正权 \r\n\r\n我们将努力确保您的个人信息完整、准确。如您认为信息不准确或有待更新，可自行修改或通知我们修改。我们对于您自行提交的信息之真实性不负有核实义务。 \r\n5.3 删除权 \r\n\r\n我们将努力确保仅收集提供服务所必须的信息。如您认为您的信息不再属于我们提供服务所必须的资料、有关信息系我们擅自收集，或基于其他合理原因，您可自行删除或通知我们删除。部分信息删除后可能导致我们无法为您提供正常、完整的服务。您的删除权可能受到言论自由、通信自由、第三方利益、公共利益、法律强制要求等因素的限制。 \r\n5.4 限制权 \r\n\r\n为高效利用服务器资源，我们有权自主决定不定期清理用户信息。如您认为我们此前收集的信息存在违法或侵权的情形，或基于其他合理原因，您可通知我们暂缓清理您的信息。 \r\n5.5 迁移权 \r\n\r\n您有权将个人信息迁移至我们以外的第三方，您可联系我们协助完成信息迁移工作。若现有技术无法实现信息的直接迁移，我们将直接向您提供有关信息。 \r\n5.6 反对权 \r\n\r\n您有权通知我们停止针对您的个人信息收集分析工作。其中，涉及直接营销之目收集的信息，我们将于接到您通知后的合理期限内无条件停止使用。 \r\n\r\n6.信息安全 \r\n\r\n6.1 我们仅在本政策所述目的所必需的期间和法律法规要求的时限内保留您的个人信息。 \r\n\r\n6.2 我们使用各种安全技术和程序，以防信息的丢失、不当使用、未经授权阅览或披露。例如，在某些服务中，我们将利用加密技术（例如SSL）来保护您提供的个人信息。但请您理解，由于技术的限制以及可能存在的各种恶意手段，在互联网行业，即便竭尽所能加强安全措施，也不可能始终保证信息百分之百的安全。您需要了解，您接入我们的服务所用的系统和通讯网络，有可能因我们可控范围外的因素而出现问题。 \r\n\r\n7.服务  \r\n\r\n7.1 我们也可能使用您的信息，通过我们的服务、电子邮件或其他方式向您发送营销信息，提供或推广我们或第三方的如下商品和服务： \r\n\r\n7.1.1我们的商品或服务，我们的关联公司和合作伙伴的商品或服务，包括即时通讯服务、网上媒体服务、互动娱乐服务、社交网络服务、付款服务、互联网搜索服务、位置和地图服务、应用软件和服务、数据管理软件和服务、网上广告服务、互联网金融，以及其他社交媒体、娱 乐、电子商务、资讯和通讯软件或服务（统称“互联网服务”）； \r\n\r\n7.1.2 第三方互联网服务供应商，以及与下列有关的第三方商品或服务：食物和餐饮、体育、音乐、电影、电视、现场表演及其他艺术和娱乐、书册、杂志和其他刊物、服装和配饰、珠宝、化妆品、个人健康和卫生、电子、收藏品、家用器皿、电器、家居装饰和摆设、宠物、汽车、酒店、交通和旅游、银行、保险及其他金融服务、会员积分和奖励计划，以及我们认为可能与您相关的其他商品或服务。 \r\n\r\n8.我们可能向您发送的邮件和信息 \r\n\r\n8.1 邮件和信息推送 \r\n\r\n您在使用我们的服务时，我们可能使用您的信息向您的设备发送电子邮件、新闻或推送通知。如您不希望收到这些信息，可以按照我们的相关提示，在设备上选择取消订阅。 \r\n\r\n8.2 与服务有关的公告 \r\n\r\n我们可能在必要时（例如因系统维护而暂停某一项服务时）向您发出与服务有关的公告。您可能无法取消这些与服务有关、性质不属于推广的公告。 \r\n\r\n9.隐私政策的适用范围 \r\n\r\n9.1 除某些特定服务外，我们所有的服务均适用本政策。这些特定服务将适用特定的隐私政策。针对某些特定服务的特定隐私政策，将更具体地说明我们在该等服务中如何使用您的信息。该特定服务的隐私政策构成本政策的一部分。如相关特定服务的隐私政策与本政策有不一致之处，适用该特定服务的隐私政策。 \r\n\r\n9.2 除本政策另有规定外，本政策所用词语将与《游戏使用许可及服务协议》所定义的词语具有相同的涵义，本政策未尽事宜均参照《游戏使用许可及服务协议》执行。 \r\n\r\n9.3 请您注意，本政策不适用于以下情况： \r\n\r\n9.3.1 通过我们的服务而接入的第三方服务（包括任何第三方网站）收集的信息； \r\n9.3.2 通过在我们服务中进行广告服务的其他公司或机构所收集的信息。 \r\n\r\n10.隐私政策的适用例外 \r\n\r\n10.1 我们的服务可能包括或链接至第三方提供的社交媒体或其他服务（包括网\r\n站）。例如： \r\n\r\n10.1.1 您利用“分享”键将某些内容分享到我们的服务，或您利用第三方连线服务登录我们的服务。这些功能可能会收集您的相关信息（包括您的日志信息），从而正常运行上述功能； \r\n\r\n10.1.2 我们通过广告或我们服务的其他方式向您提供链接，使您可以接入第三方的服务或网站。 \r\n\r\n10.2 该等第三方社交媒体或其他服务可能由相关的第三方或我们运营。您使用该等第三方的社交媒体服务或其他服务（包括您向该等第三方提供的任何个人信息），须受该第三方的服务条款及隐私政策而非本政策约束，您需要仔细阅读其条款。本政策仅适用于我们所收集的信息，并不适用于任何第三方提供的服务或第三方的信息使用规则，我们对任何第三方使用由您提供的信息不承担任何责任。 \r\n\r\n11.未成年人使用我们的服务 \r\n\r\n11.1 我们鼓励父母或监护人指导未满十八岁的未成年人使用我们的服务。不同国家或地区对于年龄限制存在差异的，以所在地的法律法规为准。我们建议未成年人鼓励他们的父母或监护人阅读本政策，并提供必要的指导。 \r\n\r\n11.2 我们不会故意收集未成年人的个人信息，并建议未成年人不要发布个人信\r\n息。未成年人在提交个人信息之前，应当寻求父母或监护人的同意。 \r\n\r\n12.法律适用及管辖 \r\n\r\n12.1 本政策适用中华人民共和国法律。我们官方认可的服务接受地法律法规另有规定的，参照执行。 \r\n\r\n12.2 因本政策产生的任何纠纷或争议，首先应友好协商解决；协商不成时，任何一方均可向被告所在地有管辖权的人民法院提起诉讼。 \r\n \r\n\r\n13.联系我们 \r\n\r\n您可通过以下方式联系我们隐私政策专员：       \r\n邮箱：2285953853@qq.com\r\n或者直接联系客服（QQ:2285953853）\r\n14.其他\r\n14.1海南众铖互娱网络科技有限公司有权在必要时变更本协议条款，您可以在游戏的相关页面查阅最新版本的协议条款。本协议条款变更后，如果您继续使用游戏服务，即视为您已接受变更后的协议。\r\n14.2 根据国家新闻出版总署关于健康游戏的忠告，提醒您：抵制不良游戏，拒绝盗版游戏；注意自我保护，谨防受骗上当；适度游戏益脑，沉迷游戏伤身。\r\n该协议自发布之日起生效\r\n\r\n发布日期：2023年2月16日\r\n\r\n最近更新日期：2023年3月1日 "
+  mFontSize: 24
+  mFontStyle: 0
+  mAlignment: 1
+  mEncoding: 1
+  mMaxLineCount: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mOverflow: 3
+  mMaterial: {fileID: 0}
+  mApplyGradient: 0
+  mGradientTop: {r: 1, g: 1, b: 1, a: 1}
+  mGradientBottom: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  mSpacingX: 0
+  mSpacingY: 8
+  mUseFloatSpacing: 0
+  mFloatSpacingX: 0
+  mFloatSpacingY: 0
+  mShrinkToFit: 0
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mLineWidth: 0
+  mMultiline: 1
+  mFontName:
+--- !u!65 &65733206282342372
+BoxCollider:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587765826080250}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Size: {x: 810, y: 18432, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114217368724061974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587765826080250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc65df5b24e5821c40f7df5bd607c0b5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  scrollView: {fileID: 114946936116752871}
+  draggablePanel: {fileID: 0}
+--- !u!4 &4089843903986396
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709867586078768}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 810, y: -0, z: 0}
+  m_LocalScale: {x: 1.0015999, y: 1.0015999, z: 1.0015999}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4371939378208658}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114672306508523268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709867586078768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  updateAnchors: 1
+  mColor: {r: 0, g: 0, b: 0, a: 1}
+  mPivot: 4
+  mWidth: 819
+  mHeight: 352
+  mDepth: 21
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 2.1328125
+  keepCrispWhenShrunk: 1
+  mTrueTypeFont: {fileID: 12800000, guid: 83d26eff09c947348b7ef29d0c31628c, type: 3}
+  mFont: {fileID: 0}
+  mText: "Trò chơi trực tuyến này phù hợp với người dùng từ 16 tuổi trở lên. Vui lòng xác nhận bạn đã đăng ký tên thật chính xác.\r\nVì sức khỏe của bạn, hãy kiểm soát thời gian chơi game một cách hợp lý.\r\nKhông tin vào thông tin giảm giá nạp tiền từ bất kỳ kênh hay người chơi nào. Mọi hành vi giảm giá hoặc quảng cáo giảm giá nạp tiền đều bị xử lý nghiêm khắc,\r\nhậu quả tự chịu. Hoan nghênh mọi người tích cực tố cáo.\r\nSố phê duyệt: Tân Quảng Xuất Thẩm [2014] Số 890  Số ấn phẩm: ISBN 978-7-89989-961-3\r\nSố văn thư: Việt Tân Xuất Khoa Số [2014] 905  Số đăng ký: 2014SR005875\r\nChủ sở hữu bản quyền: Công ty TNHH Công nghệ Guangqi Thâm Quyến  Đơn vị xuất bản: Công ty TNHH Xuất bản Điện tử Shucheng Thâm Quyến\r\nTẩy chay game xấu, từ chối game lậu. Chú ý tự bảo vệ bản thân, cẩn thận bị lừa đảo.\r\nChơi game điều độ tốt cho trí não, nghiện game hại sức khỏe. Sắp xếp thời gian hợp lý, tận hưởng cuộc sống lành mạnh."
+  mFontSize: 24
+  mFontStyle: 0
+  mAlignment: 1
+  mEncoding: 1
+  mMaxLineCount: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mOverflow: 3
+  mMaterial: {fileID: 0}
+  mApplyGradient: 0
+  mGradientTop: {r: 1, g: 1, b: 1, a: 1}
+  mGradientBottom: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  mSpacingX: 0
+  mSpacingY: 8
+  mUseFloatSpacing: 0
+  mFloatSpacingX: 0
+  mFloatSpacingY: 0
+  mShrinkToFit: 0
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mLineWidth: 0
+  mMultiline: 1
+  mFontName:
+--- !u!65 &65808113985169905
+BoxCollider:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709867586078768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Size: {x: 810, y: 18432, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114060945828524476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709867586078768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc65df5b24e5821c40f7df5bd607c0b5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  scrollView: {fileID: 114946936116752871}
+  draggablePanel: {fileID: 0}

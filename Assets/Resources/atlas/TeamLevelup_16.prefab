@@ -1,0 +1,442 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: TeamLevelup_16
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: c38136da091ea084ebba8b1bb34cf0cc, type: 2}
+  mSprites:
+  - name: lvup_btn_text_confirm
+    x: 881
+    y: 2014
+    width: 103
+    height: 34
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lvup_frame_bg
+    x: 0
+    y: 1464
+    width: 880
+    height: 584
+    borderLeft: 25
+    borderRight: 25
+    borderTop: 27
+    borderBottom: 28
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 13
+    paddingBottom: 0
+  - name: lvup_frame_light2
+    x: 0
+    y: 1280
+    width: 511
+    height: 183
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lvup_frame_people
+    x: 0
+    y: 1151
+    width: 204
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lvup_gearlvmax
+    x: 405
+    y: 962
+    width: 157
+    height: 26
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lvup_icon_arrow
+    x: 985
+    y: 2029
+    width: 24
+    height: 19
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lvup_info_bg
+    x: 0
+    y: 933
+    width: 404
+    height: 55
+    borderLeft: 50
+    borderRight: 50
+    borderTop: 22
+    borderBottom: 22
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lvup_info_splitline
+    x: 512
+    y: 1292
+    width: 315
+    height: 2
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lvup_text_cardlvmax
+    x: 839
+    y: 1172
+    width: 158
+    height: 26
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lvup_text_currentsta
+    x: 881
+    y: 1936
+    width: 102
+    height: 25
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lvup_text_friendmax
+    x: 881
+    y: 1988
+    width: 131
+    height: 25
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lvup_text_maxcardonfield
+    x: 881
+    y: 1962
+    width: 131
+    height: 25
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lvup_title_lvupto
+    x: 522
+    y: 1160
+    width: 175
+    height: 38
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lvup_title_teamlvup
+    x: 512
+    y: 1295
+    width: 331
+    height: 88
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lvup_title_text_lv
+    x: 881
+    y: 1871
+    width: 55
+    height: 35
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newf_icon_lock
+    x: 205
+    y: 1156
+    width: 172
+    height: 42
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newf_text_new
+    x: 881
+    y: 1907
+    width: 79
+    height: 28
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Newf_tx_Convoy
+    x: 0
+    y: 1070
+    width: 315
+    height: 80
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 34
+    paddingRight: 35
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Newf_tx_FragmentRob
+    x: 0
+    y: 989
+    width: 314
+    height: 80
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 35
+    paddingRight: 35
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Newf_tx_Gas
+    x: 0
+    y: 853
+    width: 180
+    height: 79
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 102
+    paddingRight: 102
+    paddingTop: 0
+    paddingBottom: 1
+  - name: Newf_tx_Guild
+    x: 362
+    y: 856
+    width: 174
+    height: 76
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 105
+    paddingRight: 105
+    paddingTop: 2
+    paddingBottom: 2
+  - name: Newf_tx_HeroDuplication
+    x: 315
+    y: 989
+    width: 314
+    height: 80
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 35
+    paddingRight: 35
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Newf_tx_Makyou
+    x: 512
+    y: 1384
+    width: 383
+    height: 79
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 1
+  - name: Newf_tx_Newslot
+    x: 316
+    y: 1070
+    width: 315
+    height: 80
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 34
+    paddingRight: 35
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Newf_tx_Nurture
+    x: 205
+    y: 1199
+    width: 316
+    height: 80
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 34
+    paddingRight: 34
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Newf_tx_PveEvent
+    x: 181
+    y: 853
+    width: 180
+    height: 79
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 102
+    paddingRight: 102
+    paddingTop: 0
+    paddingBottom: 1
+  - name: Newf_tx_PVP
+    x: 630
+    y: 989
+    width: 244
+    height: 80
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 70
+    paddingRight: 70
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Newf_tx_Refine
+    x: 632
+    y: 1070
+    width: 315
+    height: 80
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 34
+    paddingRight: 35
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Newf_tx_Sweeper
+    x: 839
+    y: 1199
+    width: 179
+    height: 80
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 103
+    paddingRight: 102
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Newf_tx_Trial
+    x: 522
+    y: 1199
+    width: 316
+    height: 80
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 34
+    paddingRight: 34
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

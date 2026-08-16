@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: yingshiLV5SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: a1b1a668f1a8022468e145d157c811c8, type: 3}
+  uiAnimation: {fileID: 4900000, guid: fc8d47a0489ce9c4ba9fc90165c6b04c, type: 3}
+  battleAnimation: {fileID: 4900000, guid: 08b7721e6222d0b43b1ae3a430c688a3, type: 3}
+  atlasAsset: {fileID: 11400000, guid: 8251522351392a546a1c6ed0b1d252b2, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 21
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

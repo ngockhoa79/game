@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: sephirothLV6SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: f9e67cad8c25c78478fa2485a4ef1999, type: 3}
+  uiAnimation: {fileID: 4900000, guid: 25774a4dd7113e944b825a7f4a70c236, type: 3}
+  battleAnimation: {fileID: 4900000, guid: 006fa2d5db3a5f64088e1edae8e74b46, type: 3}
+  atlasAsset: {fileID: 11400000, guid: 19d48bad26d8a504986ba9aee396e7f0, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 11
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

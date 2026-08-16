@@ -1,0 +1,299 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: effect_ship_blend
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: d8868a5d0e94e1946aeefc73b4b442e9, type: 2}
+  mSprites:
+  - name: a001
+    x: 818
+    y: 986
+    width: 37
+    height: 38
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 4
+    paddingTop: 4
+    paddingBottom: 6
+  - name: a002
+    x: 778
+    y: 984
+    width: 38
+    height: 40
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 3
+    paddingTop: 3
+    paddingBottom: 5
+  - name: a003
+    x: 195
+    y: 941
+    width: 39
+    height: 41
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 1
+    paddingTop: 3
+    paddingBottom: 4
+  - name: a004
+    x: 195
+    y: 984
+    width: 41
+    height: 40
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 6
+  - name: a005
+    x: 737
+    y: 985
+    width: 39
+    height: 39
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 1
+    paddingTop: 2
+    paddingBottom: 7
+  - name: a006
+    x: 256
+    y: 665
+    width: 40
+    height: 39
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 0
+    paddingTop: 3
+    paddingBottom: 6
+  - name: a007
+    x: 256
+    y: 706
+    width: 40
+    height: 39
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 1
+    paddingTop: 5
+    paddingBottom: 4
+  - name: a008
+    x: 737
+    y: 944
+    width: 37
+    height: 39
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 3
+    paddingTop: 4
+    paddingBottom: 5
+  - name: ship_0
+    x: 0
+    y: 918
+    width: 81
+    height: 106
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 95
+    paddingRight: 80
+    paddingTop: 139
+    paddingBottom: 11
+  - name: ship_1
+    x: 619
+    y: 911
+    width: 116
+    height: 113
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 75
+    paddingRight: 65
+    paddingTop: 130
+    paddingBottom: 13
+  - name: ship_2
+    x: 0
+    y: 450
+    width: 256
+    height: 211
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 37
+    paddingBottom: 8
+  - name: ship_3
+    x: 0
+    y: 663
+    width: 254
+    height: 253
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 2
+  - name: ship_4
+    x: 256
+    y: 829
+    width: 231
+    height: 195
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 22
+    paddingRight: 3
+    paddingTop: 8
+    paddingBottom: 53
+  - name: ship_4_eng
+    x: 489
+    y: 896
+    width: 128
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ship_attach
+    x: 83
+    y: 924
+    width: 18
+    height: 15
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ship_attach_1
+    x: 236
+    y: 940
+    width: 9
+    height: 42
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: water_splash
+    x: 256
+    y: 747
+    width: 256
+    height: 80
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 48
+  - name: water_splash_front
+    x: 83
+    y: 951
+    width: 110
+    height: 73
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 9
+    paddingTop: 5
+    paddingBottom: 50
+  - name: water_surface
+    x: 489
+    y: 843
+    width: 91
+    height: 51
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 19
+    paddingRight: 18
+    paddingTop: 9
+    paddingBottom: 4
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

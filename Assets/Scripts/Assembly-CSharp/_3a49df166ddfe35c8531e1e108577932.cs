@@ -1,0 +1,12 @@
+public class _3a49df166ddfe35c8531e1e108577932
+{
+	private int _3a49df166ddfe35c8531e1e108577932m2(int _3a49df166ddfe35c8531e1e108577932a)
+	{
+		return 0;
+	}
+
+	public int _3a49df166ddfe35c8531e1e108577932m(int _3a49df166ddfe35c8531e1e108577932a, int _3a49df166ddfe35c8531e1e10857793234, int _3a49df166ddfe35c8531e1e108577932c = 0)
+	{
+		return 0;
+	}
+}

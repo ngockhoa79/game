@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: sunceLV3SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: c1597cf83a4350141b9245e702f5c329, type: 3}
+  uiAnimation: {fileID: 4900000, guid: a53402ee20522c844ae3c4e3ad493d09, type: 3}
+  battleAnimation: {fileID: 4900000, guid: 8d13521426761fb44a4698b64c2bfba3, type: 3}
+  atlasAsset: {fileID: 11400000, guid: 64caa8f22432fa44abae7f8f4b468435, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 22
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

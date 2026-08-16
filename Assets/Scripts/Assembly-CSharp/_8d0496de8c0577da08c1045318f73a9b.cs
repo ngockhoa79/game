@@ -1,0 +1,12 @@
+public class _8d0496de8c0577da08c1045318f73a9b
+{
+	private int _8d0496de8c0577da08c1045318f73a9bm2(int _8d0496de8c0577da08c1045318f73a9ba)
+	{
+		return 0;
+	}
+
+	public int _8d0496de8c0577da08c1045318f73a9bm(int _8d0496de8c0577da08c1045318f73a9ba, int _8d0496de8c0577da08c1045318f73a9b21, int _8d0496de8c0577da08c1045318f73a9bc = 0)
+	{
+		return 0;
+	}
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Policy Type:
+    资源加载策略：
+    1. [IMPORTANT RESOURCES] Always in memory.
+    2. Clean all unimportant memory.
+    3. Only load in this preload policy.
+ -->
+<PreloadPolicyList>
+	<PreloadPolicy PolicyId="1" PolicyType="1" PolicyDescription="Always in memory">		
+	</PreloadPolicy>
+	<PreloadPolicy PolicyId="2" PolicyType="2" PolicyDescription="Main stage pre load resources.">	
+<!--		<Bundles LoadResourceType="sound_ui" />-->
+<!--		<Bundles LoadResourceType="hero" />-->
+<!--		<Bundles LoadResourceType="ui" />
+		<Bundles LoadResourceType="common_heroes" />	
+		<Bundles LoadResourceType="uicommon" />
+		<Bundles LoadResourceType="uibattle" />
+		<Bundles LoadResourceType="uiarrayeditor" />
+		<Bundles LoadResourceType="uiarena" />		
+		<Bundles LoadResourceType="uiluggage" />		-->
+	</PreloadPolicy>
+	<PreloadPolicy PolicyId="3" PolicyType="2" PolicyDescription="Battle stage pre load resources.">
+<!--		<Bundles LoadResourceType="sound_battle"/>-->
+<!--		<Bundles LoadResourceType="uibattle"/>
+		<Bundles LoadResourceType="hero"/>
+		<Bundles LoadResourceType="skill"/>
+		<Bundles LoadResourceType="buff"/>
+		<Bundles LoadResourceType="effect"/>
+		<Bundles LoadResourceType="battle"/>-->
+	</PreloadPolicy>
+	<PreloadPolicy PolicyId="4" PolicyType="3" PolicyDescription="Test resources loading.">
+<!--		<Bundles LoadResourceType="ui" BundleName="UIBattle" />-->
+	</PreloadPolicy>
+	<PreloadPolicy PolicyId="5" PolicyType="2" PolicyDescription="Battle Editor resources.">		
+<!--		<Bundles LoadResourceType="sound_battle"/>-->
+<!--		<Bundles LoadResourceType="uibattle"/>
+		<Bundles LoadResourceType="hero"/>
+		<Bundles LoadResourceType="skill"/>
+		<Bundles LoadResourceType="buff"/>
+		<Bundles LoadResourceType="effect"/>
+		<Bundles LoadResourceType="battle"/>-->
+	</PreloadPolicy>
+	<PreloadPolicy PolicyId="6" PolicyType="2" PolicyDescription="Battle Editor resources. Clear all resources.">
+	</PreloadPolicy>	
+</PreloadPolicyList>

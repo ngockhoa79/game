@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: Sce31_Blend
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f28a10f064b0573af11a2e931d98da, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: beijing_b
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 9.599999, y: 6.3999996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 9.599999, y: 6.3999996, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -4.7999997, y: -3.1999998, z: 0}
+    - {x: 4.7999997, y: -3.1999998, z: 0}
+    - {x: -4.7999997, y: 3.1999998, z: 0}
+    - {x: 4.7999997, y: 3.1999998, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.0019541015}
+    - {x: 0.9394522, y: 0.0019541015}
+    - {x: 0.0019541015, y: 0.6269522}
+    - {x: 0.9394522, y: 0.6269522}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 61e38f5e00b57ea4fb18cacafd1f685c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 029c1e43dd34d0c48a1b4b84447289bf
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: qianjing_b
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 9.599999, y: 0.71999997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 9.599999, y: 0.71999997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -4.7999997, y: -0.35999998, z: 0}
+    - {x: 4.7999997, y: -0.35999998, z: 0}
+    - {x: -4.7999997, y: 0.35999998, z: 0}
+    - {x: 4.7999997, y: 0.35999998, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.6308603}
+    - {x: 0.9394522, y: 0.6308603}
+    - {x: 0.0019541015, y: 0.7011709}
+    - {x: 0.9394522, y: 0.7011709}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 61e38f5e00b57ea4fb18cacafd1f685c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 588f3d47ca67a584d80ddd82068d4b17
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: diandeng_b
+    boundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.97999996, y: 1.17, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.004999995, z: 0}
+    - {x: 0.97999996, y: 1.17, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.48999998, y: -0.59, z: 0}
+    - {x: 0.48999998, y: -0.59, z: 0}
+    - {x: -0.48999998, y: 0.58, z: 0}
+    - {x: 0.48999998, y: 0.58, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.7050791}
+    - {x: 0.097655274, y: 0.7050791}
+    - {x: 0.0019541015, y: 0.819335}
+    - {x: 0.097655274, y: 0.819335}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 61e38f5e00b57ea4fb18cacafd1f685c, type: 2}
+    materialId: 0
+    sourceTextureGUID: a6e8277fdbf065b409f5d48f2a1911ec
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 61e38f5e00b57ea4fb18cacafd1f685c, type: 2}
+  textures:
+  - {fileID: 2800000, guid: ca6afe4d3e16913438dac823afcf79d9, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 78b5cedb14091c84792ef54e9f28a1a5
+  spriteCollectionName: Sce31_Blend
+  assetName:
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 50
+  buildKey: 1177960731
+  dataGuid: 7d704d59da569ed4296bcff30baaf1e5
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

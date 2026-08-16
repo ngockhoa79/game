@@ -1,0 +1,12 @@
+public class _dd01a207cfd28934839c50f85f029b30
+{
+	private int _dd01a207cfd28934839c50f85f029b30m2(int _dd01a207cfd28934839c50f85f029b30a)
+	{
+		return 0;
+	}
+
+	public int _dd01a207cfd28934839c50f85f029b30m(int _dd01a207cfd28934839c50f85f029b30a, int _dd01a207cfd28934839c50f85f029b3083, int _dd01a207cfd28934839c50f85f029b30c = 0)
+	{
+		return 0;
+	}
+}

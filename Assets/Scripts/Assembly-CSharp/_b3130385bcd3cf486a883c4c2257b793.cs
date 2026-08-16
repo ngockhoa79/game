@@ -1,0 +1,12 @@
+public class _b3130385bcd3cf486a883c4c2257b793
+{
+	private int _b3130385bcd3cf486a883c4c2257b793m2(int _b3130385bcd3cf486a883c4c2257b793a)
+	{
+		return 0;
+	}
+
+	public int _b3130385bcd3cf486a883c4c2257b793m(int _b3130385bcd3cf486a883c4c2257b793a, int _b3130385bcd3cf486a883c4c2257b79366, int _b3130385bcd3cf486a883c4c2257b793c = 0)
+	{
+		return 0;
+	}
+}

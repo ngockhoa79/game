@@ -1,0 +1,12 @@
+public class _7960e9925a7280374e5cda21082eb7be
+{
+	private int _7960e9925a7280374e5cda21082eb7bem2(int _7960e9925a7280374e5cda21082eb7bea)
+	{
+		return 0;
+	}
+
+	public int _7960e9925a7280374e5cda21082eb7bem(int _7960e9925a7280374e5cda21082eb7bea, int _7960e9925a7280374e5cda21082eb7be61, int _7960e9925a7280374e5cda21082eb7bec = 0)
+	{
+		return 0;
+	}
+}

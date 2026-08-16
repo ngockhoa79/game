@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: jillLV3SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: cd48ea911da4c5f4eb4959a5af7e4f38, type: 3}
+  uiAnimation: {fileID: 4900000, guid: 57940fffe255ffa4384eef54191dad25, type: 3}
+  battleAnimation: {fileID: 4900000, guid: ebe7e51a79fb3fd478efd28ae9f7af7f, type: 3}
+  atlasAsset: {fileID: 11400000, guid: 9e6c2a71d8b05604787ff17808792462, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 11
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

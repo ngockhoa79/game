@@ -1,0 +1,12 @@
+public class _c80abb23737c970d5eba482649911b46
+{
+	private int _c80abb23737c970d5eba482649911b46m2(int _c80abb23737c970d5eba482649911b46a)
+	{
+		return 0;
+	}
+
+	public int _c80abb23737c970d5eba482649911b46m(int _c80abb23737c970d5eba482649911b46a, int _c80abb23737c970d5eba482649911b4682, int _c80abb23737c970d5eba482649911b46c = 0)
+	{
+		return 0;
+	}
+}

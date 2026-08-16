@@ -1,0 +1,806 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: SmeltJourney
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: a8ad4e2757b7ae74db1e5314ead25f4a, type: 2}
+  mSprites:
+  - name: connect_line
+    x: 211
+    y: 72
+    width: 36
+    height: 36
+    borderLeft: 7
+    borderRight: 7
+    borderTop: 15
+    borderBottom: 15
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: list_bg
+    x: 254
+    y: 90
+    width: 46
+    height: 46
+    borderLeft: 12
+    borderRight: 13
+    borderTop: 13
+    borderBottom: 13
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: list_bg_brown
+    x: 254
+    y: 43
+    width: 46
+    height: 46
+    borderLeft: 12
+    borderRight: 13
+    borderTop: 13
+    borderBottom: 13
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: PureBlack
+    x: 165
+    y: 393
+    width: 4
+    height: 4
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sj_text_duihuan
+    x: 104
+    y: 248
+    width: 53
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sj_text_guize
+    x: 0
+    y: 4
+    width: 54
+    height: 26
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sj_text_paihang
+    x: 416
+    y: 104
+    width: 53
+    height: 26
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sj_text_zhanbao
+    x: 363
+    y: 76
+    width: 52
+    height: 26
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sj_title_zhanbao
+    x: 363
+    y: 23
+    width: 50
+    height: 25
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 'text_saodang '
+    x: 383
+    y: 243
+    width: 53
+    height: 60
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 2
+  - name: time_icon
+    x: 475
+    y: 394
+    width: 19
+    height: 19
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: txt_1
+    x: 348
+    y: 357
+    width: 133
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJArrayFrame
+    x: 78
+    y: 103
+    width: 73
+    height: 74
+    borderLeft: 35
+    borderRight: 35
+    borderTop: 35
+    borderBottom: 35
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJArrayHostilePowerSlotBG
+    x: 211
+    y: 3
+    width: 31
+    height: 30
+    borderLeft: 15
+    borderRight: 15
+    borderTop: 15
+    borderBottom: 15
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJArrayMyPowerSlotBG
+    x: 211
+    y: 148
+    width: 40
+    height: 40
+    borderLeft: 20
+    borderRight: 20
+    borderTop: 20
+    borderBottom: 20
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJArrayPowerSlotBG
+    x: 316
+    y: 65
+    width: 30
+    height: 30
+    borderLeft: 19
+    borderRight: 19
+    borderTop: 19
+    borderBottom: 19
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJArrayRefreshTxt
+    x: 363
+    y: 103
+    width: 52
+    height: 27
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJBattleReportBtnReplay
+    x: 316
+    y: 96
+    width: 43
+    height: 38
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJBattleReportBtnVideo
+    x: 0
+    y: 178
+    width: 103
+    height: 66
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJBattleReportBtnVideoPressed
+    x: 0
+    y: 245
+    width: 103
+    height: 66
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJBattleReportItemSlot
+    x: 162
+    y: 67
+    width: 44
+    height: 114
+    borderLeft: 16
+    borderRight: 16
+    borderTop: 16
+    borderBottom: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJBattleReportItemSlot_shen
+    x: 211
+    y: 189
+    width: 42
+    height: 114
+    borderLeft: 16
+    borderRight: 16
+    borderTop: 16
+    borderBottom: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJBattleReportTabBlack
+    x: 0
+    y: 312
+    width: 161
+    height: 77
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJBattleReportTabWhite
+    x: 335
+    y: 414
+    width: 161
+    height: 98
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJBattleReportTitleBg
+    x: 254
+    y: 173
+    width: 61
+    height: 35
+    borderLeft: 16
+    borderRight: 16
+    borderTop: 16
+    borderBottom: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJBattleReportTitleBg_shen
+    x: 254
+    y: 137
+    width: 61
+    height: 35
+    borderLeft: 16
+    borderRight: 16
+    borderTop: 16
+    borderBottom: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJBattleReportTxProvocationOrange
+    x: 254
+    y: 209
+    width: 106
+    height: 25
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJBattleReportTxProvocationWhite
+    x: 361
+    y: 209
+    width: 106
+    height: 25
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJBattleReportTxtDSLZOrange
+    x: 363
+    y: 156
+    width: 81
+    height: 25
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJBattleReportTxtDSLZWhite
+    x: 399
+    y: 183
+    width: 81
+    height: 25
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJBattleReportTxtFail
+    x: 71
+    y: 31
+    width: 69
+    height: 69
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJBattleReportTxtLv
+    x: 443
+    y: 395
+    width: 31
+    height: 18
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJBattleReportTxtSupportOrange
+    x: 363
+    y: 49
+    width: 49
+    height: 26
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJBattleReportTxtSupportWhite
+    x: 416
+    y: 77
+    width: 47
+    height: 25
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJBattleReportTxtVectory
+    x: 0
+    y: 31
+    width: 70
+    height: 69
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJHostileForcesBGGradientFrame
+    x: 104
+    y: 186
+    width: 57
+    height: 58
+    borderLeft: 25
+    borderRight: 25
+    borderTop: 25
+    borderBottom: 25
+    paddingLeft: 25
+    paddingRight: 38
+    paddingTop: 31
+    paddingBottom: 22
+  - name: UISJHostileForcesBGSlotFrame
+    x: 0
+    y: 101
+    width: 77
+    height: 76
+    borderLeft: 30
+    borderRight: 30
+    borderTop: 30
+    borderBottom: 30
+    paddingLeft: 21
+    paddingRight: 21
+    paddingTop: 21
+    paddingBottom: 20
+  - name: UISJHostileForcesEmptyBG
+    x: 316
+    y: 135
+    width: 46
+    height: 46
+    borderLeft: 20
+    borderRight: 20
+    borderTop: 20
+    borderBottom: 20
+    paddingLeft: 30
+    paddingRight: 43
+    paddingTop: 25
+    paddingBottom: 27
+  - name: UISJNormalArenaBGFrame
+    x: 320
+    y: 241
+    width: 62
+    height: 62
+    borderLeft: 35
+    borderRight: 35
+    borderTop: 35
+    borderBottom: 35
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJNormalArenaBGFrameDark
+    x: 437
+    y: 256
+    width: 47
+    height: 47
+    borderLeft: 20
+    borderRight: 20
+    borderTop: 20
+    borderBottom: 20
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJNormalArenaBGFrameGradient
+    x: 0
+    y: 390
+    width: 164
+    height: 122
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJNormalArenaBGFrameHightLight
+    x: 162
+    y: 346
+    width: 185
+    height: 43
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJNormalArenaBGFrameLZ
+    x: 162
+    y: 304
+    width: 305
+    height: 20
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJNormalArenaBGFrameWZ
+    x: 162
+    y: 182
+    width: 48
+    height: 121
+    borderLeft: 20
+    borderRight: 20
+    borderTop: 60
+    borderBottom: 60
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJNormalArenaDSLZDK
+    x: 162
+    y: 325
+    width: 305
+    height: 20
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJNormalArenaNameSlot
+    x: 211
+    y: 34
+    width: 30
+    height: 37
+    borderLeft: 10
+    borderRight: 18
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJNormalMissionsFrameDSKPDK
+    x: 254
+    y: 235
+    width: 65
+    height: 68
+    borderLeft: 30
+    borderRight: 30
+    borderTop: 30
+    borderBottom: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJNormalMissionsFrameDZMZDK
+    x: 335
+    y: 391
+    width: 107
+    height: 22
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJNormalMissionsFramePTGKSZDK
+    x: 316
+    y: 182
+    width: 82
+    height: 26
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJRulesBG
+    x: 211
+    y: 109
+    width: 38
+    height: 38
+    borderLeft: 9
+    borderRight: 9
+    borderTop: 9
+    borderBottom: 9
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJRulesBtn
+    x: 165
+    y: 398
+    width: 169
+    height: 114
+    borderLeft: 41
+    borderRight: 41
+    borderTop: 29
+    borderBottom: 29
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJRulesScrollBar
+    x: 506
+    y: 495
+    width: 2
+    height: 17
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJRulesScrollBarThumb
+    x: 497
+    y: 468
+    width: 8
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJRulesTxtConfirm
+    x: 71
+    y: 4
+    width: 86
+    height: 26
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJRulesTxtRules
+    x: 445
+    y: 156
+    width: 51
+    height: 25
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJTxtNew
+    x: 254
+    y: 11
+    width: 55
+    height: 31
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJVexatiousBG
+    x: 162
+    y: 18
+    width: 48
+    height: 48
+    borderLeft: 20
+    borderRight: 20
+    borderTop: 20
+    borderBottom: 20
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: UISJVexatiousTxt
+    x: 363
+    y: 131
+    width: 78
+    height: 24
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

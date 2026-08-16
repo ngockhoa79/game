@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1420732457, guid: ebe353a9e51fc6708625f16edcb81e06, type: 3}
+  m_Name: hongmama_SkeletonData
+  m_EditorClassIdentifier:
+  atlasAssets:
+  - {fileID: 11400000, guid: f69bac4ac23284047a29827a8e91020f, type: 2}
+  scale: 0.65
+  skeletonJSON: {fileID: 4900000, guid: 71d55b7659b53034d9af20d2a1265c26, type: 3}
+  skeletonDataModifiers: []
+  fromAnimation: []
+  toAnimation: []
+  duration: []
+  defaultMix: 0
+  controller: {fileID: 0}

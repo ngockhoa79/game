@@ -1,0 +1,12 @@
+public class _4872e7bb2e315609951dafcb198c2793
+{
+	private int _4872e7bb2e315609951dafcb198c2793m2(int _4872e7bb2e315609951dafcb198c2793a)
+	{
+		return 0;
+	}
+
+	public int _4872e7bb2e315609951dafcb198c2793m(int _4872e7bb2e315609951dafcb198c2793a, int _4872e7bb2e315609951dafcb198c279378, int _4872e7bb2e315609951dafcb198c2793c = 0)
+	{
+		return 0;
+	}
+}

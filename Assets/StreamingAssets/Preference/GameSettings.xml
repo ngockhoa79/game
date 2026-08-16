@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GameSettings>
+	<AppSettings>
+		<!-- 主版本号 -->
+		<add Key="VersionTitle" Value="1.8.10"/>
+		<!-- 次版本号 -->
+		<add Key="VersionSub" Value="1010"/>
+		<!-- 渠道号
+		1：ios正版
+		2：ios越狱及安卓 
+		-->
+		<add Key="ChannelID" Value="1"/>
+		<add Key="SDKID" Value="0677F10AAC2FDC56"/>
+		<!-- 服务器列表配置文件（畅游CDN服务器名：内网Mg_Test网段映射地址 172.18.5.63， s）-->
+		<add Key="ServerInfoListUrl" Value="aHR0cDovL3NlcnZlcmxpc3QucWRkbHN5LmNvbS9saXN0MzAvU2VydmVySW5mb3NDb25maWcueG1sls"/>
+		<!--这是新上架用的（New2）25 serverInfo-->
+		<add Key="ClientVersionUrl" Value="aHR0cDovL3NlcnZlcmxpc3QucWRkbHN5LmNvbS9saXN0MzAvQ2xpZW50VmVyc2lvbi54bWw=ks"/>
+		<!--这是新上架用的(New2) 25 ClientVersionUrl-->
+		<!-- 是否使用畅游登录 -->
+		<add Key="UsingLogin" Value="true"/>
+		<!-- 是否使用新手引导 -->
+		<add Key="UsingGuidance" Value="false"/>
+		<!-- 是否打印战报ID -->
+		<add Key="DebugMode" Value="false"/>
+		<!-- 是否开启支付功能 -->
+		<add Key="EnableCharge" Value="true"/>
+		<!-- Gss服务器地址(域名解析:Mg_Test指向172.18.5.63， 其他网段指向219.232.241.235) -->
+		<add Key="GssServerUrl" Value="http://:10709/gss"/>
+		<!--		<add Key="GssServerUrl" Value="http://gss1.cos.bleachcarnival.com:10709/gss" />-->
+		<!-- 是否显示FPS  -->
+		<add Key="ShowFps" Value="false"/>
+		<add Key="TencentLoginMode" Value="true"/>
+		<!-- official  quick  ios-->
+		<add Key="Channel" Value="webgl"/>
+		<!-- webgl资源版本控制 -->
+		<add Key="WebGLAssetVersion" Value="1.0"/>
+		<!-- HeadURl -->
+		<!-- 正式：aHR0cDovL3Bob25lYXBpLnFkZGxzeS5jb20vYXBpLw==lm 测试：aHR0cDovLzExNS4xOTAuMTcuNDQ6ODA4My9hcGkvlm-->
+		<add Key="HeadURl" Value="aHR0cDovL3Bob25lYXBpLnFkZGxzeS5jb20vYXBpLw==lm"/>
+		<!-- webgl 底部提示词-->
+		<add Key="WebBeginLoadTips" Value="初始化中… 敬请等待！（不消耗流量）"/>
+		<add Key="WebEndLoadTips" Value="初始化完成...马上进入游戏！"/>
+		<!-- webgl宣传提示词 -->
+		<add Key="WebTipsCount" Value="9"/>
+		<add Key="WebTips1" Value="新卡已上线，敬请图鉴内查看"/>
+		<add Key="WebTips2" Value="次元角色大合集，网页版应有尽有！"/>
+		<add Key="WebTips3" Value="注册免费送vip，送钻石，送送送！"/>
+		<add Key="WebTips4" Value="英雄集结，经典再现！"/>
+		<add Key="WebTips5" Value="充值送海量道具！"/>
+		<add Key="WebTips6" Value="热血乱斗，邀你共战！"/>
+		<add Key="WebTips7" Value="异世界旅程，一起共勉！"/>
+		<add Key="WebTips8" Value="强力奥义空间震荡，已上线！"/>
+		<add Key="WebTips9" Value="大乱斗网页版已上线，欢迎大家来体验~"/>
+		<!--0-使用本地 1-使用远端  -->
+		<add Key="WebUseServerInfoListUrl" Value="0"/>
+		<add Key="WebEnableRegister" Value="0"/>
+	</AppSettings>
+</GameSettings>

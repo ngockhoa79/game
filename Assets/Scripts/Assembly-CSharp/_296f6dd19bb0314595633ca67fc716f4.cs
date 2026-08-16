@@ -1,0 +1,12 @@
+public class _296f6dd19bb0314595633ca67fc716f4
+{
+	private int _296f6dd19bb0314595633ca67fc716f4m2(int _296f6dd19bb0314595633ca67fc716f4a)
+	{
+		return 0;
+	}
+
+	public int _296f6dd19bb0314595633ca67fc716f4m(int _296f6dd19bb0314595633ca67fc716f4a, int _296f6dd19bb0314595633ca67fc716f457, int _296f6dd19bb0314595633ca67fc716f4c = 0)
+	{
+		return 0;
+	}
+}

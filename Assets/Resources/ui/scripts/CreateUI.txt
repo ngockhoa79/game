@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Script>
+	<Vars
+		PrefabRoot="Assets/Resources/UI"
+		SceneRoot="UI Root (2D)/Camera/Anchor/Scenes"
+		/>
+		
+	<Procedures>
+		<MountMajorUI Var="">
+			<Mount Name="Mount" PrefabPath="${PrefabRoot}/UI$Arg{Var}" ScenePath="${SceneRoot}" ObjName="$Arg{Var}"/>
+			<GetCom Name="GetCom" Depends="Mount" GameObject="$Out{Mount}" Component="UI$Arg{Var}, Assembly-CSharp"/>
+			<InjectField Depends="GetCom" Target="$Out{LocUIRoot}" Field="$Arg{Var}" Value="$Out{GetCom}"/>
+		</MountMajorUI>
+	</Procedures>
+	
+	<LocGameObj Name="LocUIRoot" Path="${SceneRoot}">
+		<AddCom Name="AddCom" GameObject="$Out{Parent}" Component="UIMainStage, Assembly-CSharp"/>
+		<Output Depends="AddCom" Output="$Out{AddCom}"/>
+	</LocGameObj>
+		
+	<CollectSrcs Name="CreateUI" Depends="LocUIRoot" Path="${WorkDir}/Resources/UI" Include="**/CreateUI_*.xml" Exclude="Scripts/*.xml">
+		<EnumSrcs>
+			<Make/>
+		</EnumSrcs>
+	</CollectSrcs>
+</Script>

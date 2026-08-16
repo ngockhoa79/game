@@ -1,0 +1,12 @@
+public class _860c79154ba46047f6aa4677cbe95c26
+{
+	private int _860c79154ba46047f6aa4677cbe95c26m2(int _860c79154ba46047f6aa4677cbe95c26a)
+	{
+		return 0;
+	}
+
+	public int _860c79154ba46047f6aa4677cbe95c26m(int _860c79154ba46047f6aa4677cbe95c26a, int _860c79154ba46047f6aa4677cbe95c2618, int _860c79154ba46047f6aa4677cbe95c26c = 0)
+	{
+		return 0;
+	}
+}

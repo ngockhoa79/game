@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: MengerLV3SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: 4862f409fef41694580b2b0a37457a93, type: 3}
+  uiAnimation: {fileID: 4900000, guid: b3f0bd315f7cdbd4cb772ed1e7ccb1c0, type: 3}
+  battleAnimation: {fileID: 4900000, guid: 284eeeb56c81f4845a4c8175d8558d06, type: 3}
+  atlasAsset: {fileID: 11400000, guid: 4016df370ef6e044eaf91578e1ee92c1, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 32
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

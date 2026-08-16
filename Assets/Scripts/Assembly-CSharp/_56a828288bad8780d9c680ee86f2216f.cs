@@ -1,0 +1,12 @@
+public class _56a828288bad8780d9c680ee86f2216f
+{
+	private int _56a828288bad8780d9c680ee86f2216fm2(int _56a828288bad8780d9c680ee86f2216fa)
+	{
+		return 0;
+	}
+
+	public int _56a828288bad8780d9c680ee86f2216fm(int _56a828288bad8780d9c680ee86f2216fa, int _56a828288bad8780d9c680ee86f2216f62, int _56a828288bad8780d9c680ee86f2216fc = 0)
+	{
+		return 0;
+	}
+}

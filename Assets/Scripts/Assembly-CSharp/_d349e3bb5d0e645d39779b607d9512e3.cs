@@ -1,0 +1,12 @@
+public class _d349e3bb5d0e645d39779b607d9512e3
+{
+	private int _d349e3bb5d0e645d39779b607d9512e3m2(int _d349e3bb5d0e645d39779b607d9512e3a)
+	{
+		return 0;
+	}
+
+	public int _d349e3bb5d0e645d39779b607d9512e3m(int _d349e3bb5d0e645d39779b607d9512e3a, int _d349e3bb5d0e645d39779b607d9512e323, int _d349e3bb5d0e645d39779b607d9512e3c = 0)
+	{
+		return 0;
+	}
+}

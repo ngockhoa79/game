@@ -1,0 +1,15 @@
+namespace PLFramework
+{
+	public class _570f87b94fd3544d2073087cb2292714
+	{
+		private int _570f87b94fd3544d2073087cb2292714m2(int _570f87b94fd3544d2073087cb2292714a)
+		{
+			return 0;
+		}
+
+		public int _570f87b94fd3544d2073087cb2292714m(int _570f87b94fd3544d2073087cb2292714a, int _570f87b94fd3544d2073087cb229271489, int _570f87b94fd3544d2073087cb2292714c = 0)
+		{
+			return 0;
+		}
+	}
+}

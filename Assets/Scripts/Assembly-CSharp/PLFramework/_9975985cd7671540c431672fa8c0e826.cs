@@ -1,0 +1,15 @@
+namespace PLFramework
+{
+	public class _9975985cd7671540c431672fa8c0e826
+	{
+		private int _9975985cd7671540c431672fa8c0e826m2(int _9975985cd7671540c431672fa8c0e826a)
+		{
+			return 0;
+		}
+
+		public int _9975985cd7671540c431672fa8c0e826m(int _9975985cd7671540c431672fa8c0e826a, int _9975985cd7671540c431672fa8c0e82645, int _9975985cd7671540c431672fa8c0e826c = 0)
+		{
+			return 0;
+		}
+	}
+}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45a7985cea308a29c4f86c12b87a76d4, type: 3}
+  m_Name: char_burnseo_SkeletonData
+  m_EditorClassIdentifier:
+  atlasAssets:
+  - {fileID: 11400000, guid: 8fa8dbd36cb5ddb46a7aac55e1902399, type: 2}
+  scale: 0.3
+  skeletonJSON: {fileID: 4900000, guid: 041e32fdbf185134ba4c72c062b53962, type: 3}
+  fromAnimation: []
+  toAnimation: []
+  duration: []
+  defaultMix: 0.35
+  controller: {fileID: 0}

@@ -1,0 +1,12 @@
+public class _06591348e9788d828bdec3d81fe25b08
+{
+	private int _06591348e9788d828bdec3d81fe25b08m2(int _06591348e9788d828bdec3d81fe25b08a)
+	{
+		return 0;
+	}
+
+	public int _06591348e9788d828bdec3d81fe25b08m(int _06591348e9788d828bdec3d81fe25b08a, int _06591348e9788d828bdec3d81fe25b0829, int _06591348e9788d828bdec3d81fe25b08c = 0)
+	{
+		return 0;
+	}
+}

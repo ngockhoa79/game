@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: shenleLV1SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: 6723010fa842b69439114b705dbba018, type: 3}
+  uiAnimation: {fileID: 4900000, guid: 194cc55848007df47803aeb8ca0cc874, type: 3}
+  battleAnimation: {fileID: 4900000, guid: 7b971b7e32175994f81dac3ed6617380, type: 3}
+  atlasAsset: {fileID: 11400000, guid: 7f30fd2a743bb744ab0dba908596c692, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 32
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UICreator Location="UI Root (2D)/Camera/Anchor/Scenes" Prefab="Resources/UI" AutoCreateLocation="true">
+	<Arena Location="" Prefab="">
+		<Mount Location="" Prefab="UIArena" Var="Arena" Active="false"/>
+		<Mount Location="UIArena/Buttons/HomePageButtonPlaceHolder" Prefab="Common/HomePageButton"/>
+		<Mount Location="UIArena/MePlaceHolder" Prefab="Arena/MeDisplayer"/>
+		
+		<Mount Location="UIArena" Prefab="UIArrayConfirm" Var="ArrayConfirm" Active="false" Depth="10"/>
+		<Mount Location="UIArena/UIArrayConfirm/Arrays/LeftArrayPlaceHolder" Prefab="UIArrayEditor" Depth="1"/>
+		<Mount Location="UIArena/UIArrayConfirm/Arrays/LeftArrayPlaceHolder/UIArrayEditor/Slots" Prefab="ArrayEditor/SlotsVisualStyle_DarkBlue"/>
+		<Mount Location="UIArena/UIArrayConfirm/Arrays/RightArrayPlaceHolder" Prefab="UIArrayEditor" Depth="1"/>
+		<Mount Location="UIArena/UIArrayConfirm/Arrays/RightArrayPlaceHolder/UIArrayEditor/Slots" Prefab="ArrayEditor/SlotsVisualStyle_DarkRed"/>
+		
+		<Mount Location="UIArena/UIArrayConfirm" Prefab="UIHeroEditor" Var="ArenaHeroEditor" Active="false" Depth="10"/>
+		<Mount Location="UIArena/UIArrayConfirm/UIHeroEditor/Buttons/3ReturnBtnPlaceHolder" Prefab="Common/ReturnButton"/>
+		<Mount Location="UIArena/UIArrayConfirm/UIHeroEditor/Buttons/4HomePageBtnPlaceHolder" Prefab="Common/HomePageButton"/>
+		<Mount Location="UIArena/UIArrayConfirm/UIHeroEditor/Major/Gears/0GearPlaceHolder" Prefab="Common/SkillGearDisplayer"/>
+		<Mount Location="UIArena/UIArrayConfirm/UIHeroEditor/Major/Gears/1GearPlaceHolder" Prefab="Common/SkillGearDisplayer"/>
+		<Mount Location="UIArena/UIArrayConfirm/UIHeroEditor/Major/Gears/2GearPlaceHolder" Prefab="Common/SkillGearDisplayer"/>
+		<Mount Location="UIArena/UIArrayConfirm/UIHeroEditor/Major/Gears/3GearPlaceHolder" Prefab="Common/SkillGearDisplayer"/>
+		<Mount Location="UIArena/UIArrayConfirm/UIHeroEditor/Major/Skills/0SkillPlaceHolder" Prefab="Common/SkillGearDisplayer"/>
+		<Mount Location="UIArena/UIArrayConfirm/UIHeroEditor/Major/Skills/1SkillPlaceHolder" Prefab="Common/SkillGearDisplayer"/>
+		<Mount Location="UIArena/UIArrayConfirm/UIHeroEditor/Major/Skills/2SkillPlaceHolder" Prefab="Common/SkillGearDisplayer"/>
+		<Mount Location="UIArena/UIArrayConfirm/UIHeroEditor/Major/Skills/3SkillPlaceHolder" Prefab="Common/SkillGearDisplayer"/>
+	</Arena>
+	<ArrayEditor>
+		<Mount Location="" Prefab="UIArrayEditor" Active="false" Var="ArrayEditor"/>
+		<Mount Location="UIArrayEditor" Prefab="ArrayEditor/Accessories"/>
+		<Mount Location="UIArrayEditor/Accessories/Buttons/HomePageButtonPlaceHolder" Prefab="Common/HomePageButton"/>
+		<Mount Location="UIArrayEditor/Slots" Prefab="ArrayEditor/SlotsVisualStyle_Golden"/>
+		
+		<Mount Location="UIArrayEditor" Prefab="UIHeroEditor" Active="false" Var="HeroEditor" Depth="10"/>
+		<Mount Location="UIArrayEditor/UIHeroEditor/Buttons/3ReturnBtnPlaceHolder" Prefab="Common/ReturnButton"/>
+		<Mount Location="UIArrayEditor/UIHeroEditor/Buttons/4HomePageBtnPlaceHolder" Prefab="Common/HomePageButton"/>
+		<Mount Location="UIArrayEditor/UIHeroEditor/Major/Gears/0GearPlaceHolder" Prefab="Common/SkillGearDisplayer"/>
+		<Mount Location="UIArrayEditor/UIHeroEditor/Major/Gears/1GearPlaceHolder" Prefab="Common/SkillGearDisplayer"/>
+		<Mount Location="UIArrayEditor/UIHeroEditor/Major/Gears/2GearPlaceHolder" Prefab="Common/SkillGearDisplayer"/>
+		<Mount Location="UIArrayEditor/UIHeroEditor/Major/Gears/3GearPlaceHolder" Prefab="Common/SkillGearDisplayer"/>
+		<Mount Location="UIArrayEditor/UIHeroEditor/Major/Skills/0SkillPlaceHolder" Prefab="Common/SkillGearDisplayer"/>
+		<Mount Location="UIArrayEditor/UIHeroEditor/Major/Skills/1SkillPlaceHolder" Prefab="Common/SkillGearDisplayer"/>
+		<Mount Location="UIArrayEditor/UIHeroEditor/Major/Skills/2SkillPlaceHolder" Prefab="Common/SkillGearDisplayer"/>
+		<Mount Location="UIArrayEditor/UIHeroEditor/Major/Skills/3SkillPlaceHolder" Prefab="Common/SkillGearDisplayer"/>
+		
+		<Mount Location="UIArrayEditor/UIHeroEditor" Prefab="UISkillPopup" Active="false" Var="SkillPopup" Depth="10"/>
+		<Mount Location="UIArrayEditor/UIHeroEditor/UISkillPopup/Contents/Details/SkillDispPlaceHolder" Prefab="Common/SkillGearDisplayer"/>
+		<Mount Location="UIArrayEditor/UIHeroEditor/UISkillPopup/Contents/Details/PowerBar/StarsPlaceHolder" Prefab="Common/Stars"/>
+		
+		<Mount Location="UIArrayEditor/UIHeroEditor" Prefab="Luggage/SkillSelector" Active="false" Var="SkillSelector" Depth="10"/>
+		<Mount Location="UIArrayEditor/UIHeroEditor/SkillSelector" Prefab="Luggage/Skin"/>
+		<Mount Location="UIArrayEditor/UIHeroEditor/SkillSelector/Skin/List/TabsPlaceHolder" Prefab="Luggage/Tabs"/>
+		<Mount Location="UIArrayEditor/UIHeroEditor/SkillSelector/Skin/Buttons/HomePageButtonPlaceHolder" Prefab="Common/HomePageButton"/>
+		<Mount Location="UIArrayEditor/UIHeroEditor/SkillSelector/Skin/Buttons/ReturnButtonPlaceHolder" Prefab="Common/ReturnButton"/>
+	</ArrayEditor>
+</UICreator>

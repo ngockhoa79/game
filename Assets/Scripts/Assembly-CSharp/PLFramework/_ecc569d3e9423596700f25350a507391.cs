@@ -1,0 +1,15 @@
+namespace PLFramework
+{
+	public class _ecc569d3e9423596700f25350a507391
+	{
+		private int _ecc569d3e9423596700f25350a507391m2(int _ecc569d3e9423596700f25350a507391a)
+		{
+			return 0;
+		}
+
+		public int _ecc569d3e9423596700f25350a507391m(int _ecc569d3e9423596700f25350a507391a, int _ecc569d3e9423596700f25350a50739112, int _ecc569d3e9423596700f25350a507391c = 0)
+		{
+			return 0;
+		}
+	}
+}

@@ -1,0 +1,12 @@
+public class _f23b22e61f478c5012a1125a49fa458b
+{
+	private int _f23b22e61f478c5012a1125a49fa458bm2(int _f23b22e61f478c5012a1125a49fa458ba)
+	{
+		return 0;
+	}
+
+	public int _f23b22e61f478c5012a1125a49fa458bm(int _f23b22e61f478c5012a1125a49fa458ba, int _f23b22e61f478c5012a1125a49fa458b3, int _f23b22e61f478c5012a1125a49fa458bc = 0)
+	{
+		return 0;
+	}
+}

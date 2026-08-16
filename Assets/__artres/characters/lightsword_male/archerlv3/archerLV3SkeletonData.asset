@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: archerLV3SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: b65c9d0003fc2794baecc10107d5f9c0, type: 3}
+  uiAnimation: {fileID: 4900000, guid: ed1d1bac5a9955646860feac7cdb02f0, type: 3}
+  battleAnimation: {fileID: 4900000, guid: f4e9e8ca7e1db6141ac33d5f5f1694b6, type: 3}
+  atlasAsset: {fileID: 11400000, guid: 9d7beee192396ce42926f59db3c7c440, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 21
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

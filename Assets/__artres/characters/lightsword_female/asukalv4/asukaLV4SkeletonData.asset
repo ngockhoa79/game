@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: asukaLV4SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: 03bd4ee25f5608f4c83e92a96b215edb, type: 3}
+  uiAnimation: {fileID: 4900000, guid: e1128bdf86df653439f1bf0b2adb3e17, type: 3}
+  battleAnimation: {fileID: 4900000, guid: ce172a407728b2f4e978437ed20adef0, type: 3}
+  atlasAsset: {fileID: 11400000, guid: 932452dbae86303408c59a2491fec24b, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 22
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

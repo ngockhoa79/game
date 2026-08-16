@@ -1,0 +1,12 @@
+public class _8a795fca39c801ad92419155566dc58a
+{
+	private int _8a795fca39c801ad92419155566dc58am2(int _8a795fca39c801ad92419155566dc58aa)
+	{
+		return 0;
+	}
+
+	public int _8a795fca39c801ad92419155566dc58am(int _8a795fca39c801ad92419155566dc58aa, int _8a795fca39c801ad92419155566dc58a84, int _8a795fca39c801ad92419155566dc58ac = 0)
+	{
+		return 0;
+	}
+}

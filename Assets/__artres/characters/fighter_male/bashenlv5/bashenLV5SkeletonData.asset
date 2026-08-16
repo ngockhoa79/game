@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: bashenLV5SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: 980c0d321bc21ce49817bc359c89a01d, type: 3}
+  uiAnimation: {fileID: 4900000, guid: 87ff8eab5b368ed49b925ca5d932eb3c, type: 3}
+  battleAnimation: {fileID: 4900000, guid: 4c416ca5f8799b74c969882f49eec710, type: 3}
+  atlasAsset: {fileID: 11400000, guid: 47669032999d2f64794837cfb94b80ce, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 31
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

@@ -1,0 +1,12 @@
+public class _af3823f37f7021c707be46d13b22e024
+{
+	private int _af3823f37f7021c707be46d13b22e024m2(int _af3823f37f7021c707be46d13b22e024a)
+	{
+		return 0;
+	}
+
+	public int _af3823f37f7021c707be46d13b22e024m(int _af3823f37f7021c707be46d13b22e024a, int _af3823f37f7021c707be46d13b22e02445, int _af3823f37f7021c707be46d13b22e024c = 0)
+	{
+		return 0;
+	}
+}

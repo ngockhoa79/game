@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: YuanbanlinLV1SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: 46f64d20d959e934bb15b979378565f1, type: 3}
+  uiAnimation: {fileID: 4900000, guid: 7f8ba3c56648fc640825e7bc84ac5ca4, type: 3}
+  battleAnimation: {fileID: 4900000, guid: af602c8c21692f24aa8aff440712c658, type: 3}
+  atlasAsset: {fileID: 11400000, guid: 5d086ef2abcef194b930110ca64de927, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 42
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

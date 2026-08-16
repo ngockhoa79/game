@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: lufeiLV4SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: 9d262b1c06c86b04282a8c4ee8e2f960, type: 3}
+  uiAnimation: {fileID: 4900000, guid: a6c99ccc0b7ee644496c95050a708700, type: 3}
+  battleAnimation: {fileID: 4900000, guid: f3cd0536cff06f44da1bad936be853de, type: 3}
+  atlasAsset: {fileID: 11400000, guid: eae95784e3cfa3b4db797d37ed377492, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 32
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

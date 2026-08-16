@@ -1,0 +1,367 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: Sce37_blend
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f28a10f064b0573af11a2e931d98da, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: wuyatou_b
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.38, y: 0.22, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 0.38, y: 0.22, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.19, y: -0.11, z: 0}
+    - {x: 0.19, y: -0.11, z: 0}
+    - {x: -0.19, y: 0.11, z: 0}
+    - {x: 0.19, y: 0.11, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.9433603, y: 0.0019541015}
+    - {x: 0.9804678, y: 0.0019541015}
+    - {x: 0.9433603, y: 0.023436524}
+    - {x: 0.9804678, y: 0.023436524}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9fd79406a6ecc7449a335cfede6ae235, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4ad5a5f877a076b4181aa4586b249ad3
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: tietonghou_b
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.23, y: 1.9799999, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 1.23, y: 1.9799999, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.61, y: -0.98999995, z: 0}
+    - {x: 0.62, y: -0.98999995, z: 0}
+    - {x: -0.61, y: 0.98999995, z: 0}
+    - {x: 0.62, y: 0.98999995, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.70800877, y: 0.6308603}
+    - {x: 0.70800877, y: 0.7509756}
+    - {x: 0.90136623, y: 0.6308603}
+    - {x: 0.90136623, y: 0.7509756}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9fd79406a6ecc7449a335cfede6ae235, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8ff407138740abc4f8c03e890e728029
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: wuyashenzi_b
+    boundsData:
+    - {x: 0, y: -0.005000025, z: 0}
+    - {x: 1.12, y: 0.72999996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.005000025, z: 0}
+    - {x: 1.12, y: 0.72999996, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.56, y: -0.37, z: 0}
+    - {x: 0.56, y: -0.37, z: 0}
+    - {x: -0.56, y: 0.35999995, z: 0}
+    - {x: 0.56, y: 0.35999995, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.70800877, y: 0.75488377}
+    - {x: 0.81738186, y: 0.75488377}
+    - {x: 0.70800877, y: 0.8261709}
+    - {x: 0.81738186, y: 0.8261709}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9fd79406a6ecc7449a335cfede6ae235, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9054a44e004fe194ba8e086cf79c4461
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: qianjingyou_b
+    boundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 3.9099998, y: 0.84999996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 3.9099998, y: 0.84999996, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.9499999, y: -0.42999998, z: 0}
+    - {x: 1.9599999, y: -0.42999998, z: 0}
+    - {x: -1.9499999, y: 0.42, z: 0}
+    - {x: 1.9599999, y: 0.42, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.8769541}
+    - {x: 0.38378808, y: 0.8769541}
+    - {x: 0.0019541015, y: 0.95996}
+    - {x: 0.38378808, y: 0.95996}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9fd79406a6ecc7449a335cfede6ae235, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9c7a9f75bf78b8d4e8a31ab3507ed580
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: guangzhao_b
+    boundsData:
+    - {x: 0.0050001144, y: 0, z: 0}
+    - {x: 7.19, y: 2.48, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0050001144, y: 0, z: 0}
+    - {x: 7.19, y: 2.48, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.59, y: -1.24, z: 0}
+    - {x: 3.6000001, y: -1.24, z: 0}
+    - {x: -3.59, y: 1.24, z: 0}
+    - {x: 3.6000001, y: 1.24, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.6308603}
+    - {x: 0.7041006, y: 0.6308603}
+    - {x: 0.0019541015, y: 0.8730459}
+    - {x: 0.7041006, y: 0.8730459}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9fd79406a6ecc7449a335cfede6ae235, type: 2}
+    materialId: 0
+    sourceTextureGUID: c745cc6c6742802429da3dfac97724e0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: qianjinghuotong_b
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.48, y: 0.82, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.48, y: 0.82, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.74, y: -0.41, z: 0}
+    - {x: 0.74, y: -0.41, z: 0}
+    - {x: -0.74, y: 0.41, z: 0}
+    - {x: 0.74, y: 0.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.9052744, y: 0.6308603}
+    - {x: 0.9052744, y: 0.7753897}
+    - {x: 0.9853506, y: 0.6308603}
+    - {x: 0.9853506, y: 0.7753897}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9fd79406a6ecc7449a335cfede6ae235, type: 2}
+    materialId: 0
+    sourceTextureGUID: c8a141cd231869542b35250549daedd9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: zhongjing_b
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 9.599999, y: 6.3999996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 9.599999, y: 6.3999996, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -4.7999997, y: -3.1999998, z: 0}
+    - {x: 4.7999997, y: -3.1999998, z: 0}
+    - {x: -4.7999997, y: 3.1999998, z: 0}
+    - {x: 4.7999997, y: 3.1999998, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.0019541015}
+    - {x: 0.9394522, y: 0.0019541015}
+    - {x: 0.0019541015, y: 0.6269522}
+    - {x: 0.9394522, y: 0.6269522}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9fd79406a6ecc7449a335cfede6ae235, type: 2}
+    materialId: 0
+    sourceTextureGUID: eb1652af4dbd058419a84eaa98398320
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 9fd79406a6ecc7449a335cfede6ae235, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 6132b1ce2ec9b054d89717002b6e1ec8, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 47c6d13a5a1167f40a9319da527749e5
+  spriteCollectionName: Sce37_blend
+  assetName:
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 50
+  buildKey: 1718896253
+  dataGuid: cd02aaaeed5e0054b8f4f7cbcecff0a9
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

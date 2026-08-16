@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: jojoLV2SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: ca348282491ca2d469861682419dbe18, type: 3}
+  uiAnimation: {fileID: 4900000, guid: 9eb4d8376c181c74287112f224665114, type: 3}
+  battleAnimation: {fileID: 4900000, guid: 6bb2bfce6e534e84d9765330b08fac4c, type: 3}
+  atlasAsset: {fileID: 11400000, guid: a0f10a5a1286c884cafd180a5cdd77a9, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 31
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

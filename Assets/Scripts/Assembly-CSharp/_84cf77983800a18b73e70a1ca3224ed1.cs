@@ -1,0 +1,12 @@
+public class _84cf77983800a18b73e70a1ca3224ed1
+{
+	private int _84cf77983800a18b73e70a1ca3224ed1m2(int _84cf77983800a18b73e70a1ca3224ed1a)
+	{
+		return 0;
+	}
+
+	public int _84cf77983800a18b73e70a1ca3224ed1m(int _84cf77983800a18b73e70a1ca3224ed1a, int _84cf77983800a18b73e70a1ca3224ed154, int _84cf77983800a18b73e70a1ca3224ed1c = 0)
+	{
+		return 0;
+	}
+}

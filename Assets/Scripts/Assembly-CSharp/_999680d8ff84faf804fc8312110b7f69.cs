@@ -1,0 +1,12 @@
+public class _999680d8ff84faf804fc8312110b7f69
+{
+	private int _999680d8ff84faf804fc8312110b7f69m2(int _999680d8ff84faf804fc8312110b7f69a)
+	{
+		return 0;
+	}
+
+	public int _999680d8ff84faf804fc8312110b7f69m(int _999680d8ff84faf804fc8312110b7f69a, int _999680d8ff84faf804fc8312110b7f6962, int _999680d8ff84faf804fc8312110b7f69c = 0)
+	{
+		return 0;
+	}
+}

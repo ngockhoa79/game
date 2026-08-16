@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: siliyagumaLV3SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: cac2ba7ddea731a4d961f90cc17d86b7, type: 3}
+  uiAnimation: {fileID: 4900000, guid: 5166ee35470b06542a995cc1a4f95f4d, type: 3}
+  battleAnimation: {fileID: 4900000, guid: 8598d363386e0b04aa6b70780426ebe6, type: 3}
+  atlasAsset: {fileID: 11400000, guid: 323ff7a7a908035469c27eb5094b9f48, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 12
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

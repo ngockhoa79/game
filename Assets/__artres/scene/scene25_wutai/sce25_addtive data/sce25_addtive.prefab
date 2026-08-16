@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: sce25_addtive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f28a10f064b0573af11a2e931d98da, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: top_lamp_light_a
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 0.51, y: 1.62, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999995, y: -0.004999995, z: 0}
+    - {x: 0.51, y: 1.63, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.25, y: -0.81, z: 0}
+    - {x: 0.26, y: -0.81, z: 0}
+    - {x: -0.25, y: 0.81, z: 0}
+    - {x: 0.26, y: 0.81, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.109378904, y: 0.003908203}
+    - {x: 0.109378904, y: 0.10351367}
+    - {x: 0.74218357, y: 0.003908203}
+    - {x: 0.74218357, y: 0.10351367}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a3814f98eeb9e014fb211f92affe6f64, type: 2}
+    materialId: 0
+    sourceTextureGUID: 65ae9fe2d9720164fa4a49a31c4e7caf
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: ground_lamp_light_a
+    boundsData:
+    - {x: 0.004999995, y: 0, z: 0}
+    - {x: 4.79, y: 0.22, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 4.7999997, y: 0.22, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -2.3899999, y: -0.11, z: 0}
+    - {x: 2.3999999, y: -0.11, z: 0}
+    - {x: -2.3899999, y: 0.11, z: 0}
+    - {x: 2.3999999, y: 0.11, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.007816406, y: 0.93945116}
+    - {x: 0.093746096, y: 0.003908203}
+    - {x: 0.093746096, y: 0.93945116}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a3814f98eeb9e014fb211f92affe6f64, type: 2}
+    materialId: 0
+    sourceTextureGUID: 75e469b705deed047a20e415688b6716
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd:
+    colliderIndicesBack:
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: a3814f98eeb9e014fb211f92affe6f64, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 41136ff9c98357f47b19196755bc7e8d, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 533b991003991dd4896302d6b1b0c421
+  spriteCollectionName: sce25_addtive
+  assetName:
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 50
+  buildKey: 898536317
+  dataGuid: c1c93078213c7e5469fa264696fd1b43
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

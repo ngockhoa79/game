@@ -1,0 +1,12 @@
+public class _99694c89cc20530c8de28b152e1d40f3
+{
+	private int _99694c89cc20530c8de28b152e1d40f3m2(int _99694c89cc20530c8de28b152e1d40f3a)
+	{
+		return 0;
+	}
+
+	public int _99694c89cc20530c8de28b152e1d40f3m(int _99694c89cc20530c8de28b152e1d40f3a, int _99694c89cc20530c8de28b152e1d40f321, int _99694c89cc20530c8de28b152e1d40f3c = 0)
+	{
+		return 0;
+	}
+}

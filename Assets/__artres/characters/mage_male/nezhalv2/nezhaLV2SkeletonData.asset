@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: nezhaLV2SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: 4dbdd2367f2d1254cb809df84d90cc6b, type: 3}
+  uiAnimation: {fileID: 4900000, guid: 1dd19891dbbee404390d27c2412fc4cf, type: 3}
+  battleAnimation: {fileID: 4900000, guid: a3cdcbd07fd9b6b4b90522ca5359fafe, type: 3}
+  atlasAsset: {fileID: 11400000, guid: 2b1d59d7803dee2409c1130a41e77597, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 41
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

@@ -1,0 +1,15 @@
+namespace PLFramework
+{
+	public class _8098c24a1c505a9e384683257ec54488
+	{
+		private int _8098c24a1c505a9e384683257ec54488m2(int _8098c24a1c505a9e384683257ec54488a)
+		{
+			return 0;
+		}
+
+		public int _8098c24a1c505a9e384683257ec54488m(int _8098c24a1c505a9e384683257ec54488a, int _8098c24a1c505a9e384683257ec5448896, int _8098c24a1c505a9e384683257ec54488c = 0)
+		{
+			return 0;
+		}
+	}
+}

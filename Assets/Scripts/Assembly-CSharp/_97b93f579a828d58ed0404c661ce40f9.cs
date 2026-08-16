@@ -1,0 +1,12 @@
+public class _97b93f579a828d58ed0404c661ce40f9
+{
+	private int _97b93f579a828d58ed0404c661ce40f9m2(int _97b93f579a828d58ed0404c661ce40f9a)
+	{
+		return 0;
+	}
+
+	public int _97b93f579a828d58ed0404c661ce40f9m(int _97b93f579a828d58ed0404c661ce40f9a, int _97b93f579a828d58ed0404c661ce40f994, int _97b93f579a828d58ed0404c661ce40f9c = 0)
+	{
+		return 0;
+	}
+}

@@ -1,0 +1,234 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: dialog_image_npc01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: bdd6b4a99637ac44cbee9d476dafd864, type: 2}
+  mSprites:
+  - name: dialog_image_npc01_em1_1
+    x: 340
+    y: 443
+    width: 85
+    height: 69
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 246
+    paddingRight: 181
+    paddingTop: 210
+    paddingBottom: 361
+  - name: dialog_image_npc01_em1_2
+    x: 336
+    y: 367
+    width: 85
+    height: 69
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 246
+    paddingRight: 181
+    paddingTop: 210
+    paddingBottom: 361
+  - name: dialog_image_npc01_em1_3
+    x: 289
+    y: 216
+    width: 84
+    height: 69
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 246
+    paddingRight: 182
+    paddingTop: 210
+    paddingBottom: 361
+  - name: dialog_image_npc01_em2
+    x: 249
+    y: 363
+    width: 83
+    height: 73
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 248
+    paddingRight: 181
+    paddingTop: 206
+    paddingBottom: 361
+  - name: dialog_image_npc01_em3
+    x: 249
+    y: 440
+    width: 87
+    height: 72
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 245
+    paddingRight: 180
+    paddingTop: 208
+    paddingBottom: 360
+  - name: dialog_image_npc01_em4
+    x: 80
+    y: 29
+    width: 89
+    height: 76
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 244
+    paddingRight: 179
+    paddingTop: 204
+    paddingBottom: 360
+  - name: dialog_image_npc01_em5
+    x: 289
+    y: 289
+    width: 85
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 246
+    paddingRight: 181
+    paddingTop: 208
+    paddingBottom: 362
+  - name: dialog_image_npc01_em6
+    x: 218
+    y: 48
+    width: 87
+    height: 78
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 245
+    paddingRight: 180
+    paddingTop: 199
+    paddingBottom: 363
+  - name: dialog_image_npc01_lefthand126
+    x: 183
+    y: 310
+    width: 62
+    height: 202
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 332
+    paddingRight: 118
+    paddingTop: 236
+    paddingBottom: 202
+  - name: dialog_image_npc01_lefthand3
+    x: 0
+    y: 4
+    width: 76
+    height: 225
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 324
+    paddingRight: 112
+    paddingTop: 344
+    paddingBottom: 71
+  - name: dialog_image_npc01_lefthand4
+    x: 80
+    y: 109
+    width: 134
+    height: 119
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 332
+    paddingRight: 46
+    paddingTop: 319
+    paddingBottom: 202
+  - name: dialog_image_npc01_lefthand5
+    x: 218
+    y: 130
+    width: 67
+    height: 176
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 307
+    paddingRight: 138
+    paddingTop: 263
+    paddingBottom: 201
+  - name: dialog_image_npc01_righthand_12456
+    x: 85
+    y: 232
+    width: 94
+    height: 280
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 4
+    paddingTop: 16
+    paddingBottom: 0
+  - name: dialog_image_npc01_righthand_3
+    x: 0
+    y: 233
+    width: 81
+    height: 279
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 17
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 17
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

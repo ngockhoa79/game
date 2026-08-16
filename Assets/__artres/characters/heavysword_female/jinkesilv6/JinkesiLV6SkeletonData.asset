@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: JinkesiLV6SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: cbac8ca06e07c1c4f8e3616b263635c2, type: 3}
+  uiAnimation: {fileID: 4900000, guid: 009787343c314d64cb16dbb69232d90f, type: 3}
+  battleAnimation: {fileID: 4900000, guid: c353c295db704224a947e2294d75f8cf, type: 3}
+  atlasAsset: {fileID: 11400000, guid: bd0d856c8495f394fa7ff115da2df969, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 12
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

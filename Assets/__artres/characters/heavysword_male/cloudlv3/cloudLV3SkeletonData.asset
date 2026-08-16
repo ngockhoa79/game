@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: cloudLV3SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: 351fa7a4918c75345b526c7bdc798ee9, type: 3}
+  uiAnimation: {fileID: 4900000, guid: 9d6c094f665e15e4d888509bc467902b, type: 3}
+  battleAnimation: {fileID: 4900000, guid: 01d7a3e323000d14f9b0b57f1795c2c1, type: 3}
+  atlasAsset: {fileID: 11400000, guid: 050d657f745a5194b896b93d1662454a, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 11
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

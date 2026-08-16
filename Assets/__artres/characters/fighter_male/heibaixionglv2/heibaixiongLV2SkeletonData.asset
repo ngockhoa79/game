@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: heibaixiongLV2SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: d66f9dd30b4bb434b837c0987a2947d7, type: 3}
+  uiAnimation: {fileID: 4900000, guid: bdb1076e2b3746844b4eb3d66c02557b, type: 3}
+  battleAnimation: {fileID: 4900000, guid: 38a26aff0576b714faa41a5214edc874, type: 3}
+  atlasAsset: {fileID: 11400000, guid: 4681d9a6a0c640548a7eb8db3d40fd66, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 31
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

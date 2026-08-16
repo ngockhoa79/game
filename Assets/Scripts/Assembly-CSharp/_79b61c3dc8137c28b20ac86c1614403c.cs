@@ -1,0 +1,12 @@
+public class _79b61c3dc8137c28b20ac86c1614403c
+{
+	private int _79b61c3dc8137c28b20ac86c1614403cm2(int _79b61c3dc8137c28b20ac86c1614403ca)
+	{
+		return 0;
+	}
+
+	public int _79b61c3dc8137c28b20ac86c1614403cm(int _79b61c3dc8137c28b20ac86c1614403ca, int _79b61c3dc8137c28b20ac86c1614403c87, int _79b61c3dc8137c28b20ac86c1614403cc = 0)
+	{
+		return 0;
+	}
+}

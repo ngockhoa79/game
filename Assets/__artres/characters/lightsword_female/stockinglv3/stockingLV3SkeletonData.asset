@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: stockingLV3SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: dbb2b79acc4f8864e9d91e863c1e2b6a, type: 3}
+  uiAnimation: {fileID: 4900000, guid: 7ee82df84c9c0d242a6f726e3e252b65, type: 3}
+  battleAnimation: {fileID: 4900000, guid: ab1947447a85346439e20e620136464b, type: 3}
+  atlasAsset: {fileID: 11400000, guid: 890f1e4a6f0c1dc4bad42383fbcb06a1, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 22
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: quanyechaLV3SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: 59cb625db6e14934f9fc3750d1c97def, type: 3}
+  uiAnimation: {fileID: 4900000, guid: f6a9a6baa0cf64c449b655805edb0608, type: 3}
+  battleAnimation: {fileID: 4900000, guid: a6f79b07f2e9b3448972770ef5a95b0e, type: 3}
+  atlasAsset: {fileID: 11400000, guid: a664d6ce5c30d2749bfdaec3b381f36a, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 11
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

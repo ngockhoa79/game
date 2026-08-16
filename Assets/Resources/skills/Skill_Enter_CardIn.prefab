@@ -1,0 +1,1109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4724804207875695}
+  - component: {fileID: 114618682377417806}
+  m_Layer: 0
+  m_Name: Skill_Enter_CardIn
+  m_TagString: Skill
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1730242686860875
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4703437598541787}
+  - component: {fileID: 114884547391421755}
+  m_Layer: 0
+  m_Name: Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4724804207875695
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4703437598541787}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0e6082f2e2eca738e1678cda525ce2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  SkillId: 1
+  SourceFighterId: 1
+  MainTargetId: 0
+  TargetFighters:
+--- !u!4 &4703437598541787
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730242686860875}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4724804207875695}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114884547391421755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730242686860875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: daca89c25bd1813ceecbbbb8555342a7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  fsm:
+    dataVersion: 1
+    usedInTemplate: {fileID: 0}
+    name: SkillMain
+    startState: Wait For Initialize
+    states:
+    - name: Wait For Initialize
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 59.96875
+        y: 113
+        width: 129
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToInitializeState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Initialize
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled:
+        actionIsOpen:
+        actionStartIndex:
+        actionHashCodes:
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData:
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType:
+        paramName: []
+        paramDataPos:
+        paramByteDataSize:
+    - name: CardIntoBattleState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 72.78125
+        y: 449.9922
+        width: 141
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: CardTurnToHeroState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.Wait
+        - EnterBattleSetting
+        - CosShakeCamera
+        - CosBgEffect
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 0000000003000000060000000a000000
+        actionHashCodes: 48c0110177a39f007f45ac055e717901
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000c03f0000010000000000000000cdcc4c3e00000000000000a0c1000000000000000000803e0000000000cdcc4c3e00
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 0f000000170000000100000013000000070000000f0000000f0000001c000000110000000f000000070000000f000000
+        paramName:
+        - time
+        - finishEvent
+        - realTime
+        - hero
+        - action
+        - exportTime
+        - shakeTime
+        - shakePos
+        - shakeUI
+        - delay
+        - effectType
+        - delay
+        paramDataPos: 00000000050000000500000000000000060000000a0000000f000000140000002100000023000000280000002c000000
+        paramByteDataSize: 050000000000000001000000000000000400000005000000050000000d00000002000000050000000400000005000000
+    - name: Start
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 87
+        y: 343
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: CardIntoBattleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - CharacterState
+        - HutongGames.PlayMaker.Actions.Wait
+        - HeroHSVAAnimation
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000300000006000000
+        actionHashCodes: 38b2320048c011011015d202
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams:
+        - curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 9.357929E-06
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1.0121723
+              value: 9.357929E-06
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToIdleState
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 000000000000000000014265666f7265496e746f54696d650003000000cdcc4c3d00
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000120000000f0000000f000000170000000100000013000000070000000f00000016000000
+        paramName:
+        - character
+        - stateName
+        - delay
+        - time
+        - finishEvent
+        - realTime
+        - hero
+        - type
+        - totalTime
+        - animCurve
+        paramDataPos: 00000000000000000000000005000000180000001800000001000000190000001d00000000000000
+        paramByteDataSize: 00000000000000000500000013000000000000000100000000000000040000000500000000000000
+    - name: Initialize
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 78.97656
+        y: 234
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Start
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - SpineFaceTowardAuto
+        - EnterBattleSetting
+        - EnterBattleSetting
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000200000005000000
+        actionHashCodes: 9f08190377a39f0077a39f00
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 00000000000000000000000400000000000000014265666f7265496e746f54696d65
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 130000001100000013000000070000000f00000013000000070000000f000000
+        paramName:
+        - characterObj
+        - reverse
+        - hero
+        - action
+        - exportTime
+        - hero
+        - action
+        - exportTime
+        paramDataPos: 0000000000000000010000000200000006000000020000000b0000000f000000
+        paramByteDataSize: 0000000002000000000000000400000005000000000000000400000013000000
+    - name: OverState
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 471
+        y: 460
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - SendMsgToSkillCtrller
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: d9ab9a01
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 020000000000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 07000000140000000f000000
+        paramName:
+        - msgType
+        - gameObject
+        - delay
+        paramDataPos: 000000000000000004000000
+        paramByteDataSize: 040000000000000005000000
+    - name: CardTurnToHeroState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 441
+        y: 126
+        width: 154
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: BeginState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - EnterBattleSetting
+        - HutongGames.PlayMaker.Actions.SendRandomEvent
+        customNames:
+        - 
+        - 
+        actionEnabled: 0100
+        actionIsOpen: 0101
+        actionStartIndex: 0000000003000000
+        actionHashCodes: 77a39f0072e62e01
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 020000000000000000546f426567696e315374617465546f426567696e3253746174650000803f000000803f000ad7233c00
+        arrayParamSizes: 0200000002000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmEvent
+        - HutongGames.PlayMaker.FsmFloat
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000070000000f0000000c00000017000000170000000c0000000f0000000f0000000f000000
+        paramName:
+        - hero
+        - action
+        - exportTime
+        - events
+        - 
+        - 
+        - weights
+        - 
+        - 
+        - delay
+        paramDataPos: 0000000000000000040000000000000009000000160000000100000023000000280000002d000000
+        paramByteDataSize: 000000000400000005000000000000000d0000000d00000000000000050000000500000005000000
+    - name: SkillFinishState
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 461
+        y: 362
+        width: 116
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: OverState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - EnterBattleSetting
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 77a39f00
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 030000000000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000070000000f000000
+        paramName:
+        - hero
+        - action
+        - exportTime
+        paramDataPos: 000000000000000004000000
+        paramByteDataSize: 000000000400000005000000
+    - name: BeginState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 476
+        y: 243
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: SkillFinishState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HeroHSVAAnimation
+        - HeroHSVAAnimation
+        - HutongGames.PlayMaker.Actions.Wait
+        - CosBgEffect
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 0000000004000000080000000b000000
+        actionHashCodes: 1015d2021015d20248c011015e717901
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams:
+        - curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0.004801601
+              value: 2.9960954
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.102063164
+              value: 2.9961035
+              inSlope: 0
+              outSlope: -6.858233
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1.0000899
+              value: 1.0075657
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 1
+              outSlope: -0.026745465
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 3.1538303
+              outSlope: 1
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 020000000000003f0003000000cdcccc3d00cdcc4c3f0001010000009a99993e00
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000070000000f0000001600000013000000070000000f000000160000000f0000001700000001000000070000000f000000
+        paramName:
+        - hero
+        - type
+        - totalTime
+        - animCurve
+        - hero
+        - type
+        - totalTime
+        - animCurve
+        - time
+        - finishEvent
+        - realTime
+        - effectType
+        - delay
+        paramDataPos: 0000000000000000040000000000000001000000090000000d00000001000000120000001700000017000000180000001c000000
+        paramByteDataSize: 00000000040000000500000000000000000000000400000005000000000000000500000000000000010000000400000005000000
+    - name: Begin2State
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 699
+        y: 245
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: SkillFinishState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - CharacterState
+        - AddAnimationEndListener
+        - HeroHSVAAnimation
+        - HeroHSVAAnimation
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 0000000003000000060000000a000000
+        actionHashCodes: 38b2320089f3a4021015d2021015d202
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams:
+        - curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0.004801601
+              value: 2.9960954
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.102063164
+              value: 2.9961035
+              inSlope: 0
+              outSlope: -6.858233
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1.0000899
+              value: 1.0075657
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 1
+              outSlope: -0.026745465
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 3.1538303
+              outSlope: 1
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToBegin2State
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000000000cdcc4c3d00020000000000003f0003000000cdcccc3d00
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000120000000f00000013000000170000000f00000013000000070000000f0000001600000013000000070000000f00000016000000
+        paramName:
+        - character
+        - stateName
+        - delay
+        - characterObj
+        - endEvent
+        - delay
+        - hero
+        - type
+        - totalTime
+        - animCurve
+        - hero
+        - type
+        - totalTime
+        - animCurve
+        paramDataPos: 000000000000000000000000010000000500000005000000020000000a0000000e0000000000000003000000130000001700000001000000
+        paramByteDataSize: 0000000000000000050000000000000000000000050000000000000004000000050000000000000000000000040000000500000000000000
+    events:
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: ToBegin1State
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToBegin2State
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToInitializeState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToOverState
+      isSystemEvent: 0
+      isGlobal: 0
+    globalTransitions: []
+    variables:
+      floatVariables:
+      - useVariable: 1
+        name: BeforeIntoTime
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: moveSpeed
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      intVariables: []
+      boolVariables: []
+      stringVariables: []
+      vector2Variables: []
+      vector3Variables:
+      - useVariable: 1
+        name: TargetPos
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value: {x: 0, y: 0, z: 0}
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables:
+      - useVariable: 1
+        name: Main
+        tooltip: Main Character
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 0}
+      objectVariables: []
+      materialVariables: []
+      textureVariables: []
+      arrayVariables: []
+      enumVariables: []
+      categories:
+      - 
+      variableCategoryIDs:
+    description:
+    docUrl:
+    showStateLabel: 1
+    maxLoopCount: 0
+    watermark:
+    password:
+    locked: 0
+    manualUpdate: 0
+    outVariableIndices:
+    keepDelayedEventsOnStateExit: 0
+    preprocessed: 0
+    ExposedEvents: []
+    OutputEvents: []
+    RestartOnEnable: 1
+    ResetVariablesOnEnable: 0
+    EnableDebugFlow: 1
+    EnableBreakpoints: 1
+    editorFlags: 225
+    activeStateName:
+    mouseEvents: 0
+    handleLevelLoaded: 0
+    handleTriggerEnter2D: 0
+    handleTriggerExit2D: 0
+    handleTriggerStay2D: 0
+    handleCollisionEnter2D: 0
+    handleCollisionExit2D: 0
+    handleCollisionStay2D: 0
+    handleTriggerEnter: 0
+    handleTriggerExit: 0
+    handleTriggerStay: 0
+    handleCollisionEnter: 0
+    handleCollisionExit: 0
+    handleCollisionStay: 0
+    handleParticleCollision: 0
+    handleControllerColliderHit: 0
+    handleJointBreak: 0
+    handleJointBreak2D: 0
+    handleOnGUI: 0
+    handleFixedUpdate: 0
+    handleLateUpdate: 0
+    handleApplicationEvents: 0
+    handleUiEvents: 0
+    handleLegacyNetworking: 0
+    handleAnimatorMove: 0
+    handleAnimatorIK: 0
+  fsmTemplate: {fileID: 0}
+  eventHandlerComponentsAdded: 0

@@ -1,0 +1,12 @@
+public enum Aligment
+{
+	CENTER = 0,
+	TOP_CENTER = 1,
+	TOP_LEFT = 2,
+	TOP_RIGHT = 3,
+	BOTTOM_CENTER = 4,
+	BOTTOM_LEFT = 5,
+	BOTTOM_RIGHT = 6,
+	LEFT_CENTER = 7,
+	RIGHT_CENTER = 8
+}

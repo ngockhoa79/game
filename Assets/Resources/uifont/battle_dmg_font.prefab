@@ -1,0 +1,286 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: battle_dmg_font
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a68422e122212f3eb86c19ce6ed442e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 683e575518418da4abda1ee274936d14, type: 2}
+  mUVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  mFont:
+    mSize: 9
+    mBase: 9
+    mWidth: 442
+    mHeight: 250
+    mSpriteName: bmfont_battle_dmg
+    mSaved:
+    - index: 43
+      x: 278
+      y: 82
+      width: 44
+      height: 82
+      offsetX: 0
+      offsetY: 0
+      advance: 44
+      channel: 0
+      kerning:
+    - index: 45
+      x: 332
+      y: 82
+      width: 44
+      height: 82
+      offsetX: 0
+      offsetY: 0
+      advance: 44
+      channel: 0
+      kerning:
+    - index: 48
+      x: 396
+      y: 0
+      width: 44
+      height: 82
+      offsetX: 0
+      offsetY: 0
+      advance: 44
+      channel: 0
+      kerning:
+    - index: 49
+      x: 136
+      y: 0
+      width: 24
+      height: 82
+      offsetX: 0
+      offsetY: 0
+      advance: 24
+      channel: 0
+      kerning:
+    - index: 50
+      x: 213
+      y: 0
+      width: 39
+      height: 82
+      offsetX: 0
+      offsetY: 0
+      advance: 38
+      channel: 0
+      kerning:
+    - index: 51
+      x: 0
+      y: 0
+      width: 43
+      height: 82
+      offsetX: 0
+      offsetY: 0
+      advance: 42
+      channel: 0
+      kerning:
+    - index: 52
+      x: 45
+      y: 0
+      width: 45
+      height: 82
+      offsetX: 0
+      offsetY: 0
+      advance: 44
+      channel: 0
+      kerning:
+    - index: 53
+      x: 253
+      y: 0
+      width: 41
+      height: 82
+      offsetX: 0
+      offsetY: 0
+      advance: 40
+      channel: 0
+      kerning:
+    - index: 54
+      x: 296
+      y: 0
+      width: 48
+      height: 82
+      offsetX: 0
+      offsetY: 0
+      advance: 48
+      channel: 0
+      kerning:
+    - index: 55
+      x: 91
+      y: 0
+      width: 44
+      height: 82
+      offsetX: 0
+      offsetY: 0
+      advance: 44
+      channel: 0
+      kerning:
+    - index: 56
+      x: 163
+      y: 0
+      width: 48
+      height: 82
+      offsetX: 0
+      offsetY: 0
+      advance: 48
+      channel: 0
+      kerning:
+    - index: 57
+      x: 347
+      y: 0
+      width: 46
+      height: 82
+      offsetX: 0
+      offsetY: 0
+      advance: 46
+      channel: 0
+      kerning:
+    - index: 20811
+      x: 7
+      y: 164
+      width: 59
+      height: 82
+      offsetX: 0
+      offsetY: 0
+      advance: 58
+      channel: 0
+      kerning:
+    - index: 20987
+      x: 356
+      y: 164
+      width: 59
+      height: 82
+      offsetX: 0
+      offsetY: 0
+      advance: 58
+      channel: 0
+      kerning:
+    - index: 21046
+      x: 75
+      y: 164
+      width: 58
+      height: 82
+      offsetX: 0
+      offsetY: 0
+      advance: 58
+      channel: 0
+      kerning:
+    - index: 25377
+      x: 71
+      y: 82
+      width: 61
+      height: 82
+      offsetX: 0
+      offsetY: 0
+      advance: 60
+      channel: 0
+      kerning:
+    - index: 26292
+      x: 224
+      y: 164
+      width: 60
+      height: 82
+      offsetX: 0
+      offsetY: 0
+      advance: 60
+      channel: 0
+      kerning:
+    - index: 26684
+      x: 2
+      y: 82
+      width: 60
+      height: 82
+      offsetX: 0
+      offsetY: 0
+      advance: 60
+      channel: 0
+      kerning:
+    - index: 34987
+      x: 143
+      y: 164
+      width: 60
+      height: 82
+      offsetX: 0
+      offsetY: 0
+      advance: 60
+      channel: 0
+      kerning:
+    - index: 36861
+      x: 290
+      y: 164
+      width: 61
+      height: 82
+      offsetX: 0
+      offsetY: 0
+      advance: 60
+      channel: 0
+      kerning:
+    - index: 36991
+      x: 207
+      y: 82
+      width: 60
+      height: 82
+      offsetX: 0
+      offsetY: 0
+      advance: 60
+      channel: 0
+      kerning:
+    - index: 38378
+      x: 141
+      y: 82
+      width: 55
+      height: 82
+      offsetX: 0
+      offsetY: 0
+      advance: 54
+      channel: 0
+      kerning:
+  mAtlas: {fileID: 0}
+  mReplacement: {fileID: 0}
+  mSymbols: []
+  mDynamicFont: {fileID: 0}
+  mDynamicFontSize: 16
+  mDynamicFontStyle: 0

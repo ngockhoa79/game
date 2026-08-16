@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerInfosConfig>
+    <ResourceUrliOS Root="http://115.159.96.161:8088/cosdld/ios20141119/"/>
+	<ResourceUrlAdr Root="http://115.159.96.161:8088/cosdld/ad20180528/"/>
+    <DefaultMessage Stop="服务器正在维护中，请稍后尝试。" Full="服务器已满员！"/>
+	<ServerInfos>
+		<ServerInfo
+    DisplayId="0"
+    RealmId="900001"
+    IpAddress="127.0.0.1"
+    Name="LOCAL TEST"
+    Port="16000"
+    Status="0"
+    CanEnter="true"
+/>
+		<ServerInfo DisplayId="1" RealmId="1900" IpAddress="115.159.4.51" Name="COS DEV1" Port="16000" Status="0"/>
+		<ServerInfo DisplayId="2" RealmId="900003" IpAddress="115.159.4.51" Name="COS DEV2" Port="16000" Status="0"/>
+	</ServerInfos>
+</ServerInfosConfig>

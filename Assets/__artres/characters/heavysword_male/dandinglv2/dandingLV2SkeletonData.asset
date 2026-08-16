@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b25908f51e525b3c128fa6204859197, type: 3}
+  m_Name: dandingLV2SkeletonData
+  m_EditorClassIdentifier:
+  idleAnimation: {fileID: 4900000, guid: dd9eee38ce25ca84a9c259973d9aa10d, type: 3}
+  uiAnimation: {fileID: 4900000, guid: edb4de9e3bc05534c90b009d487d81bd, type: 3}
+  battleAnimation: {fileID: 4900000, guid: 3c02b3006e02f9641939186b016198fd, type: 3}
+  atlasAsset: {fileID: 11400000, guid: 28ee962676380cf48aa5e84bee28b019, type: 2}
+  customJsonAsset: {fileID: 0}
+  characterType: 11
+  scale: 1
+  fromAnimation: []
+  toAnimation: []
+  duration: []

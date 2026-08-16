@@ -1,0 +1,12 @@
+public class _c7589b423bc5855c3974bd106e8f05d3
+{
+	private int _c7589b423bc5855c3974bd106e8f05d3m2(int _c7589b423bc5855c3974bd106e8f05d3a)
+	{
+		return 0;
+	}
+
+	public int _c7589b423bc5855c3974bd106e8f05d3m(int _c7589b423bc5855c3974bd106e8f05d3a, int _c7589b423bc5855c3974bd106e8f05d388, int _c7589b423bc5855c3974bd106e8f05d3c = 0)
+	{
+		return 0;
+	}
+}

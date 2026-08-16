@@ -1,0 +1,3804 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4618682377417806}
+  - component: {fileID: 114703437598541787}
+  m_Layer: 0
+  m_Name: Skill_441431
+  m_TagString: Skill
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1730242686860875
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4884547391421755}
+  - component: {fileID: 114099118695303065}
+  m_Layer: 0
+  m_Name: Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1724804207875695
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4243736805655561}
+  - component: {fileID: 114061268324235159}
+  m_Layer: 0
+  m_Name: Target1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4618682377417806
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4884547391421755}
+  - {fileID: 4243736805655561}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114703437598541787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0e6082f2e2eca738e1678cda525ce2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  SkillId: 1
+  SourceFighterId: 1
+  MainTargetId: 0
+  TargetFighters:
+--- !u!4 &4884547391421755
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730242686860875}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4618682377417806}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114099118695303065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730242686860875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: daca89c25bd1813ceecbbbb8555342a7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  fsm:
+    dataVersion: 1
+    usedInTemplate: {fileID: 0}
+    name: SkillMain
+    startState: Wait For Initialize
+    states:
+    - name: Wait For Initialize
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 54.96875
+        y: 148
+        width: 129
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToInitializeState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Initialize
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled:
+        actionIsOpen:
+        actionStartIndex:
+        actionHashCodes:
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData:
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType:
+        paramName: []
+        paramDataPos:
+        paramByteDataSize:
+    - name: AttackState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 330.1328
+        y: 257.77344
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: HitState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.Wait
+        - HeroAttackEvents
+        - PlayEffect
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000300000006000000
+        actionHashCodes: 48c01101a8224202b2c1ee05
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: fx_441431_hold
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 000000000148697454696d6500080000000000000000000000000000000000000000000000000000000000000000000000000000010000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 0f000000170000000100000013000000070000000f0000001300000013000000120000001c0000000f000000130000001c00000011000000
+        paramName:
+        - time
+        - finishEvent
+        - realTime
+        - hero
+        - attackEvent
+        - delay
+        - mainHero
+        - attachHero
+        - effectName
+        - offset
+        - delay
+        - export
+        - exportOffset
+        - bind
+        paramDataPos: 000000000c0000000c000000000000000d000000110000000100000002000000000000001600000023000000030000002800000035000000
+        paramByteDataSize: 0c00000000000000010000000000000004000000050000000000000000000000000000000d00000005000000000000000d00000002000000
+    - name: Start
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 69
+        y: 278
+        width: 100
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Wander
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToMoveState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HoldState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - CheckHeroStartState
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 5c004505
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData:
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000
+        paramName:
+        - hero
+        paramDataPos: 00000000
+        paramByteDataSize: 00000000
+    - name: Initialize
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 63.976562
+        y: 211
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Start
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - GetProfessionSkillDistance
+        - GetProfessionKeyTime
+        - GetClientConfigData
+        - GetClientConfigData
+        - GetProfessionKeyTime
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 0101010101
+        actionIsOpen: 0101010101
+        actionStartIndex: 000000000300000006000000080000000a000000
+        actionHashCodes: 7a37d70227c8dc0020e88a0220e88a0227c8dc00
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: NormalSkillNameDelay
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: CutInEffectLastTime
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000000001536b696c6c44697374616e6365020000000000000001536b795761697454696d650b00000000000000014e616d6544656c61790000000001437574696e54696d65000000000148697454696d650c000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 130000000f00000007000000130000000f00000007000000120000000f000000120000000f000000130000000f00000007000000
+        paramName:
+        - character
+        - skillDistance
+        - skillType
+        - hero
+        - keyTime
+        - keyName
+        - name
+        - export
+        - name
+        - export
+        - hero
+        - keyTime
+        - keyName
+        paramDataPos: 000000000000000012000000010000001600000026000000000000002a0000000100000038000000020000004600000052000000
+        paramByteDataSize: 000000001200000004000000000000001000000004000000000000000e000000000000000e000000000000000c00000004000000
+    - name: AttackFinishState
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 569
+        y: 465
+        width: 129
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Over State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - CharacterState
+        - CosBgEffect
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000003000000
+        actionHashCodes: 38b232005e717901
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToIdleState
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000000000010000000000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000120000000f000000070000000f000000
+        paramName:
+        - character
+        - stateName
+        - delay
+        - effectType
+        - delay
+        paramDataPos: 0000000000000000000000000500000009000000
+        paramByteDataSize: 0000000000000000050000000400000005000000
+    - name: Over State
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 582
+        y: 541
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - SendMsgToSkillCtrller
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: d9ab9a01
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 020000000000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 07000000140000000f000000
+        paramName:
+        - msgType
+        - gameObject
+        - delay
+        paramDataPos: 000000000000000004000000
+        paramByteDataSize: 040000000000000005000000
+    - name: Wander
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 69
+        y: 361
+        width: 100
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: HoldState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToMoveState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HoldState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HeroWanderBeforeSkill
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 28100f01
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Target
+          tooltip: Sub Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData:
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 1300000013000000
+        paramName:
+        - wanderHero
+        - wanderOppHero
+        paramDataPos: 0000000001000000
+        paramByteDataSize: 0000000000000000
+    - name: PrepareAttackState
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 314
+        y: 185.02344
+        width: 137
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: AttackState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - CharacterState
+        - WaitCharacterStateEvent
+        - SendMsgToSkillCtrller
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000300000005000000
+        actionHashCodes: 38b23200d5af3302d9ab9a01
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToIdleState
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: IdleState
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000000000100000000000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000120000000f000000130000001200000007000000140000000f000000
+        paramName:
+        - character
+        - stateName
+        - delay
+        - characterObj
+        - characterState
+        - msgType
+        - gameObject
+        - delay
+        paramDataPos: 0000000000000000000000000100000001000000050000000000000009000000
+        paramByteDataSize: 0000000000000000050000000000000000000000040000000000000005000000
+    - name: JumpState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 577
+        y: 177
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: StartAttackSkyState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - CharacterState
+        - HeroJumpSky
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000003000000
+        actionHashCodes: 38b23200999e9604
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToJumpState
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000000000000000000000000000000000014a756d70546172676574506f73000000000000000000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000120000000f00000013000000130000001c000000110000000f000000170000000f000000
+        paramName:
+        - character
+        - stateName
+        - delay
+        - hero
+        - targetObject
+        - jumpTargetPos
+        - fall
+        - xDistance
+        - finishEvent
+        - customJumpSpeed
+        paramDataPos: 0000000000000000000000000100000002000000050000001f000000210000002600000026000000
+        paramByteDataSize: 00000000000000000500000000000000000000001a00000002000000050000000000000005000000
+    - name: AttackSkyState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 569
+        y: 304.02344
+        width: 113
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: FallGroundState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - TargetsSendEvent
+        - TargetsSendEvent
+        - PlayEffect
+        - CosShakeCamera
+        - HeroAttackEvents
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 0101010101
+        actionIsOpen: 0101010101
+        actionStartIndex: 0000000003000000060000000e00000012000000
+        actionHashCodes: 2b529d032b529d03b2c1ee057f45ac05a8224202
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToWaitHitState
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToHitFlyState
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: fx_441431_cast
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000000000000000006666e63f00000000000000000000000000000000000000000000000000000000000000000000000000009a99993e000000484300000000000000000000006666e63f00000000000000000001536b795761697454696d65
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000000f00000007000000120000000f000000070000001300000013000000120000001c0000000f000000130000001c000000110000000f0000001c000000110000000f00000013000000070000000f000000
+        paramName:
+        - eventName
+        - delay
+        - type
+        - eventName
+        - delay
+        - type
+        - mainHero
+        - attachHero
+        - effectName
+        - offset
+        - delay
+        - export
+        - exportOffset
+        - bind
+        - shakeTime
+        - shakePos
+        - shakeUI
+        - delay
+        - hero
+        - attackEvent
+        - delay
+        paramDataPos: 00000000000000000500000001000000090000000e000000000000000100000002000000120000001f00000002000000240000003100000033000000380000004500000047000000030000004c00000050000000
+        paramByteDataSize: 0000000005000000040000000000000005000000040000000000000000000000000000000d00000005000000000000000d00000002000000050000000d0000000200000005000000000000000400000010000000
+    - name: FallGroundState
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 572
+        y: 381
+        width: 119
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: AttackFinishState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HeroJumpSky
+        - CharacterState
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000007000000
+        actionHashCodes: 999e960438b23200
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToJumpState
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 000000000000000000000000000100000000000000000000000000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000130000001c000000110000000f000000170000000f00000013000000120000000f000000
+        paramName:
+        - hero
+        - targetObject
+        - jumpTargetPos
+        - fall
+        - xDistance
+        - finishEvent
+        - customJumpSpeed
+        - character
+        - stateName
+        - delay
+        paramDataPos: 0000000001000000000000000d0000000f0000001400000014000000020000000000000019000000
+        paramByteDataSize: 00000000000000000d00000002000000050000000000000005000000000000000000000005000000
+    - name: PrepareJumpState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 566
+        y: 110
+        width: 130
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: JumpState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.Vector3AddXYZ
+        - WaitCharacterStateEvent
+        - CharacterState
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000600000008000000
+        actionHashCodes: 19219405d5af330238b23200
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: IdleState
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToIdleState
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 000000000000000000000000014a756d70546172676574506f7300000000000000164300000000000000000000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 1c0000000f0000000f0000000f0000000100000001000000130000001200000013000000120000000f000000
+        paramName:
+        - vector3Variable
+        - addX
+        - addY
+        - addZ
+        - everyFrame
+        - perSecond
+        - characterObj
+        - characterState
+        - character
+        - stateName
+        - delay
+        paramDataPos: 000000001a0000001f00000024000000290000002a000000000000000000000001000000010000002b000000
+        paramByteDataSize: 1a00000005000000050000000500000001000000010000000000000000000000000000000000000005000000
+    - name: WaitJumpState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 331
+        y: 504
+        width: 111
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: PrepareJumpState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.Wait
+        - HutongGames.PlayMaker.Actions.GetPosition
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000003000000
+        actionHashCodes: 48c011015552ad05
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Main
+            tooltip: Main Character
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: cdcccc3e0046494e495348454400000000000000000000000000014a756d70546172676574506f730000000001000000000100000000010000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 0f0000001700000001000000140000001c0000000f0000000f0000000f0000000700000001000000
+        paramName:
+        - time
+        - finishEvent
+        - realTime
+        - gameObject
+        - vector
+        - x
+        - y
+        - z
+        - space
+        - everyFrame
+        paramDataPos: 00000000050000000d000000000000000e000000280000002d00000032000000370000003b000000
+        paramByteDataSize: 050000000800000001000000000000001a0000000500000005000000050000000400000001000000
+    - name: StartAttackSkyState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 554
+        y: 238
+        width: 142
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: AttackSkyState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled:
+        actionIsOpen:
+        actionStartIndex:
+        actionHashCodes:
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData:
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType:
+        paramName: []
+        paramDataPos:
+        paramByteDataSize:
+    - name: HoldState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 329
+        y: 119
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: PrepareAttackState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - CharacterState
+        - HutongGames.PlayMaker.Actions.Wait
+        - CosBgEffect
+        - TargetsSendEvent
+        - SetSkillName
+        - SendMsgToSkillCtrller
+        - SendMsgToSkillCtrller
+        - PlaySoundCos
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 0101010101010101
+        actionIsOpen: 0101010101010101
+        actionStartIndex: 000000000300000006000000080000000b0000000d0000001000000013000000
+        actionHashCodes: 38b2320048c011015e7179012b529d0320e88a02d9ab9a01d9ab9a0177fe8700
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToSkillHoldState
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToWaitState
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: fx_441431_name
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: skill_hold
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 00000000000000000001437574696e54696d650000000000000000000000000000000000000000000000014e616d6544656c61790e00000000000000014e616d6544656c61790f0000000000000000000000000000000000000001437574696e54696d65
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000120000000f0000000f0000001700000001000000070000000f000000120000000f00000007000000120000000f00000007000000140000000f00000007000000140000000f000000120000000f000000110000000f000000
+        paramName:
+        - character
+        - stateName
+        - delay
+        - time
+        - finishEvent
+        - realTime
+        - effectType
+        - delay
+        - eventName
+        - delay
+        - type
+        - effectName
+        - delay
+        - msgType
+        - gameObject
+        - delay
+        - msgType
+        - gameObject
+        - delay
+        - sound
+        - delay
+        - isStream
+        - playTime
+        paramDataPos: 0000000000000000000000000500000013000000130000001400000018000000010000001d00000022000000020000002600000034000000000000003800000046000000010000004a000000030000004f0000005400000056000000
+        paramByteDataSize: 0000000000000000050000000e00000000000000010000000400000005000000000000000500000004000000000000000e00000004000000000000000e0000000400000000000000050000000000000005000000020000000e000000
+    - name: GetHitResultState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 322
+        y: 394
+        width: 129
+        height: 64
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: PlayDodge
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: AttackFinishState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: PlayBlock
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: AttackFinishState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: PlayHurt
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: WaitJumpState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HeroGetHitEvents
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: a4b1c505
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 04000000506c617948757274506c6179426c6f636b506c6179446f646765
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 1300000007000000170000001700000017000000
+        paramName:
+        - hero
+        - hitEvent
+        - hurtFsmEvent
+        - blockFsmEvent
+        - dodgeFsmEvent
+        paramDataPos: 0000000000000000040000000c00000015000000
+        paramByteDataSize: 0000000004000000080000000900000009000000
+    - name: HitState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 332
+        y: 329
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: GetHitResultState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - TargetsSendEvent
+        - PlayEffect
+        - CosShakeCamera
+        - SendMsgToSkillCtrller
+        - SendMsgToSkillCtrller
+        - PlaySoundCos
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 010101010101
+        actionIsOpen: 010101010101
+        actionStartIndex: 00000000030000000b0000000f0000001200000015000000
+        actionHashCodes: 2b529d03b2c1ee057f45ac05d9ab9a01d9ab9a0177fe8700
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Main
+          tooltip: Main Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Target
+          tooltip: Sub Character
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Main
+            tooltip: Main Character
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Main
+            tooltip: Main Character
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToHitState
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: fx_4414310_add
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: skill_critical
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000009a99993e00000000000000a041000000000000000000000000030000000000000000110000000000000000000000000000000000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000000f000000070000001300000013000000120000001c0000000f000000130000001c000000110000000f0000001c000000110000000f00000007000000140000000f00000007000000140000000f000000120000000f000000110000000f000000
+        paramName:
+        - eventName
+        - delay
+        - type
+        - mainHero
+        - attachHero
+        - effectName
+        - offset
+        - delay
+        - export
+        - exportOffset
+        - bind
+        - shakeTime
+        - shakePos
+        - shakeUI
+        - delay
+        - msgType
+        - gameObject
+        - delay
+        - msgType
+        - gameObject
+        - delay
+        - sound
+        - delay
+        - isStream
+        - playTime
+        paramDataPos: 0000000000000000050000000000000001000000010000000900000016000000020000001b000000280000002a0000002f0000003c0000003e0000004300000000000000470000004c000000010000005000000002000000550000005a0000005c000000
+        paramByteDataSize: 0000000005000000040000000000000000000000000000000d00000005000000000000000d00000002000000050000000d000000020000000500000004000000000000000500000004000000000000000500000000000000050000000200000005000000
+    events:
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: ToInitializeState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToMoveState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: PlayHurt
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: PlayDodge
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: PlayBlock
+      isSystemEvent: 0
+      isGlobal: 0
+    globalTransitions: []
+    variables:
+      floatVariables:
+      - useVariable: 1
+        name: CutinTime
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: HitTime
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: NameDelay
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: SkillDistance
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: SkyWaitTime
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      intVariables: []
+      boolVariables: []
+      stringVariables: []
+      vector2Variables: []
+      vector3Variables:
+      - useVariable: 1
+        name: JumpTargetPos
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value: {x: 0, y: 0, z: 0}
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables:
+      - useVariable: 1
+        name: Main
+        tooltip: Main Character
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 0}
+      - useVariable: 1
+        name: Target
+        tooltip: Sub Character
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 0}
+      objectVariables: []
+      materialVariables: []
+      textureVariables: []
+      arrayVariables: []
+      enumVariables: []
+      categories:
+      - 
+      variableCategoryIDs:
+    description:
+    docUrl:
+    showStateLabel: 1
+    maxLoopCount: 0
+    watermark:
+    password:
+    locked: 0
+    manualUpdate: 0
+    outVariableIndices:
+    keepDelayedEventsOnStateExit: 0
+    preprocessed: 0
+    ExposedEvents: []
+    OutputEvents: []
+    RestartOnEnable: 1
+    ResetVariablesOnEnable: 0
+    EnableDebugFlow: 1
+    EnableBreakpoints: 1
+    editorFlags: 225
+    activeStateName:
+    mouseEvents: 0
+    handleLevelLoaded: 0
+    handleTriggerEnter2D: 0
+    handleTriggerExit2D: 0
+    handleTriggerStay2D: 0
+    handleCollisionEnter2D: 0
+    handleCollisionExit2D: 0
+    handleCollisionStay2D: 0
+    handleTriggerEnter: 0
+    handleTriggerExit: 0
+    handleTriggerStay: 0
+    handleCollisionEnter: 0
+    handleCollisionExit: 0
+    handleCollisionStay: 0
+    handleParticleCollision: 0
+    handleControllerColliderHit: 0
+    handleJointBreak: 0
+    handleJointBreak2D: 0
+    handleOnGUI: 0
+    handleFixedUpdate: 0
+    handleLateUpdate: 0
+    handleApplicationEvents: 0
+    handleUiEvents: 0
+    handleLegacyNetworking: 0
+    handleAnimatorMove: 0
+    handleAnimatorIK: 0
+  fsmTemplate: {fileID: 0}
+  eventHandlerComponentsAdded: 0
+--- !u!4 &4243736805655561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724804207875695}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4618682377417806}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114061268324235159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724804207875695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: daca89c25bd1813ceecbbbb8555342a7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  fsm:
+    dataVersion: 1
+    usedInTemplate: {fileID: 0}
+    name: SkillTarget
+    startState: Wait For Initialize
+    states:
+    - name: Initialize
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 80
+        y: 205
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: StartState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - GetClientConfigData
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 20e88a02
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: DodgeBlockHoldTime
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000000001446f646765486f6c6454696d65
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 120000000f000000
+        paramName:
+        - name
+        - export
+        paramDataPos: 0000000000000000
+        paramByteDataSize: 0000000012000000
+    - name: Wait State
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 80
+        y: 450
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToHitState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Hit State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - CharacterState
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 38b23200
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Target
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToIdleState
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000120000000f000000
+        paramName:
+        - character
+        - stateName
+        - delay
+        paramDataPos: 000000000000000000000000
+        paramByteDataSize: 000000000000000005000000
+    - name: StartState
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 79
+        y: 279
+        width: 100
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Wander
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToWaitState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Wait State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - CheckHeroStartState
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 5c004505
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Target
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData:
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000
+        paramName:
+        - hero
+        paramDataPos: 00000000
+        paramByteDataSize: 00000000
+    - name: Wait For Initialize
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 64.21875
+        y: 124.5
+        width: 129
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToInitializeState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Initialize
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled:
+        actionIsOpen:
+        actionStartIndex:
+        actionHashCodes:
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData:
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType:
+        paramName: []
+        paramDataPos:
+        paramByteDataSize:
+    - name: Over State
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 656
+        y: 519.03906
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - SendMsgToSkillCtrller
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: d9ab9a01
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name:
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 020000000000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 07000000140000000f000000
+        paramName:
+        - msgType
+        - gameObject
+        - delay
+        paramDataPos: 000000000000000004000000
+        paramByteDataSize: 040000000000000005000000
+    - name: Wander
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 80
+        y: 352
+        width: 100
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Wait State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: ToWaitState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: Wait State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HeroWanderBeforeSkill
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 28100f01
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Target
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData:
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 1300000013000000
+        paramName:
+        - wanderHero
+        - wanderOppHero
+        paramDataPos: 0000000001000000
+        paramByteDataSize: 0000000000000000
+    - name: WaitHitState
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 325.02344
+        y: 339
+        width: 103
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToHitFlyState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: PrepareHitFlyState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - PlayEffect
+        - SendMsgsToSkillCtrller
+        - PlayEffect
+        - PlayEffect
+        - PlayEffect
+        - PlayEffect
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 010101010101
+        actionIsOpen: 010101010101
+        actionStartIndex: 00000000080000000d000000150000001d00000025000000
+        actionHashCodes: b2c1ee0506792e01b2c1ee05b2c1ee05b2c1ee05b2c1ee05
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Target
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Target
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: LockEffect
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Target
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Target
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Target
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Target
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Target
+            tooltip:
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: fx_4414310_effect
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: fx_441431_hit2
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: fx_441431_hit2
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: fx_441431_hit2
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: fx_441431_hit2
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000f0c1000000000000000000000000000000000000000000000000000000000003000000cdcccc3e0004000000009a99193e0000000000000048420000000000cdcccc3e0000000000000000000000000001000000000000000048420000000000cdcc0c3f00000000000000000000000000010000000000000000484200000000003333333f00000000000000000000000000010000000000000000484200000000009a99593f00000000000000000000000000010000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 1300000013000000120000001c0000000f000000130000001c0000001100000007000000140000000f000000100000000f0000001300000013000000120000001c0000000f000000130000001c000000110000001300000013000000120000001c0000000f000000130000001c000000110000001300000013000000120000001c0000000f000000130000001c000000110000001300000013000000120000001c0000000f000000130000001c00000011000000
+        paramName:
+        - mainHero
+        - attachHero
+        - effectName
+        - offset
+        - delay
+        - export
+        - exportOffset
+        - bind
+        - msgType
+        - gameObject
+        - delay
+        - num
+        - gap
+        - mainHero
+        - attachHero
+        - effectName
+        - offset
+        - delay
+        - export
+        - exportOffset
+        - bind
+        - mainHero
+        - attachHero
+        - effectName
+        - offset
+        - delay
+        - export
+        - exportOffset
+        - bind
+        - mainHero
+        - attachHero
+        - effectName
+        - offset
+        - delay
+        - export
+        - exportOffset
+        - bind
+        - mainHero
+        - attachHero
+        - effectName
+        - offset
+        - delay
+        - export
+        - exportOffset
+        - bind
+        paramDataPos: 000000000100000000000000000000000d00000002000000120000001f0000002100000000000000250000002a0000002f00000003000000040000000100000034000000410000000500000046000000530000000600000007000000020000005500000062000000080000006700000074000000090000000a0000000300000076000000830000000b00000088000000950000000c0000000d0000000400000097000000a40000000e000000a9000000b6000000
+        paramByteDataSize: 0000000000000000000000000d00000005000000000000000d0000000200000004000000000000000500000005000000050000000000000000000000000000000d00000005000000000000000d000000020000000000000000000000000000000d00000005000000000000000d000000020000000000000000000000000000000d00000005000000000000000d000000020000000000000000000000000000000d00000005000000000000000d00000002000000
+    - name: PrepareHitFlyState
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 310.27344
+        y: 419
+        width: 133
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: HitFlyState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - CharacterState
+        - WaitCharacterStateEvent
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000003000000
+        actionHashCodes: 38b23200d5af3302
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Target
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Target
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToHurtFlyState
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: HurtFlyState
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000120000000f0000001300000012000000
+        paramName:
+        - character
+        - stateName
+        - delay
+        - characterObj
+        - characterState
+        paramDataPos: 0000000000000000000000000100000001000000
+        paramByteDataSize: 0000000000000000050000000000000000000000
+    - name: Hit State
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 507
+        y: 108
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: GetHitResultState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - CharacterState
+        - WaitCharacterStateEvent
+        - SendMsgToSkillCtrller
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000300000005000000
+        actionHashCodes: 38b23200d5af3302d9ab9a01
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Target
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Target
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Target
+            tooltip:
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToUnderAttackState
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: UnderAttackState
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000000000030000000000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000120000000f000000130000001200000007000000140000000f000000
+        paramName:
+        - character
+        - stateName
+        - delay
+        - characterObj
+        - characterState
+        - msgType
+        - gameObject
+        - delay
+        paramDataPos: 0000000000000000000000000100000001000000050000000000000009000000
+        paramByteDataSize: 0000000000000000050000000000000000000000040000000000000005000000
+    - name: GetHitResultState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 488
+        y: 174
+        width: 129
+        height: 64
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: PlayHurt
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: HitState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: PlayDodge
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: DodgeState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: PlayBlock
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: BlockState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HeroGetHitEvents
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: a4b1c505
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Target
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 03000000506c617948757274506c6179426c6f636b506c6179446f646765
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 1300000007000000170000001700000017000000
+        paramName:
+        - hero
+        - hitEvent
+        - hurtFsmEvent
+        - blockFsmEvent
+        - dodgeFsmEvent
+        paramDataPos: 0000000000000000040000000c00000015000000
+        paramByteDataSize: 0000000004000000080000000900000009000000
+    - name: BlockState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 502
+        y: 311
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - CosGetHitCurve
+        - PlayEffect
+        - PlaySoundProfession
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000800000010000000
+        actionHashCodes: a76dc901b2c1ee05782de300
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Target
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Target
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Target
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Target
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams:
+        - curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 2
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - curve:
+            serializedVersion: 2
+            m_Curve: []
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: fx_com_block
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: heavysword_block
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: heavysword_block
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: lightsword_block
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: lightsword_block
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: fighter_block
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: fighter_block
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: mage_block
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: mage_block
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: cdcc4c3e000100000020420000000000000000000020c200000000000020c10000000000000000000000000000000000000100000000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 130000000f000000110000000f00000016000000110000000f000000160000001300000013000000120000001c0000000f000000130000001c00000011000000130000000f0000001200000012000000120000001200000012000000120000001200000012000000
+        paramName:
+        - hero
+        - totalTime
+        - enableX
+        - XMax
+        - curveX
+        - enableY
+        - YMax
+        - curveY
+        - mainHero
+        - attachHero
+        - effectName
+        - offset
+        - delay
+        - export
+        - exportOffset
+        - bind
+        - hero
+        - delay
+        - heavySwordMale
+        - heavySwordFeMale
+        - lightSwordMale
+        - lightSwordFemale
+        - fighterMale
+        - fighterFemale
+        - mageMale
+        - mageFemale
+        paramDataPos: 00000000000000000500000007000000000000000c0000000e00000001000000010000000200000000000000130000002000000003000000250000003200000004000000340000000100000002000000030000000400000005000000060000000700000008000000
+        paramByteDataSize: 00000000050000000200000005000000000000000200000005000000000000000000000000000000000000000d00000005000000000000000d0000000200000000000000050000000000000000000000000000000000000000000000000000000000000000000000
+    - name: DodgeState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 728
+        y: 299
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: IdleState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - CosGetHitCurve
+        - PlaySoundCos
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000008000000
+        actionHashCodes: a76dc90177fe8700
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Target
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams:
+        - curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 2
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - curve:
+            serializedVersion: 2
+            m_Curve: []
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: dodge
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: cdcc4c3e000100000096420000000000000000000000000000000000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 130000000f000000110000000f00000016000000110000000f00000016000000120000000f000000110000000f000000
+        paramName:
+        - hero
+        - totalTime
+        - enableX
+        - XMax
+        - curveX
+        - enableY
+        - YMax
+        - curveY
+        - sound
+        - delay
+        - isStream
+        - playTime
+        paramDataPos: 00000000000000000500000007000000000000000c0000000e000000010000000000000013000000180000001a000000
+        paramByteDataSize: 000000000500000002000000050000000000000002000000050000000000000000000000050000000200000005000000
+    - name: HitFlyState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 327
+        y: 485
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Over State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - CosGetHitCurve
+        - PlayEffect
+        - SendMsgToSkillCtrller
+        - PlayEffect
+        - CosDestroyObject
+        - PlaySoundCos
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 010101010101
+        actionIsOpen: 010101010101
+        actionStartIndex: 000000000800000010000000130000001b0000001c000000
+        actionHashCodes: a76dc901b2c1ee05d9ab9a01b2c1ee058d4bb50377fe8700
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Target
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Main
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Target
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Target
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Target
+            tooltip:
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: LockEffect
+            tooltip:
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams:
+        - curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 1
+              outSlope: 1
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 1
+              outSlope: 1
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - curve:
+            serializedVersion: 2
+            m_Curve: []
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: fx_441431_hit
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: fx_com_baiguang
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: skill_burst
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000803f00010000001644000000000000000000000000000048420000000000000000000000000000000000000000000001000003000000000000000000000000000000000000fac4000000000000000000000000000000000000000000000000000000000000000000
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 130000000f000000110000000f00000016000000110000000f000000160000001300000013000000120000001c0000000f000000130000001c0000001100000007000000140000000f0000001300000013000000120000001c0000000f000000130000001c0000001100000014000000120000000f000000110000000f000000
+        paramName:
+        - hero
+        - totalTime
+        - enableX
+        - XMax
+        - curveX
+        - enableY
+        - YMax
+        - curveY
+        - mainHero
+        - attachHero
+        - effectName
+        - offset
+        - delay
+        - export
+        - exportOffset
+        - bind
+        - msgType
+        - gameObject
+        - delay
+        - mainHero
+        - attachHero
+        - effectName
+        - offset
+        - delay
+        - export
+        - exportOffset
+        - bind
+        - gameObject
+        - sound
+        - delay
+        - isStream
+        - playTime
+        paramDataPos: 00000000000000000500000007000000000000000c0000000e0000000100000001000000020000000000000013000000200000000300000025000000320000003400000000000000380000000400000005000000010000003d0000004a000000060000004f0000005c00000001000000020000005e0000006300000065000000
+        paramByteDataSize: 00000000050000000200000005000000000000000200000005000000000000000000000000000000000000000d00000005000000000000000d000000020000000400000000000000050000000000000000000000000000000d00000005000000000000000d000000020000000000000000000000050000000200000005000000
+    - name: HitState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 321
+        y: 269
+        width: 112
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: ToWaitHitState
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: WaitHitState
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - CosGetHitCurve
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: a76dc901
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Target
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams:
+        - curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 1
+              outSlope: 1
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 1
+              outSlope: 1
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        - curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0.0015490502
+              inSlope: 0.4786755
+              outSlope: 0.4786755
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.4995091
+              value: 0.9993358
+              inSlope: 0.09523192
+              outSlope: -0.14505771
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 0.9996886
+              value: 0.003947079
+              inSlope: -0.7543848
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 000000400001000000164300010000007a4300
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 130000000f000000110000000f00000016000000110000000f00000016000000
+        paramName:
+        - hero
+        - totalTime
+        - enableX
+        - XMax
+        - curveX
+        - enableY
+        - YMax
+        - curveY
+        paramDataPos: 00000000000000000500000007000000000000000c0000000e00000001000000
+        paramByteDataSize: 0000000005000000020000000500000000000000020000000500000000000000
+    - name: IdleState
+      description:
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 640
+        y: 393
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Over State
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - CharacterState
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 38b23200
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Target
+          tooltip:
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name:
+          tooltip:
+          showInInspector: 0
+          networkSync: 0
+          value: ToIdleState
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000000001446f646765486f6c6454696d65
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType: 13000000120000000f000000
+        paramName:
+        - character
+        - stateName
+        - delay
+        paramDataPos: 000000000000000000000000
+        paramByteDataSize: 000000000000000012000000
+    events:
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: ToHitFlyState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToHitState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToInitializeState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToWaitHitState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: ToWaitState
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: PlayHurt
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: PlayDodge
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: PlayBlock
+      isSystemEvent: 0
+      isGlobal: 0
+    globalTransitions: []
+    variables:
+      floatVariables:
+      - useVariable: 1
+        name: DodgeHoldTime
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      intVariables: []
+      boolVariables: []
+      stringVariables: []
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables:
+      - useVariable: 1
+        name: LockEffect
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
+      - useVariable: 1
+        name: Main
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 0}
+      - useVariable: 1
+        name: Target
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 0}
+      objectVariables: []
+      materialVariables: []
+      textureVariables: []
+      arrayVariables: []
+      enumVariables: []
+      categories:
+      - 
+      variableCategoryIDs: 00000000000000000000000000000000
+    description:
+    docUrl:
+    showStateLabel: 1
+    maxLoopCount: 0
+    watermark:
+    password:
+    locked: 0
+    manualUpdate: 0
+    outVariableIndices:
+    keepDelayedEventsOnStateExit: 0
+    preprocessed: 0
+    ExposedEvents: []
+    OutputEvents: []
+    RestartOnEnable: 0
+    ResetVariablesOnEnable: 0
+    EnableDebugFlow: 1
+    EnableBreakpoints: 1
+    editorFlags: 225
+    activeStateName:
+    mouseEvents: 0
+    handleLevelLoaded: 0
+    handleTriggerEnter2D: 0
+    handleTriggerExit2D: 0
+    handleTriggerStay2D: 0
+    handleCollisionEnter2D: 0
+    handleCollisionExit2D: 0
+    handleCollisionStay2D: 0
+    handleTriggerEnter: 0
+    handleTriggerExit: 0
+    handleTriggerStay: 0
+    handleCollisionEnter: 0
+    handleCollisionExit: 0
+    handleCollisionStay: 0
+    handleParticleCollision: 0
+    handleControllerColliderHit: 0
+    handleJointBreak: 0
+    handleJointBreak2D: 0
+    handleOnGUI: 0
+    handleFixedUpdate: 0
+    handleLateUpdate: 0
+    handleApplicationEvents: 0
+    handleUiEvents: 0
+    handleLegacyNetworking: 0
+    handleAnimatorMove: 0
+    handleAnimatorIK: 0
+  fsmTemplate: {fileID: 0}
+  eventHandlerComponentsAdded: 0

@@ -1,0 +1,234 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: fire_yellow_addtive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 0be7fdeda17a56e4faf457d741f4b13d, type: 2}
+  mSprites:
+  - name: fire_loop_001
+    x: 457
+    y: 848
+    width: 157
+    height: 176
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 49
+    paddingRight: 50
+    paddingTop: 57
+    paddingBottom: 23
+  - name: fire_loop_002
+    x: 0
+    y: 512
+    width: 160
+    height: 183
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 47
+    paddingRight: 49
+    paddingTop: 50
+    paddingBottom: 23
+  - name: fire_loop_003
+    x: 783
+    y: 473
+    width: 162
+    height: 201
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 46
+    paddingRight: 48
+    paddingTop: 33
+    paddingBottom: 22
+  - name: fire_loop_004
+    x: 290
+    y: 835
+    width: 165
+    height: 189
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 43
+    paddingRight: 48
+    paddingTop: 44
+    paddingBottom: 23
+  - name: fire_loop_005
+    x: 0
+    y: 697
+    width: 161
+    height: 163
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 47
+    paddingRight: 48
+    paddingTop: 72
+    paddingBottom: 21
+  - name: fire_loop_006
+    x: 785
+    y: 676
+    width: 160
+    height: 165
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 46
+    paddingRight: 50
+    paddingTop: 68
+    paddingBottom: 23
+  - name: fire_loop_007
+    x: 457
+    y: 668
+    width: 162
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 45
+    paddingRight: 49
+    paddingTop: 63
+    paddingBottom: 23
+  - name: fire_loop_008
+    x: 621
+    y: 661
+    width: 160
+    height: 177
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 47
+    paddingRight: 49
+    paddingTop: 56
+    paddingBottom: 23
+  - name: fire_once_001
+    x: 0
+    y: 899
+    width: 128
+    height: 125
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 66
+    paddingRight: 62
+    paddingTop: 107
+    paddingBottom: 24
+  - name: fire_once_002
+    x: 130
+    y: 862
+    width: 158
+    height: 162
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 51
+    paddingRight: 47
+    paddingTop: 66
+    paddingBottom: 28
+  - name: fire_once_003
+    x: 334
+    y: 493
+    width: 167
+    height: 173
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 46
+    paddingRight: 43
+    paddingTop: 57
+    paddingBottom: 26
+  - name: fire_once_004
+    x: 163
+    y: 659
+    width: 169
+    height: 174
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 46
+    paddingRight: 41
+    paddingTop: 55
+    paddingBottom: 27
+  - name: fire_once_005
+    x: 785
+    y: 843
+    width: 174
+    height: 181
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 41
+    paddingRight: 41
+    paddingTop: 50
+    paddingBottom: 25
+  - name: fire_once_006
+    x: 616
+    y: 840
+    width: 167
+    height: 184
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 46
+    paddingRight: 43
+    paddingTop: 48
+    paddingBottom: 24
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
