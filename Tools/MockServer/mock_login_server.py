@@ -1,22 +1,11 @@
 #!/usr/bin/env python3
 """Minimal TCP mock for the game's login protocol.
 
-The Unity client currently connects to 127.0.0.1:16000 and uses this flow:
-  3 -> LoginByAuthTokenReq
-  2 <- LoginByAuthTokenAck
-  4 -> LoginBySessionTokenReq
-  1 <- LoginBySessionTokenAck
+Observed Unity framing:
+  [4-byte totalLength][4-byte messageId][protobuf payload]
 
-The protocol classes are supplied by the game's external protocol assembly, so
-this mock deliberately does not depend on generated protobuf classes. It
-implements only the protobuf wire fields needed for the two ACK messages:
-  LoginByAuthTokenAck: field 1 = result enum (0 = OK), field 2 = session token
-  LoginBySessionTokenAck: field 1 = result enum (0 = OK)
-
-The packet header is inferred from the first client packet. By default the
-header is [int32 bodyLength][int32 messageId], little-endian, where bodyLength
-is messageId(4) + protobuf payload. Use --byte-order/--length-mode if the
-protocol implementation proves otherwise.
+Unity diagnostics showed LoginByAuthTokenReq with totalLength=30 and
+payloadBytes=22, proving totalLength includes the 8-byte framing header.
 """
 
 from __future__ import annotations
@@ -25,9 +14,7 @@ import argparse
 import socket
 import struct
 import threading
-import time
-from typing import Optional, Tuple
-
+from typing import Tuple
 
 HOST = "127.0.0.1"
 PORT = 16000
@@ -37,6 +24,8 @@ SESSION_REQ = 4
 SESSION_ACK = 1
 RESULT_OK = 0
 SESSION_TOKEN = "mock-session-900001"
+HEADER_SIZE = 8
+MAX_PACKET_SIZE = 16 * 1024 * 1024
 
 
 def read_exact(conn: socket.socket, size: int) -> bytes:
@@ -51,7 +40,6 @@ def read_exact(conn: socket.socket, size: int) -> bytes:
 
 def encode_varint(value: int) -> bytes:
     out = bytearray()
-    value = int(value)
     while value >= 0x80:
         out.append((value & 0x7F) | 0x80)
         value >>= 7
@@ -69,83 +57,70 @@ def proto_string(field: int, value: str) -> bytes:
 
 
 def auth_ack_payload(session_token: str) -> bytes:
-    # result = OK (field 1), sessionToken (field 2)
     return proto_int32(1, RESULT_OK) + proto_string(2, session_token)
 
 
 def session_ack_payload() -> bytes:
-    # result = OK (field 1)
     return proto_int32(1, RESULT_OK)
 
 
-def unpack_int(raw: bytes, byte_order: str) -> int:
-    return struct.unpack(byte_order + "i", raw)[0]
-
-
-def detect_header(header: bytes) -> Tuple[str, int, int]:
-    """Return (byte_order, declared_length, message_id).
-
-    We prefer a message id of 3 or 4. This makes the mock tolerant of a
-    big/little-endian packet header without guessing from machine endianness.
-    """
-    candidates = []
+def detect_byte_order(header: bytes) -> Tuple[str, int, int]:
     for order in ("<", ">"):
-        length = unpack_int(header[:4], order)
-        msg_id = unpack_int(header[4:8], order)
-        if msg_id in (AUTH_REQ, SESSION_REQ):
-            candidates.append((order, length, msg_id))
-    if candidates:
-        return candidates[0]
+        total_length = struct.unpack(order + "i", header[:4])[0]
+        message_id = struct.unpack(order + "i", header[4:8])[0]
+        if message_id in (AUTH_REQ, SESSION_REQ):
+            return order, total_length, message_id
+
     order = "<"
-    return order, unpack_int(header[:4], order), unpack_int(header[4:8], order)
+    return order, struct.unpack(order + "i", header[:4])[0], struct.unpack(order + "i", header[4:8])[0]
 
 
-def build_packet(message_id: int, payload: bytes, byte_order: str, length_mode: str) -> bytes:
-    body = struct.pack(byte_order + "i", message_id) + payload
-    if length_mode == "payload":
-        length = len(payload)
-    else:
-        length = len(body)
-    return struct.pack(byte_order + "i", length) + body
+def build_packet(message_id: int, payload: bytes, byte_order: str) -> bytes:
+    total_length = HEADER_SIZE + len(payload)
+    return (
+        struct.pack(byte_order + "i", total_length)
+        + struct.pack(byte_order + "i", message_id)
+        + payload
+    )
 
 
 def parse_frame(conn: socket.socket) -> Tuple[str, int, bytes]:
-    header = read_exact(conn, 8)
-    byte_order, declared_length, message_id = detect_header(header)
+    header = read_exact(conn, HEADER_SIZE)
+    byte_order, total_length, message_id = detect_byte_order(header)
 
-    if declared_length < 4 or declared_length > 16 * 1024 * 1024:
+    if total_length < HEADER_SIZE or total_length > MAX_PACKET_SIZE:
         raise ValueError(
-            f"invalid packet length={declared_length}, messageId={message_id}"
+            f"invalid totalLength={total_length}, messageId={message_id}, header={header.hex()}"
         )
 
-    payload_size = declared_length - 4
+    # totalLength includes [length:int32][messageId:int32][payload].
+    payload_size = total_length - HEADER_SIZE
     payload = read_exact(conn, payload_size)
     return byte_order, message_id, payload
 
 
 def handle_client(conn: socket.socket, addr, args) -> None:
     print(f"[MOCK] client connected: {addr}")
-    conn.settimeout(30)
-    session_token = args.session_token
+    conn.settimeout(60)
+
     try:
         while True:
             byte_order, message_id, payload = parse_frame(conn)
             print(
-                f"[MOCK] <- msg={message_id} payload={len(payload)} bytes "
-                f"hex={payload.hex()}"
+                f"[MOCK] <- msg={message_id} total={HEADER_SIZE + len(payload)} "
+                f"payload={len(payload)} bytes hex={payload.hex()}"
             )
 
             if message_id == AUTH_REQ:
                 response = build_packet(
                     AUTH_ACK,
-                    auth_ack_payload(session_token),
+                    auth_ack_payload(args.session_token),
                     byte_order,
-                    args.length_mode,
                 )
                 conn.sendall(response)
                 print(
-                    f"[MOCK] -> msg={AUTH_ACK} result=OK "
-                    f"sessionToken={session_token!r}"
+                    f"[MOCK] -> msg={AUTH_ACK} total={len(response)} "
+                    f"result=OK sessionToken={args.session_token!r}"
                 )
 
             elif message_id == SESSION_REQ:
@@ -153,10 +128,9 @@ def handle_client(conn: socket.socket, addr, args) -> None:
                     SESSION_ACK,
                     session_ack_payload(),
                     byte_order,
-                    args.length_mode,
                 )
                 conn.sendall(response)
-                print("[MOCK] -> msg=1 result=OK (login success)")
+                print(f"[MOCK] -> msg={SESSION_ACK} total={len(response)} result=OK (login success)")
                 if args.close_after_login:
                     return
 
@@ -180,17 +154,7 @@ def main() -> None:
     parser.add_argument("--host", default=HOST)
     parser.add_argument("--port", type=int, default=PORT)
     parser.add_argument("--session-token", default=SESSION_TOKEN)
-    parser.add_argument(
-        "--length-mode",
-        choices=("body", "payload"),
-        default="body",
-        help="Meaning of the first int32 packet length. Default: body=msgId+payload.",
-    )
-    parser.add_argument(
-        "--close-after-login",
-        action="store_true",
-        help="Close the client socket after LoginBySessionTokenAck.",
-    )
+    parser.add_argument("--close-after-login", action="store_true")
     args = parser.parse_args()
 
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -201,20 +165,16 @@ def main() -> None:
     print("=" * 64)
     print("GAME LOGIN MOCK SERVER")
     print(f"Listening: {args.host}:{args.port}")
+    print("Observed framing: [totalLength][messageId][protobuf payload]")
     print("Flow: 3 -> 2 -> 4 -> 1")
     print(f"Session token: {args.session_token}")
-    print(f"Length mode: {args.length_mode}")
     print("Press Ctrl+C to stop.")
     print("=" * 64)
 
     try:
         while True:
             conn, addr = server.accept()
-            threading.Thread(
-                target=handle_client,
-                args=(conn, addr, args),
-                daemon=True,
-            ).start()
+            threading.Thread(target=handle_client, args=(conn, addr, args), daemon=True).start()
     except KeyboardInterrupt:
         print("\n[MOCK] shutting down")
     finally:
